@@ -1,0 +1,117 @@
+[
+  {
+    "objectID": "resources/resources.html",
+    "href": "resources/resources.html",
+    "title": "Resources",
+    "section": "",
+    "text": "Course Resources",
+    "crumbs": [
+      "Resources"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html",
+    "href": "chapters/chapter1/chapter1.html",
+    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "section": "",
+    "text": "This first chapter introduces the fundamentals of data visualization, its importance in data analysis and communication, and the tools we’ll use throughout the course.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html#material",
+    "href": "chapters/chapter1/chapter1.html#material",
+    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "section": "Material",
+    "text": "Material\n\nSlides\n\nIntroduction to Data Visualization Design",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1"
+    ]
+  },
+  {
+    "objectID": "about/overview.html",
+    "href": "about/overview.html",
+    "title": "Course Overview",
+    "section": "",
+    "text": "This is the homepage for Data Visualization Design taught by Prof. Pedro Cardoso-Leite and Sophie Doublet at the University of Luxembourg.\nAll course materials will be posted on this site.",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#what",
+    "href": "about/overview.html#what",
+    "title": "Course Overview",
+    "section": "What?",
+    "text": "What?\nThis course is an introduction to data visualization design",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#when-and-where",
+    "href": "about/overview.html#when-and-where",
+    "title": "Course Overview",
+    "section": "When and where",
+    "text": "When and where\n\n\n\n\n\n\n\n\n\nDate\nTime\nRoom\nLocation\n\n\n\n\nMonday 03.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "This is the (work in progress) course website for “Data Visualization Design”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction to Data Visualization Design\n\nEach chapter contains links to slides and possibly other resources.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html",
+    "href": "about/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course provides a comprehensive introduction to designing effective data visualizations.\n\n\n\nBy the end of this course, students will be able to:",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#course-description",
+    "href": "about/syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course provides a comprehensive introduction to designing effective data visualizations.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#learning-objectives",
+    "href": "about/syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "",
+    "text": "By the end of this course, students will be able to:",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/slides/course_intro.html#welcome-to-data-visualization-design",
+    "href": "chapters/chapter1/slides/course_intro.html#welcome-to-data-visualization-design",
+    "title": "Data Visualization Design",
+    "section": "Welcome to Data Visualization Design!",
+    "text": "Welcome to Data Visualization Design!"
+  }
+]
