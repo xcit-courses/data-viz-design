@@ -1,0 +1,16 @@
+---
+title: "Syllabus"
+---
+
+# Syllabus
+
+## Course Description
+
+This course provides a comprehensive introduction to designing effective data visualizations.
+
+
+## Learning Objectives
+
+By the end of this course, students will be able to:
+
+

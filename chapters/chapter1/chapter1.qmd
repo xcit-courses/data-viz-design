@@ -1,0 +1,16 @@
+---
+title: "Chapter 1: Introduction to Data Visualization Design"
+---
+
+
+This first chapter introduces the fundamentals of data visualization, its importance in data analysis and communication, and the tools we'll use throughout the course.
+
+
+
+
+## Material
+
+### Slides
+
+- [Introduction to Data Visualization Design](slides/course_intro.qmd)
+

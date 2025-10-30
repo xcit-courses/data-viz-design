@@ -1,0 +1,75 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - about/index.qmd
+    - about/info.qmd
+    - about/overview.qmd
+    - about/syllabus.qmd
+    - about/team.qmd
+    - about/access.qmd
+    - chapters/*/chapter*.qmd
+    - chapters/*/slides/*.qmd
+    - chapters/*/slides/*.Rmd
+    - resources/*
+    - assets/styles.css
+website:
+  title: "Data Visualization Design"
+  sidebar:
+    logo: assets/images/course_logo.png
+    style: "docked"
+    search: true
+    tools:
+      - icon: github
+        href: https://github.com/xcit-courses/data-viz-design
+        text: "GitHub"
+      - icon: cloud-fill
+        href: https://posit.cloud/
+        text: "RStudio Cloud"
+      - icon: person-fill
+        href: https://uni.lu
+        text: "UniLu"
+    contents:
+      - text: Home
+        href: about/index.qmd
+      - section: Course Information
+        contents:
+          - text: Overview
+            href: about/overview.qmd
+          - text: Syllabus
+            href: about/syllabus.qmd
+
+      - section: Chapters
+        contents:
+          - text: Chapter 1
+            href: chapters/chapter1/chapter1.qmd
+      - text: Resources
+        href: resources/resources.md
+
+  page-footer:
+    left: ""
+    right: "Built with [Quarto](https://quarto.org/)"
+  page-navigation: true
+
+book:
+  chapters:
+    - about/index.qmd
+    - part: "Course Information"
+      chapters:
+        - about/overview.qmd
+        - about/syllabus.qmd
+    - part: "Chapters"
+      chapters:
+        - chapters/chapter1/chapter1.qmd                                      
+    - resources/resources.md
+
+format:
+  html:
+    theme:
+      - lux
+      - assets/styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    link-external-newwindow: true
+    color-scheme: auto

@@ -1,0 +1,24 @@
+---
+title: "Course Overview"
+---
+
+
+This is the homepage for Data Visualization Design taught by Prof. Pedro Cardoso-Leite and Sophie Doublet at the University of Luxembourg. 
+
+
+All course materials will be posted on this site.
+
+
+
+
+## What?
+
+This course is an introduction to data visualization design
+
+
+## When and where
+
+
+
+
+{{< include schedule_table.md >}}

@@ -1,0 +1,14 @@
+---
+title: "Data Visualization Design"
+---
+
+
+This is the (work in progress) course website for "Data Visualization Design". 
+
+In this course we will cover the following content:
+
+
+- [Chapter 1: Introduction to Data Visualization Design](../chapters/chapter1/chapter1.qmd)
+
+
+Each chapter contains links to slides and possibly other resources.
