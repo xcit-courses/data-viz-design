@@ -1,0 +1,1041 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-html/tabby.min.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/light-border.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-4c0671d767c74aad3c4d4016b4e342bd.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
+  <meta name="generator" content="quarto-1.6.39">
+
+  <title>Data Visualization Design – quarto-inputa837823dbc57305d</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reset.css">
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/reveal.css">
+  <style>
+    code{white-space: pre-wrap;}
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: min(4vw, 1.5em);}
+    div.column{flex: auto; overflow-x: auto;}
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    ul.task-list{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+      vertical-align: middle;
+    }
+  </style>
+  <link rel="stylesheet" href="../../../site_libs/revealjs/dist/theme/quarto-7eb4f8f4b267d0dc6aa77814fe5746f4.css">
+  <link rel="stylesheet" href="../../../assets/revealjs_themes/style.css">
+  <link href="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/reveal-pointer/pointer.css" rel="stylesheet">
+  <link href="../../../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
+  <style type="text/css">
+    .reveal div.sourceCode {
+      margin: 0;
+      overflow: auto;
+    }
+    .reveal div.hanging-indent {
+      margin-left: 1em;
+      text-indent: -1em;
+    }
+    .reveal .slide:not(.center) {
+      height: 100%;
+    }
+    .reveal .slide.scrollable {
+      overflow-y: auto;
+    }
+    .reveal .footnotes {
+      height: 100%;
+      overflow-y: auto;
+    }
+    .reveal .slide .absolute {
+      position: absolute;
+      display: block;
+    }
+    .reveal .footnotes ol {
+      counter-reset: ol;
+      list-style-type: none; 
+      margin-left: 0;
+    }
+    .reveal .footnotes ol li:before {
+      counter-increment: ol;
+      content: counter(ol) ". "; 
+    }
+    .reveal .footnotes ol li > p:first-child {
+      display: inline-block;
+    }
+    .reveal .slide ul,
+    .reveal .slide ol {
+      margin-bottom: 0.5em;
+    }
+    .reveal .slide ul li,
+    .reveal .slide ol li {
+      margin-top: 0.4em;
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide ul[role="tablist"] li {
+      margin-bottom: 0;
+    }
+    .reveal .slide ul li > *:first-child,
+    .reveal .slide ol li > *:first-child {
+      margin-block-start: 0;
+    }
+    .reveal .slide ul li > *:last-child,
+    .reveal .slide ol li > *:last-child {
+      margin-block-end: 0;
+    }
+    .reveal .slide .columns:nth-child(3) {
+      margin-block-start: 0.8em;
+    }
+    .reveal blockquote {
+      box-shadow: none;
+    }
+    .reveal .tippy-content>* {
+      margin-top: 0.2em;
+      margin-bottom: 0.7em;
+    }
+    .reveal .tippy-content>*:last-child {
+      margin-bottom: 0.2em;
+    }
+    .reveal .slide > img.stretch.quarto-figure-center,
+    .reveal .slide > img.r-stretch.quarto-figure-center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-left,
+    .reveal .slide > img.r-stretch.quarto-figure-left  {
+      display: block;
+      margin-left: 0;
+      margin-right: auto; 
+    }
+    .reveal .slide > img.stretch.quarto-figure-right,
+    .reveal .slide > img.r-stretch.quarto-figure-right  {
+      display: block;
+      margin-left: auto;
+      margin-right: 0; 
+    }
+  </style>
+</head>
+<body class="quarto-light">
+  <div class="reveal">
+    <div class="slides">
+
+
+<section id="section" class="slide level2" data-background-image="images/climate-stripes.jpg" data-background-size="cover">
+<h2></h2>
+<div style="text-align: left; position: absolute; bottom: 150px; left: 50px;">
+<div style="background-color: rgba(245, 42, 42, 0.88); color: white; padding: 30px 40px; display: inline-block; margin-bottom: 20px;">
+<h2 style="margin: 0; color: white;">
+Designing Effective Data Visualizations
+</h2>
+</div>
+<div style="background-color: rgba(6, 23, 99, 0.9); color: white; padding: 15px 25px; display: inline-block;">
+<p style="margin: 0; font-size: 1em;">
+Pedro Cardoso-Leite
+</p>
+<p style="margin: 0; font-size: 0.7em;">
+<a href="mailto:pedro.cardosoleite@uni.lu" style="color: white;">pedro.cardosoleite@uni.lu</a>
+</p>
+</div>
+</div>
+<div class="footer" style="color: white !important; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">
+<p><a href="https://ed-hawkins.github.io/climate-visuals/stripes.html" style="color: white !important; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">The Global Warming Stripes by Ed Hawkins.</a></p>
+</div>
+</section>
+<section id="lets-start-with-a-story" class="slide level2 center">
+<h2>Let’s start with a story…</h2>
+</section>
+<section id="section-1" class="slide level2 center">
+<h2></h2>
+<div style="display: flex; gap: 0px; align-items: center; justify-content: center; margin-top: 0px;">
+<p><img data-src="images/challenger_crew.jpg" style="height: 700px; width: auto;"></p>
+<p><img data-src="images/challenger_spaceship.png" style="height: 700px; width: auto;"></p>
+</div>
+<div class="footer">
+<p>The Challenger Space Shuttle January 28, 1986</p>
+</div>
+</section>
+<section id="section-2" class="slide level2 center">
+<h2></h2>
+<p>The night before…</p>
+
+<img data-src="images/challenger_raising_issue.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:90.0%"></section>
+<section id="section-3" class="slide level2 center">
+<h2></h2>
+<div style="display: flex; align-items: center; height: 100%;">
+<div style="flex: 1; padding-right: 40px;">
+<p style="font-size: 1.5em; font-weight: regular;">
+What’s the issue?
+</p>
+</div>
+<div style="flex: 1; display: flex; justify-content: flex-end;">
+<p><img data-src="images/challenger_spaceship.png" style="height: 700px; width: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.3);"></p>
+</div>
+</div>
+<div class="fragment" data-fragment-index="6" style="position: absolute; top: 380px; left: 600px; text-align: center; line-height: 1.6;">
+<p><span class="annotation-text">O-rings</span><br>
+<span class="annotation-text">might get damaged</span><br>
+<span class="annotation-text">when it’s too cold.</span></p>
+</div>
+<svg class="fragment" data-fragment-index="6" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
+<defs> <marker id="arrowhead" markerwidth="10" markerheight="10" refx="9" refy="3" orient="auto"> <polygon points="0 0, 10 3, 0 6" class="arrowhead-orange"></polygon> </marker> </defs> <!-- Curved arrow using path with quadratic bezier curve --> <path d="M 870 420 Q 950 400, 1255 382" class="arrow-orange" marker-end="url(#arrowhead)"></path>
+</svg>
+</section>
+<section id="section-4" class="slide level2 center">
+<h2></h2>
+<div style="position: relative; width: 70%; margin: 0 auto;">
+<p><img data-src="images/challenger_launch_decision.jpg" class="img-shadow" style="width:100.0%"></p>
+<div class="fragment" style="position: absolute; top: -1%; left: 0; width: 100%;">
+<p><img data-src="images/challenger_launch_decision_overlay.png" style="width:100.0%"></p>
+</div>
+</div>
+</section>
+<section id="section-5" class="slide level2" data-background-iframe="https://www.youtube.com/embed/OtzgbG8ZgdM?autoplay=1" data-background-interactive="true">
+<h2></h2>
+</section>
+<section id="what-happened" class="slide level2">
+<h2>What happened?</h2>
+</section>
+<section id="section-6" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/visual_explanations_book_cover.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="what-happened-1" class="slide level2">
+<h2>What happened?</h2>
+<ul>
+<li class="fragment">What was the concern?</li>
+<li class="fragment">What data / information should they have shared?</li>
+</ul>
+<!-- list of exchanges -->
+</section>
+<section id="section-7" class="slide level2 center">
+<h2></h2>
+<div style="display: flex; gap: 30px; padding-top: 50px;">
+<div style="display: flex; flex-direction: column; gap: 8px;">
+<div class="fragment fade-out box-white" data-fragment-index="2">
+
+</div>
+<div class="fragment box-black" data-fragment-index="2">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="2">
+
+</div>
+<div class="fragment box-black" data-fragment-index="2">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="2">
+
+</div>
+<div class="fragment box-black" data-fragment-index="2">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="2">
+
+</div>
+<div class="fragment box-black" data-fragment-index="2">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="2">
+
+</div>
+<div class="fragment box-black" data-fragment-index="2">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="2">
+
+</div>
+<div class="fragment box-black" data-fragment-index="2">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="4">
+
+</div>
+<div class="fragment box-gray" data-fragment-index="4">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="4">
+
+</div>
+<div class="fragment box-gray" data-fragment-index="4">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="4">
+
+</div>
+<div class="fragment box-gray" data-fragment-index="4">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="4">
+
+</div>
+<div class="fragment box-gray" data-fragment-index="4">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="4">
+
+</div>
+<div class="fragment box-gray" data-fragment-index="4">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="4">
+
+</div>
+<div class="fragment box-gray" data-fragment-index="4">
+
+</div>
+<div class="fragment fade-out box-white" data-fragment-index="5">
+
+</div>
+<div class="fragment box-yellow" data-fragment-index="5">
+
+</div>
+</div>
+<div style="flex: 1; display: flex; flex-direction: column; padding-top: 0;">
+<div class="fragment" data-fragment-index="1" style="min-height: 48px; display: flex; align-items: center; padding-left: 0px;">
+<p><strong>Of the 13 charts</strong> circulated by Thiokol managers and engineers to the scattered teleconferees,</p>
+</div>
+<div class="fragment" data-fragment-index="2" style="min-height: 200px; display: flex; align-items: center; padding-left: 40px;">
+<p><span style="background-color: black; color: white; padding: 2px 6px;"><strong>six contained no tabled data</strong></span> about either O-ring temperature, O-ring blow-by, or O-ring anomaly (these were primarily outlines of arguments being made by the Thiokol engineers).</p>
+</div>
+<div class="fragment" data-fragment-index="3" style="min-height: 20px; display: flex; align-items: center; padding-left: 80px;">
+<p><strong>Of the seven remaining charts containing data,</strong></p>
+</div>
+<div class="fragment" data-fragment-index="4" style="min-height: 100px; display: flex; align-items: center; padding-left: 120px;">
+<p><span style="background-color: gray; color: white; padding: 2px 6px;"><strong>six of them included data on either launch temperatures or O-ring anomaly <br>but not both</strong></span> in relation to each other.</p>
+</div>
+<div class="fragment" data-fragment-index="5" style="display: flex; align-items: center; padding-left: 160px;">
+<p><strong>Only one chart</strong> relating O-ring temperature and O-ring damage was prepared by a Thiokol engineer.</p>
+</div>
+</div>
+</div>
+<div class="fragment" data-fragment-index="6" style="position: absolute; top: 800px; left: 300px;">
+<p class="annotation-text">
+Let’s focus on this one document.
+</p>
+</div>
+<!-- arrow -->
+<svg class="fragment" data-fragment-index="6" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 1000; overflow: visible;">
+<defs> <marker id="arrowhead-orange-box" viewbox="0 0 10 10" refx="8" refy="5" markerwidth="6" markerheight="6" orient="auto"> <polygon points="0 0, 10 5, 0 10" fill="black"></polygon> </marker> </defs> <path d="M 300 830 Q 180 830, 50 680" stroke="black" stroke-width="3" fill="none" marker-end="url(#arrowhead-orange-box)"></path>
+</svg>
+</section>
+<section id="section-8" class="slide level2 center">
+<h2></h2>
+<div style="display: flex; gap: 20px; align-items: flex-start; justify-content: center; height: 100%;">
+<div style="flex: 3;">
+<p><img data-src="images/rocket_diagram_2_rows.jpg" class="img-shadow" style="width:100.0%"></p>
+</div>
+<div style="flex: 1;">
+<p><img data-src="images/rocket_diagram_legend.jpg" class="img-shadow" style="width:100.0%"></p>
+</div>
+</div>
+</section>
+<section id="section-9" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/rocket_diagram_legend.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:50.0%"></section>
+<section id="section-10" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/rocket_diagram_2_rows.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:50.0%"></section>
+<section id="what-do-you-think-about-this-chart" class="slide level2">
+<h2>What do you think about this chart?</h2>
+</section>
+<section id="section-11" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/rocket_diagram_1_row.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-12" class="slide level2 center">
+<h2></h2>
+<div style="text-align: center;">
+<p><img src="images/tufte_challenger_1.png" width="70%" class="img-shadow"></p>
+</div>
+<div class="footer">
+<p>Edward Tufte’s redesigned chart from “Visual Explanations”</p>
+</div>
+</section>
+<section id="section-13" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/tufte_challenger_2.jpg" class="img-shadow r-stretch" style="width:100.0%"><div class="footer">
+<p>Edward Tufte’s redesigned chart from “Visual Explanations”</p>
+</div>
+</section>
+<section>
+<section id="one-more-story" class="title-slide slide level1 center">
+<h1>One more story…</h1>
+
+</section>
+<section id="section-14" class="slide level2" data-background-iframe="https://www.youtube.com/embed/lNjrAXGRda4?autoplay=1" data-background-interactive="true">
+<h2></h2>
+<aside class="notes">
+<p>other interesting videos: - https://www.youtube.com/watch?v=VJ86D_DtyWg - https://www.youtube.com/watch?v=Pq32LB8j2K8</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="section-15" class="slide level2">
+<h2></h2>
+<p>show graph of John Snow show a more modern version</p>
+<p>https://flourish.studio/blog/masters-john-snow/</p>
+</section></section>
+<section>
+<section id="lets-have-a-look-at-some-numbers" class="title-slide slide level1 center">
+<h1>Let’s have a look at some numbers…</h1>
+<!-- Anscombe's 
+ Do we really need to visualize data?
+-->
+</section>
+<section id="section-16" class="slide level2">
+<h2></h2>
+<div style="text-align: center;">
+<object type="image/svg+xml" data="images/anscome_slide_gs.svg" style="width: 80%; max-width: 1400px;">
+Your browser does not support SVG
+</object>
+</div>
+<div class="fragment" style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); text-align: center; line-height: 1.6;">
+<p><span class="annotation-text">What can you tell me about these four datasets?</span><br>
+<span class="annotation-text">Are they the same?</span></p>
+</div>
+</section>
+<section id="what-can-you-say-about-these-four-datasets" class="slide level2">
+<h2>What can you say about these four datasets?</h2>
+<div style="display: flex; align-items: center; justify-content: center; height: 100%;">
+<p><img src="images/anscombe_quartett.png" style="width: 1000px;" class="img-shadow"></p>
+</div>
+</section>
+<section id="anscombes-quartet" class="slide level2">
+<h2>Anscombe’s Quartet</h2>
+<ul>
+<li class="fragment">Constructed in 1973 by statistician <strong>Francis Anscombe</strong></li>
+<li class="fragment">Demonstrates the importance of <strong>graphing data</strong></li>
+<li class="fragment">Shows the effect of <strong>outliers</strong> on statistical properties</li>
+<li class="fragment">Intended to counter the impression among statisticians that <strong>“numerical calculations are exact, but graphs are rough.”</strong></li>
+</ul>
+
+<aside><div>
+<p><a href="https://en.wikipedia.org/wiki/Anscombe%27s_quartet">Wikipedia: Anscombe’s quartet</a></p>
+</div></aside></section>
+<section id="section-17" class="slide level2">
+<h2></h2>
+<div class="img-shadow" style="background-color: white; padding: 120px; border-radius: 10px; max-width: 800px; margin: 150px auto;">
+<p><em>“The greatest value of a picture is when it forces us to notice what we never expected to see.”</em></p>
+<p><br></p>
+<p><span style="color: var(--color-gray-dark);"><strong>John W. Tukey</strong></span></p>
+</div>
+</section>
+<section id="the-data-science-workflow" class="slide level2">
+<h2>The data science workflow</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/data_science_workflow.jpg" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Source: <a href="https://r4ds.hadley.nz/">R for Data Science</a></p>
+</div></aside></section>
+<section id="the-two-reasons-for-visualizing-data" class="slide level2">
+<h2>The two reasons for visualizing data</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/data_science_workflow.jpg" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+
+<div class="fragment" data-fragment-index="1" style="position: absolute; top: 480px; left: 720px; width: 190px; height: 80px; border: 6px solid red; background-color: transparent;">
+
+</div>
+<div class="fragment" data-fragment-index="2" style="position: absolute; top: 170px; left: 720px; width: 250px; height: 80px; border: 6px solid red; background-color: transparent;">
+
+</div>
+<aside><div>
+<p>Source: <a href="https://r4ds.hadley.nz/">R for Data Science</a></p>
+</div></aside></section></section>
+<section>
+<section id="what-have-learned" class="title-slide slide level1 center">
+<h1>What have learned?</h1>
+
+</section>
+<section id="the-two-purposes-of-data-visualization" class="slide level2">
+<h2>The two purposes of data visualization</h2>
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></p>
+<p><em>The key function of data visualization is to move information from point A to point B.</em></p>
+<div style="display: flex; gap: 60px; max-width: 1400px; justify-content: center; margin: 80px auto 0 auto;">
+<div style="background: white; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border-radius: 10px; flex: 1; text-align: left;">
+<div style="font-style: italic; margin-bottom: 30px;">
+In <span style="color: var(--color-blue-light); font-weight: bold;">exploratory</span> visualization,
+</div>
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; font-size: 1.2em; margin: 30px 0;">
+<p><i class="fas fa-table" style="font-size: 3em; color: var(--color-gray-dark);"></i> <i class="fas fa-arrow-right" style="font-size: 2em; color: var(--color-blue-light);"></i> <i class="fas fa-user" style="font-size: 3em; color: var(--color-gray-dark);"></i></p>
+</div>
+<div style="font-style: italic; margin-top: 30px; font-size: 0.85em;">
+point A is the dataset and<br>point B is the designer’s own mind.
+</div>
+</div>
+<div style="background: white; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border-radius: 10px; flex: 1; text-align: left;">
+<div style="font-style: italic; margin-bottom: 30px;">
+In <span style="color: var(--color-orange); font-weight: bold;">explanatory</span> visualization,
+</div>
+<div style="display: flex; align-items: center; justify-content: center; gap: 20px; font-size: 1.2em; margin: 30px 0;">
+<p><i class="fas fa-user" style="font-size: 3em; color: var(--color-gray-dark);"></i> <i class="fas fa-arrow-right" style="font-size: 2em; color: var(--color-orange);"></i> <i class="fas fa-user" style="font-size: 3em; color: var(--color-gray-dark);"></i></p>
+</div>
+<div style="font-style: italic; margin-top: 30px; font-size: 0.85em;">
+point A is the mind of the designer, and<br>point B is the mind of the reader.”
+</div>
+</div>
+</div>
+
+<aside><div>
+<p>Julie Steele &amp; Noah Iliinsky, <em>Designing Data Visualizations</em></p>
+</div></aside></section>
+<section id="two-types-of-visualizing-data" class="slide level2">
+<h2>Two “types” of visualizing data</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/data_science_workflow.jpg" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+
+<div class="fragment" data-fragment-index="1" style="position: absolute; top: 170px; left: 720px; width: 250px; height: 80px; border: 6px solid var(--color-blue-light); background-color: transparent;">
+
+</div>
+<div class="fragment" data-fragment-index="1" style="position: absolute; top: 120px; left: 1190px; transform: translateX(-50%); text-align: left; color: var(--color-blue-light);">
+<p><strong>Exploration</strong> <br>iterate fast <br>check and recheck</p>
+</div>
+<div class="fragment" data-fragment-index="2" style="position: absolute; top: 330px; left: 1130px; width: 370px; height: 80px; border: 6px solid var(--color-orange); background-color: transparent;">
+
+</div>
+<div class="fragment" data-fragment-index="2" style="position: absolute; top: 425px; left: 1130px; text-align: left; color: var(--color-orange);">
+<p><strong>Explanation</strong> <br>deliberate, purposeful <br>specific, perfect</p>
+</div>
+<!--
+# {data-background-image="images/climate-stripes.jpg" data-background-size="cover"}
+
+::: {style="background-color: rgba(255, 255, 255, 0.9); padding: 30px; max-width: 800px; margin: 150px auto; border-radius: 10px;" class="img-shadow"}
+**Beyond informing...**
+<br/>
+Informing might not be enough.
+:::
+-->
+<aside><div>
+<p>Source: <a href="https://r4ds.hadley.nz/">R for Data Science</a></p>
+</div></aside></section>
+<section id="beyond-informing" class="slide level2">
+<h2>Beyond informing…</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/climate-stripes.jpg" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p>Source: <a href="https://ed-hawkins.github.io/climate-visuals/stripes.html">The Global Warming Stripes by Ed Hawkins</a></p>
+</div></aside></section>
+<section id="section-18" class="slide level2" data-background-iframe="https://www.youtube.com/embed/3VIHRLUnVOI?autoplay=1" data-background-interactive="true">
+<h2></h2>
+</section>
+<section id="section-19" class="slide level2 center">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
+<p><img src="images/climate-stripes_with_linechart.jpg" style="width: 90%; height: auto;" class="img-shadow"></p>
+</div>
+<div class="footer">
+<p>https://doi.org/10.1175/BAMS-D-24-0212.1</p>
+</div>
+</section>
+<section id="section-20" class="slide level2" data-background-image="images/climate-stripes_showcase.png" data-background-size="cover">
+<h2></h2>
+<div class="footer">
+<p>https://showyourstripes.info/showcase</p>
+</div>
+</section>
+<section id="make-it-personal." class="slide level2">
+<h2>Make it personal.</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/climate-stripes_luxembourg.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
+</figure>
+</div>
+
+<aside><div>
+<p><a href="https://showyourstripes.info/l/europe/luxembourg/luxembourg">Show Your Stripes - Luxembourg</a></p>
+</div></aside></section></section>
+<section>
+<section id="the-purpose-of-this-course" class="title-slide slide level1 center">
+<h1>The purpose of this course</h1>
+
+</section>
+<section id="section-21" class="slide level2 center">
+<h2></h2>
+<div>
+<div class="fragment">
+<p><strong>Effective data visualization matters!</strong></p>
+</div>
+<div class="fragment">
+<p>It’s not about programming or using a specific tool.</p>
+</div>
+<div class="fragment">
+<p>It’s about <em>Designing</em> Effective Data Visualizations.</p>
+</div>
+</div>
+</section>
+<section id="resources" class="slide level2">
+<h2>Resources</h2>
+<div style="display: flex; justify-content: center; align-items: center; height: 100%; margin-top: -100px;">
+<p><img src="../../../assets/images/how_carts_work.jpg" style="height: 400px; width: auto; margin: 0 50px;"> <img src="../../../assets/images/story_telling_with_data.jpg" style="height: 400px; width: auto; margin: 0 50px;"> <img src="images/truthful_art_book_cover.jpg" style="height: 400px; width: auto; margin: 0 50px;"></p>
+</div>
+<aside class="notes">
+<p>https://www.storytellingwithdata.com/books</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section id="assignment" class="title-slide slide level1 center">
+<h1>Assignment</h1>
+<ol type="1">
+<li class="fragment">Look for (open access) articles in your field of interest</li>
+<li class="fragment">Find 2 figures that you <strong>like</strong></li>
+<li class="fragment">Find 2 figures that you <strong>don’t like</strong> (all from different papers)</li>
+<li class="fragment">Explain briefly for each figure why you like/dislike it</li>
+<li class="fragment">Upload your document on Moodle</li>
+</ol>
+<ul>
+<li class="fragment">one page per figure + your comment</li>
+<li class="fragment">name the file using your <code>&lt;lastname&gt;_graph_selection.pdf</code> pattern</li>
+</ul>
+
+
+</section>
+    </div>
+  <div class="quarto-auto-generated-content" style="display: none;">
+<div class="footer footer-default">
+
+</div>
+</div></div>
+
+  <script>window.backupDefine = window.define; window.define = undefined;</script>
+  <script src="../../../site_libs/revealjs/dist/reveal.js"></script>
+  <!-- reveal.js plugins -->
+  <script src="../../../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/pdf-export/pdfexport.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/reveal-pointer/pointer.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/quarto-support/support.js"></script>
+  
+
+  <script src="../../../site_libs/revealjs/plugin/notes/notes.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/search/search.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/zoom/zoom.js"></script>
+  <script src="../../../site_libs/revealjs/plugin/math/math.js"></script>
+  <script>window.define = window.backupDefine; window.backupDefine = undefined;</script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://revealjs.com/config/
+      Reveal.initialize({
+'controlsAuto': true,
+'previewLinksAuto': false,
+'pdfSeparateFragments': false,
+'autoAnimateEasing': "ease",
+'autoAnimateDuration': 1,
+'autoAnimateUnmatched': true,
+'jumpToSlide': true,
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleScrollView(event)\"><kbd>r</kbd> Scroll View Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"8\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
+'chalkboard': {"buttons":true},
+'pointer': {"key":"q","color":"#db0d23","pointerSize":24,"alwaysVisible":false},
+'smaller': false,
+ 
+        // Display controls in the bottom right corner
+        controls: false,
+
+        // Help the user learn the controls by providing hints, for example by
+        // bouncing the down arrow when they first encounter a vertical slide
+        controlsTutorial: false,
+
+        // Determines where controls appear, "edges" or "bottom-right"
+        controlsLayout: 'edges',
+
+        // Visibility rule for backwards navigation arrows; "faded", "hidden"
+        // or "visible"
+        controlsBackArrows: 'faded',
+
+        // Display a presentation progress bar
+        progress: true,
+
+        // Display the page number of the current slide
+        slideNumber: false,
+
+        // 'all', 'print', or 'speaker'
+        showSlideNumber: 'all',
+
+        // Add the current slide number to the URL hash so that reloading the
+        // page/copying the URL will return you to the same slide
+        hash: true,
+
+        // Start with 1 for the hash rather than 0
+        hashOneBasedIndex: false,
+
+        // Flags if we should monitor the hash and change slides accordingly
+        respondToHashChanges: true,
+
+        // Push each slide change to the browser history
+        history: true,
+
+        // Enable keyboard shortcuts for navigation
+        keyboard: true,
+
+        // Enable the slide overview mode
+        overview: true,
+
+        // Disables the default reveal.js slide layout (scaling and centering)
+        // so that you can use custom CSS layout
+        disableLayout: false,
+
+        // Vertical centering of slides
+        center: false,
+
+        // Enables touch navigation on devices with touch input
+        touch: true,
+
+        // Loop the presentation
+        loop: false,
+
+        // Change the presentation direction to be RTL
+        rtl: false,
+
+        // see https://revealjs.com/vertical-slides/#navigation-mode
+        navigationMode: 'linear',
+
+        // Randomizes the order of slides each time the presentation loads
+        shuffle: false,
+
+        // Turns fragments on and off globally
+        fragments: true,
+
+        // Flags whether to include the current fragment in the URL,
+        // so that reloading brings you to the same fragment position
+        fragmentInURL: false,
+
+        // Flags if the presentation is running in an embedded mode,
+        // i.e. contained within a limited portion of the screen
+        embedded: false,
+
+        // Flags if we should show a help overlay when the questionmark
+        // key is pressed
+        help: true,
+
+        // Flags if it should be possible to pause the presentation (blackout)
+        pause: true,
+
+        // Flags if speaker notes should be visible to all viewers
+        showNotes: false,
+
+        // Global override for autoplaying embedded media (null/true/false)
+        autoPlayMedia: null,
+
+        // Global override for preloading lazy-loaded iframes (null/true/false)
+        preloadIframes: null,
+
+        // Number of milliseconds between automatically proceeding to the
+        // next slide, disabled when set to 0, this value can be overwritten
+        // by using a data-autoslide attribute on your slides
+        autoSlide: 0,
+
+        // Stop auto-sliding after user input
+        autoSlideStoppable: true,
+
+        // Use this method for navigation when auto-sliding
+        autoSlideMethod: null,
+
+        // Specify the average time in seconds that you think you will spend
+        // presenting each slide. This is used to show a pacing timer in the
+        // speaker view
+        defaultTiming: null,
+
+        // Enable slide navigation via mouse wheel
+        mouseWheel: false,
+
+        // The display mode that will be used to show slides
+        display: 'block',
+
+        // Hide cursor if inactive
+        hideInactiveCursor: true,
+
+        // Time before the cursor is hidden (in ms)
+        hideCursorTime: 5000,
+
+        // Opens links in an iframe preview overlay
+        previewLinks: false,
+
+        // Transition style (none/fade/slide/convex/concave/zoom)
+        transition: 'none',
+
+        // Transition speed (default/fast/slow)
+        transitionSpeed: 'default',
+
+        // Transition style for full page slide backgrounds
+        // (none/fade/slide/convex/concave/zoom)
+        backgroundTransition: 'none',
+
+        // Number of slides away from the current that are visible
+        viewDistance: 3,
+
+        // Number of slides away from the current that are visible on mobile
+        // devices. It is advisable to set this to a lower number than
+        // viewDistance in order to save resources.
+        mobileViewDistance: 2,
+
+        // The "normal" size of the presentation, aspect ratio will be preserved
+        // when the presentation is scaled to fit different resolutions. Can be
+        // specified using percentage units.
+        width: 1600,
+
+        height: 900,
+
+        // Factor of the display size that should remain empty around the content
+        margin: 0.1,
+
+        math: {
+          mathjax: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js',
+          config: 'TeX-AMS_HTML-full',
+          tex2jax: {
+            inlineMath: [['\\(','\\)']],
+            displayMath: [['\\[','\\]']],
+            balanceBraces: true,
+            processEscapes: false,
+            processRefs: true,
+            processEnvironments: true,
+            preview: 'TeX',
+            skipTags: ['script','noscript','style','textarea','pre','code'],
+            ignoreClass: 'tex2jax_ignore',
+            processClass: 'tex2jax_process'
+          },
+        },
+
+        // reveal.js plugins
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealPointer, QuartoSupport,
+
+          RevealMath,
+          RevealNotes,
+          RevealSearch,
+          RevealZoom
+        ]
+      });
+    </script>
+    <script id="quarto-html-after-body" type="application/javascript">
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+      const toggleBodyColorMode = (bsSheetEl) => {
+        const mode = bsSheetEl.getAttribute("data-mode");
+        const bodyEl = window.document.querySelector("body");
+        if (mode === "dark") {
+          bodyEl.classList.add("quarto-dark");
+          bodyEl.classList.remove("quarto-light");
+        } else {
+          bodyEl.classList.add("quarto-light");
+          bodyEl.classList.remove("quarto-dark");
+        }
+      }
+      const toggleBodyColorPrimary = () => {
+        const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+        if (bsSheetEl) {
+          toggleBodyColorMode(bsSheetEl);
+        }
+      }
+      toggleBodyColorPrimary();  
+      const tabsets =  window.document.querySelectorAll(".panel-tabset-tabby")
+      tabsets.forEach(function(tabset) {
+        const tabby = new Tabby('#' + tabset.id);
+      });
+      const isCodeAnnotation = (el) => {
+        for (const clz of el.classList) {
+          if (clz.startsWith('code-annotation-')) {                     
+            return true;
+          }
+        }
+        return false;
+      }
+      const onCopySuccess = function(e) {
+        // button target
+        const button = e.trigger;
+        // don't keep focus
+        button.blur();
+        // flash "checked"
+        button.classList.add('code-copy-button-checked');
+        var currentTitle = button.getAttribute("title");
+        button.setAttribute("title", "Copied!");
+        let tooltip;
+        if (window.bootstrap) {
+          button.setAttribute("data-bs-toggle", "tooltip");
+          button.setAttribute("data-bs-placement", "left");
+          button.setAttribute("data-bs-title", "Copied!");
+          tooltip = new bootstrap.Tooltip(button, 
+            { trigger: "manual", 
+              customClass: "code-copy-button-tooltip",
+              offset: [0, -8]});
+          tooltip.show();    
+        }
+        setTimeout(function() {
+          if (tooltip) {
+            tooltip.hide();
+            button.removeAttribute("data-bs-title");
+            button.removeAttribute("data-bs-toggle");
+            button.removeAttribute("data-bs-placement");
+          }
+          button.setAttribute("title", currentTitle);
+          button.classList.remove('code-copy-button-checked');
+        }, 1000);
+        // clear code selection
+        e.clearSelection();
+      }
+      const getTextToCopy = function(trigger) {
+          const codeEl = trigger.previousElementSibling.cloneNode(true);
+          for (const childEl of codeEl.children) {
+            if (isCodeAnnotation(childEl)) {
+              childEl.remove();
+            }
+          }
+          return codeEl.innerText;
+      }
+      const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+        text: getTextToCopy
+      });
+      clipboard.on('success', onCopySuccess);
+      if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+        const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+          text: getTextToCopy,
+          container: window.document.getElementById('quarto-embedded-source-code-modal')
+        });
+        clipboardModal.on('success', onCopySuccess);
+      }
+        var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+        var mailtoRegex = new RegExp(/^mailto:/);
+          var filterRegex = new RegExp("https:\/\/xcit-courses\.github\.io\/data-viz-design\/");
+        var isInternal = (href) => {
+            return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+        }
+        // Inspect non-navigation links and adorn them if external
+     	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+        for (var i=0; i<links.length; i++) {
+          const link = links[i];
+          if (!isInternal(link.href)) {
+            // undo the damage that might have been done by quarto-nav.js in the case of
+            // links that we want to consider external
+            if (link.dataset.originalHref !== undefined) {
+              link.href = link.dataset.originalHref;
+            }
+          }
+        }
+      function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+        const config = {
+          allowHTML: true,
+          maxWidth: 500,
+          delay: 100,
+          arrow: false,
+          appendTo: function(el) {
+              return el.closest('section.slide') || el.parentElement;
+          },
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start',
+        };
+        if (contentFn) {
+          config.content = contentFn;
+        }
+        if (onTriggerFn) {
+          config.onTrigger = onTriggerFn;
+        }
+        if (onUntriggerFn) {
+          config.onUntrigger = onUntriggerFn;
+        }
+          config['offset'] = [0,0];
+          config['maxWidth'] = 700;
+        window.tippy(el, config); 
+      }
+      const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+      for (var i=0; i<noterefs.length; i++) {
+        const ref = noterefs[i];
+        tippyHover(ref, function() {
+          // use id or data attribute instead here
+          let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+          try { href = new URL(href).hash; } catch {}
+          const id = href.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note) {
+            return note.innerHTML;
+          } else {
+            return "";
+          }
+        });
+      }
+      const findCites = (el) => {
+        const parentEl = el.parentElement;
+        if (parentEl) {
+          const cites = parentEl.dataset.cites;
+          if (cites) {
+            return {
+              el,
+              cites: cites.split(' ')
+            };
+          } else {
+            return findCites(el.parentElement)
+          }
+        } else {
+          return undefined;
+        }
+      };
+      var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+      for (var i=0; i<bibliorefs.length; i++) {
+        const ref = bibliorefs[i];
+        const citeInfo = findCites(ref);
+        if (citeInfo) {
+          tippyHover(citeInfo.el, function() {
+            var popup = window.document.createElement('div');
+            citeInfo.cites.forEach(function(cite) {
+              var citeDiv = window.document.createElement('div');
+              citeDiv.classList.add('hanging-indent');
+              citeDiv.classList.add('csl-entry');
+              var biblioDiv = window.document.getElementById('ref-' + cite);
+              if (biblioDiv) {
+                citeDiv.innerHTML = biblioDiv.innerHTML;
+              }
+              popup.appendChild(citeDiv);
+            });
+            return popup.innerHTML;
+          });
+        }
+      }
+    });
+    </script>
+    
+
+</body></html>

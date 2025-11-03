@@ -14,7 +14,7 @@
     "href": "chapters/chapter1/chapter1.html",
     "title": "Chapter 1: Introduction to Data Visualization Design",
     "section": "",
-    "text": "This first chapter introduces the fundamentals of data visualization, its importance in data analysis and communication, and the tools we’ll use throughout the course.",
+    "text": "This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world.\nThe goal of this chapter is to enforce the idea that it is important to not just “show the data” and that instead designing effective data visualization is purposeful and requires particular skills and knowledge.",
     "crumbs": [
       "Chapters",
       "Chapter 1"
@@ -25,7 +25,7 @@
     "href": "chapters/chapter1/chapter1.html#material",
     "title": "Chapter 1: Introduction to Data Visualization Design",
     "section": "Material",
-    "text": "Material\n\nSlides\n\nIntroduction to Data Visualization Design",
+    "text": "Material\n\nSlides\n\nDesigning Effective Data Visualizations",
     "crumbs": [
       "Chapters",
       "Chapter 1"
@@ -58,7 +58,7 @@
     "href": "about/overview.html#when-and-where",
     "title": "Course Overview",
     "section": "When and where",
-    "text": "When and where\n\n\n\n\n\n\n\n\n\nDate\nTime\nRoom\nLocation\n\n\n\n\nMonday 03.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir",
+    "text": "When and where\n\n\n\n\n\n\n\n\n\n\nSession\nDate\nTime\nRoom\nLocation\n\n\n\n\n1\nMonday 03.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n2\nMonday 10.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n3\nMonday 17.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n4\nMonday 24.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n5\nMonday 01.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n6\nMonday 08.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n7\nMonday 15.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir",
     "crumbs": [
       "Course Information",
       "Overview"
@@ -79,7 +79,7 @@
     "href": "about/syllabus.html",
     "title": "Syllabus",
     "section": "",
-    "text": "This course provides a comprehensive introduction to designing effective data visualizations.\n\n\n\nBy the end of this course, students will be able to:",
+    "text": "This course provides a hands-on introduction to designing effective data visualizations.\n\n\n\n\n\nWill cover examples illustrating the importance of designing effective data visualizations.\nStudents will be asked to pick 3 good and 3 bad examples from their fields and comment them (why they like or dislike them; at the end of the course they will redo that and maybe redesign one of them in Figma).\n\n\n\nI will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they’ve done in 1.\n\n\n\nThere are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.\n\n\n\nPicking the right type of graph for your data; know your data viz vocabulary\n\n\n\nTools; Testing you data visualization;\n\n\n\nPresenting some tools/software for making graphs (e.g., ggplot2, D3); Cover other forms of visualization (e.g., dashboards, diagrams, visual explanations, infographics)\n\n\n\nStudents are organized in groups and asked to work on particular data visualization projects.\n\n\n\n\n\nknowledge about data visualizations\ndata viz critique\ndata viz generation",
     "crumbs": [
       "Course Information",
       "Syllabus"
@@ -90,28 +90,221 @@
     "href": "about/syllabus.html#course-description",
     "title": "Syllabus",
     "section": "",
-    "text": "This course provides a comprehensive introduction to designing effective data visualizations.",
+    "text": "This course provides a hands-on introduction to designing effective data visualizations.",
     "crumbs": [
       "Course Information",
       "Syllabus"
     ]
   },
   {
-    "objectID": "about/syllabus.html#learning-objectives",
-    "href": "about/syllabus.html#learning-objectives",
+    "objectID": "about/syllabus.html#chapters-wip",
+    "href": "about/syllabus.html#chapters-wip",
     "title": "Syllabus",
     "section": "",
-    "text": "By the end of this course, students will be able to:",
+    "text": "Will cover examples illustrating the importance of designing effective data visualizations.\nStudents will be asked to pick 3 good and 3 bad examples from their fields and comment them (why they like or dislike them; at the end of the course they will redo that and maybe redesign one of them in Figma).\n\n\n\nI will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they’ve done in 1.\n\n\n\nThere are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.\n\n\n\nPicking the right type of graph for your data; know your data viz vocabulary\n\n\n\nTools; Testing you data visualization;\n\n\n\nPresenting some tools/software for making graphs (e.g., ggplot2, D3); Cover other forms of visualization (e.g., dashboards, diagrams, visual explanations, infographics)\n\n\n\nStudents are organized in groups and asked to work on particular data visualization projects.",
     "crumbs": [
       "Course Information",
       "Syllabus"
     ]
   },
   {
-    "objectID": "chapters/chapter1/slides/course_intro.html#welcome-to-data-visualization-design",
-    "href": "chapters/chapter1/slides/course_intro.html#welcome-to-data-visualization-design",
+    "objectID": "about/syllabus.html#exam",
+    "href": "about/syllabus.html#exam",
+    "title": "Syllabus",
+    "section": "",
+    "text": "knowledge about data visualizations\ndata viz critique\ndata viz generation",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section",
     "title": "Data Visualization Design",
-    "section": "Welcome to Data Visualization Design!",
-    "text": "Welcome to Data Visualization Design!"
+    "section": "",
+    "text": "Designing Effective Data Visualizations\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nThe Global Warming Stripes by Ed Hawkins."
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#lets-start-with-a-story",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#lets-start-with-a-story",
+    "title": "Data Visualization Design",
+    "section": "Let’s start with a story…",
+    "text": "Let’s start with a story…"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-1",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-1",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "The Challenger Space Shuttle January 28, 1986"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-2",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-2",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "The night before…"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-3",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-3",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "What’s the issue?\n\n\n\n\n\n\n\nO-rings\nmight get damaged\nwhen it’s too cold."
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-happened",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#what-happened",
+    "title": "Data Visualization Design",
+    "section": "What happened?",
+    "text": "What happened?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-happened-1",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#what-happened-1",
+    "title": "Data Visualization Design",
+    "section": "What happened?",
+    "text": "What happened?\n\nWhat was the concern?\nWhat data / information should they have shared?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-7",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-7",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Of the 13 charts circulated by Thiokol managers and engineers to the scattered teleconferees,\n\n\nsix contained no tabled data about either O-ring temperature, O-ring blow-by, or O-ring anomaly (these were primarily outlines of arguments being made by the Thiokol engineers).\n\n\nOf the seven remaining charts containing data,\n\n\nsix of them included data on either launch temperatures or O-ring anomaly but not both in relation to each other.\n\n\nOnly one chart relating O-ring temperature and O-ring damage was prepared by a Thiokol engineer.\n\n\n\n\n\nLet’s focus on this one document."
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-do-you-think-about-this-chart",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#what-do-you-think-about-this-chart",
+    "title": "Data Visualization Design",
+    "section": "What do you think about this chart?",
+    "text": "What do you think about this chart?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-12",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-12",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Edward Tufte’s redesigned chart from “Visual Explanations”"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-13",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-13",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Edward Tufte’s redesigned chart from “Visual Explanations”"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-14",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-14",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "other interesting videos: - https://www.youtube.com/watch?v=VJ86D_DtyWg - https://www.youtube.com/watch?v=Pq32LB8j2K8"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-15",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-15",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "show graph of John Snow show a more modern version\nhttps://flourish.studio/blog/masters-john-snow/"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-16",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-16",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Your browser does not support SVG\n\n\n\nWhat can you tell me about these four datasets?\nAre they the same?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-can-you-say-about-these-four-datasets",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#what-can-you-say-about-these-four-datasets",
+    "title": "Data Visualization Design",
+    "section": "What can you say about these four datasets?",
+    "text": "What can you say about these four datasets?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#anscombes-quartet",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#anscombes-quartet",
+    "title": "Data Visualization Design",
+    "section": "Anscombe’s Quartet",
+    "text": "Anscombe’s Quartet\n\nConstructed in 1973 by statistician Francis Anscombe\nDemonstrates the importance of graphing data\nShows the effect of outliers on statistical properties\nIntended to counter the impression among statisticians that “numerical calculations are exact, but graphs are rough.”\n\n\n\nWikipedia: Anscombe’s quartet"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-17",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-17",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "“The greatest value of a picture is when it forces us to notice what we never expected to see.”\n\nJohn W. Tukey"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#the-data-science-workflow",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#the-data-science-workflow",
+    "title": "Data Visualization Design",
+    "section": "The data science workflow",
+    "text": "The data science workflow\n\n\n\n\n\n\n\nSource: R for Data Science"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#the-two-reasons-for-visualizing-data",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#the-two-reasons-for-visualizing-data",
+    "title": "Data Visualization Design",
+    "section": "The two reasons for visualizing data",
+    "text": "The two reasons for visualizing data\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource: R for Data Science"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#the-two-purposes-of-data-visualization",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#the-two-purposes-of-data-visualization",
+    "title": "Data Visualization Design",
+    "section": "The two purposes of data visualization",
+    "text": "The two purposes of data visualization\n\nThe key function of data visualization is to move information from point A to point B.\n\n\n\nIn exploratory visualization,\n\n\n  \n\n\npoint A is the dataset andpoint B is the designer’s own mind.\n\n\n\n\nIn explanatory visualization,\n\n\n  \n\n\npoint A is the mind of the designer, andpoint B is the mind of the reader.”\n\n\n\n\n\nJulie Steele & Noah Iliinsky, Designing Data Visualizations"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#two-types-of-visualizing-data",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#two-types-of-visualizing-data",
+    "title": "Data Visualization Design",
+    "section": "Two “types” of visualizing data",
+    "text": "Two “types” of visualizing data\n\n\n\n\n\n\n\n\n\n\nExploration iterate fast check and recheck\n\n\n\n\n\nExplanation deliberate, purposeful specific, perfect\n\n\n\nSource: R for Data Science"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#beyond-informing",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#beyond-informing",
+    "title": "Data Visualization Design",
+    "section": "Beyond informing…",
+    "text": "Beyond informing…\n\n\n\n\n\n\n\nSource: The Global Warming Stripes by Ed Hawkins"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-19",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-19",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "https://doi.org/10.1175/BAMS-D-24-0212.1"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-20",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-20",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "https://showyourstripes.info/showcase"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#make-it-personal.",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#make-it-personal.",
+    "title": "Data Visualization Design",
+    "section": "Make it personal.",
+    "text": "Make it personal.\n\n\n\n\n\n\n\nShow Your Stripes - Luxembourg"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-21",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-21",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Effective data visualization matters!\n\n\nIt’s not about programming or using a specific tool.\n\n\nIt’s about Designing Effective Data Visualizations."
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#resources",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#resources",
+    "title": "Data Visualization Design",
+    "section": "Resources",
+    "text": "Resources\n\n  \n\n\nhttps://www.storytellingwithdata.com/books"
   }
 ]

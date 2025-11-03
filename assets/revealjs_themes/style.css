@@ -5,3 +5,130 @@
   align-items: center;
   height: 90%;
 }
+
+/* Color definitions */
+:root {
+  --color-gray: #999;
+  --color-blue: #4472C4;
+  --color-orange: #ED7D31;
+  --color-border: #666;
+  --color-blue-light: #1da7e0;
+  --color-gray-dark: #666;
+}
+
+/* Box styles */
+.box-white {
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  border: 3px solid black;
+  box-sizing: border-box;
+}
+
+.box-gray {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-gray);
+  border: 3px solid black;
+  box-sizing: border-box;
+  margin-top: -48px;
+}
+
+.box-blue {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-blue);
+  border: 3px solid black;
+  box-sizing: border-box;
+  margin-top: -48px;
+}
+
+.box-orange {
+  width: 40px;
+  height: 40px;
+  background-color: var(--color-orange);
+  border: 3px solid black;
+  box-sizing: border-box;
+  margin-top: -48px;
+}
+
+.box-black {
+  width: 40px;
+  height: 40px;
+  background-color: black;
+  border: 3px solid black;
+  box-sizing: border-box;
+  margin-top: -48px;
+}
+
+.box-yellow {
+  width: 40px;
+  height: 40px;
+  background-color: #FFD700;
+  border: 3px solid black;
+  box-sizing: border-box;
+  margin-top: -48px;
+}
+
+/* Text styles for annotations */
+.annotation-text {
+  font-family:  "Space Mono", "Hack",sans-serif;
+  font-size: 32px;
+  color: black;
+  font-weight: bold;
+  background-color: #FFD700;
+  padding: 2px 6px;
+  line-height: 1.6;
+}
+
+/* Arrow styles */
+.arrow-orange {
+  stroke: black;
+  stroke-width: 3;
+  fill: none;
+}
+
+.arrowhead-orange {
+  fill: black;
+}
+
+/* Image shadow effect */
+.img-shadow {
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
+}
+
+/* Title slide styling */
+.reveal .slides section.title-slide {
+  text-align: left;
+}
+
+.reveal .slides section.title-slide h1.title {
+  background-color: rgba(50, 50, 50, 0.9);
+  color: white !important;
+  padding: 30px 40px;
+  text-align: left;
+  display: inline-block;
+  margin-bottom: 20px;
+}
+
+.reveal .slides section.title-slide .author,
+.reveal .slides section.title-slide p.author {
+  background-color: rgba(50, 50, 50, 0.9);
+  color: white !important;
+  padding: 20px 30px;
+  text-align: left;
+  display: inline-block;
+  margin-top: 0;
+}
+
+/* Title slide footer styling */
+.reveal .slides section:first-child .footer,
+.reveal .slides section:first-child .footer a {
+  color: white !important;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);
+}
+
+.reveal .slides section:first-child .footer a:hover {
+  color: #f0f0f0 !important;
+}
+
