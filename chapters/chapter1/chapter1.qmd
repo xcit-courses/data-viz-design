@@ -3,7 +3,11 @@ title: "Chapter 1: Introduction to Data Visualization Design"
 ---
 
 
-This first chapter introduces the fundamentals of data visualization, its importance in data analysis and communication, and the tools we'll use throughout the course.
+This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world. 
+
+The goal of this chapter is to enforce the idea that it is important to not just "show the data" and that instead designing effective data visualization is purposeful and requires particular skills and knowledge. 
+
+
 
 
 
@@ -12,5 +16,5 @@ This first chapter introduces the fundamentals of data visualization, its import
 
 ### Slides
 
-- [Introduction to Data Visualization Design](slides/course_intro.qmd)
+- [Designing Effective Data Visualizations](slides/data_viz_intro.qmd)
 
