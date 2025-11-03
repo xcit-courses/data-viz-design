@@ -126,13 +126,6 @@
     "text": "Designing Effective Data Visualizations\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nThe Global Warming Stripes by Ed Hawkins."
   },
   {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#lets-start-with-a-story",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#lets-start-with-a-story",
-    "title": "Data Visualization Design",
-    "section": "Let’s start with a story…",
-    "text": "Let’s start with a story…"
-  },
-  {
     "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-1",
     "href": "chapters/chapter1/slides/data_viz_intro.html#section-1",
     "title": "Data Visualization Design",
@@ -207,7 +200,7 @@
     "href": "chapters/chapter1/slides/data_viz_intro.html#section-15",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "show graph of John Snow show a more modern version\nhttps://flourish.studio/blog/masters-john-snow/"
+    "text": "There are now more modern version of the John Snow data exploration\n\nhttps://flourish.studio/blog/masters-john-snow/"
   },
   {
     "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-16",
