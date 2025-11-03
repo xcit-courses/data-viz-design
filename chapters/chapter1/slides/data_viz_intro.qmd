@@ -34,7 +34,7 @@ editor: visual
 <a href="https://ed-hawkins.github.io/climate-visuals/stripes.html" style="color: white !important; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">The Global Warming Stripes by Ed Hawkins.</a>
 </div>
 
-## Let's start with a story... {.center}
+# Let's start with a story... {.center}
 
 ## {.center}
 
@@ -318,10 +318,13 @@ other interesting videos:
 
 ##
 
-show graph of John Snow
-show a more modern version
+[There are now more modern version of the John Snow data exploration](https://flourish.studio/blog/masters-john-snow/)
 
+::: footer
 https://flourish.studio/blog/masters-john-snow/
+:::
+
+
 
 
 # Let's have a look at some numbers...
@@ -607,7 +610,7 @@ It's about *Designing* Effective Data Visualizations.
 ## Resources
 
 <div style="display: flex; justify-content: center; align-items: center; height: 100%; margin-top: -100px;">
-  <img src="../../../assets/images/how_carts_work.jpg" style="height: 400px; width: auto; margin: 0 50px;">
+  <img src="../../../assets/images/how_charts_work.jpg" style="height: 400px; width: auto; margin: 0 50px;">
   <img src="../../../assets/images/story_telling_with_data.jpg" style="height: 400px; width: auto; margin: 0 50px;">
   <img src="images/truthful_art_book_cover.jpg" style="height: 400px; width: auto; margin: 0 50px;">
 </div>
