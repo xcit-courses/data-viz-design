@@ -10,68 +10,424 @@
     ]
   },
   {
-    "objectID": "chapters/chapter1/chapter1.html",
-    "href": "chapters/chapter1/chapter1.html",
-    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#how-to-assess-if-a-data-visualization-is-good-or-not",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#how-to-assess-if-a-data-visualization-is-good-or-not",
+    "title": "How to assess data visualizations",
+    "section": "How to assess if a data visualization is good or not?",
+    "text": "How to assess if a data visualization is good or not?\nDifferent people have different criteria\n\nThe truthful art\nTen simple rules for better figures (Plos Computational Biology)\nMy own 10 rules (WIP)\nCreate your own\n\n\nMaking data visualizations is part objective part subjective, part science part art. There are things that are clearly wrong (for a given purpose); but there are also preferences."
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#my-checklist",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#my-checklist",
+    "title": "How to assess data visualizations",
+    "section": "My checklist",
+    "text": "My checklist\n\n\n\nGood data\nHonest representation\nCompleteness\nPurposeful (message)\nMeaning and Context\n\n\n\nAccessible\nIntuitive\nEffective\nEfficient\nErgonomic"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#good-data-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#good-data-1",
+    "title": "How to assess data visualizations",
+    "section": "#1 Good data",
+    "text": "#1 Good data\n\n“Garbage in, garbage out”\nOnly use data from trustworthy sources, collected using valid methods\nKnow your data:\n\nprovenance\nlimitations\nmeasurement details\nlicence\n\n\n\n#1 Good data"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section",
+    "title": "How to assess data visualizations",
     "section": "",
-    "text": "This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world.\nThe goal of this chapter is to enforce the idea that it is important to not just “show the data” and that instead designing effective data visualization is purposeful and requires particular skills and knowledge.",
+    "text": "Source: https://rarehistoricalphotos.com\n\nreputation, moral and professional responsibility\n\n\n#1 Good data"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#honest-representation-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#honest-representation-1",
+    "title": "How to assess data visualizations",
+    "section": "#2: Honest representation",
+    "text": "#2: Honest representation\n\nAvoid mistakes when mapping data to graph attributes\nDo not cherry-pick data and ignore relevant data\nUse common scales across figures/panels\nUse appropriate scaling\nIndicate missing values and uncertainty\nAvoid creating false patterns (e.g., using non-linear mappings).\n(some “mistakes” are intentional)\n\n\n#2 Honest representation"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-1",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-2",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-2",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-3",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-3",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-4",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-4",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-5",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-5",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#avoid-distortions",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#avoid-distortions",
+    "title": "How to assess data visualizations",
+    "section": "Avoid distortions",
+    "text": "Avoid distortions\nThis is a complex topic…"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-6",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-6",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "\\[\\text{Lie Factor} = \\frac{\\text{size of effect in the visual}}{\\text{size of the effect in the data}}\\]"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#the-lie-factor",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#the-lie-factor",
+    "title": "How to assess data visualizations",
+    "section": "The Lie factor",
+    "text": "The Lie factor\n\nSource: https://statsthinking21.github.io/"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#but",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#but",
+    "title": "How to assess data visualizations",
+    "section": "But…",
+    "text": "But…\n\n\n\n\n\n\nSource: https://www.powerlineblog.com/"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-7",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-7",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: Xiu-Yun et al. (2016)\n\n#2 Honest representation"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#completeness-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#completeness-1",
+    "title": "How to assess data visualizations",
+    "section": "#3 — Completeness",
+    "text": "#3 — Completeness\nGraphs must be self-contained (i.e., show everything that is necessary for the viewer to “get” the message).\nThis means, show the viewer:\n\nwhat x and y labels, legend, units, colors mean\nsome indication of the uncertainty in the data\nwhat data sources were used (when applicable)\nwhat the message / point of that graph is (titles, annotations)\nwhat “to do” with the graph to get the message\n\n\n#3 Completeness"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-8",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-8",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: Collins & Koechlin (2012)\n\n#3 Completeness"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-9",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-9",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: Miller et al. (2012)\n\n#3 Completeness\n\n\n\n#3 Completeness"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#purpose-message-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#purpose-message-1",
+    "title": "How to assess data visualizations",
+    "section": "#4 — Purpose / Message",
+    "text": "#4 — Purpose / Message\n\nEach figure should have a clear message;\nIdeally, that message is interesting and relevant;\nThis message should be the title of the figure.\n\n\n#4 Purpose / Message"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-10",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-10",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Fig 1. Mean percentage of correct answers (panel a) and mean reaction times in correct trials (panel b) as a function of training session (S1, S2, S3, S4, S5) and group (younger adults, older adults). Bars indicate the standard error of the mean.\n\nSource: https://journals.plos.org\n\n#4 Purpose / Message"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-11",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-11",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://www.statista.com\n\n#4 Purpose / Message"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-12",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-12",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://www.statisticshowto.com\n\n#4 Purpose / Message"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#rule-5-meaning-context-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#rule-5-meaning-context-1",
+    "title": "How to assess data visualizations",
+    "section": "Rule 5 — Meaning / Context",
+    "text": "Rule 5 — Meaning / Context\n\nProvide additional information (i.e., not directly included in the data) for people to understand the figure (meaning) and get a sense of the relevance or importance of the message (context).\nThis can be done by:\n\nreference points or curves\nlabelled regions or boundaries\nannotations\nillustrations, diagrams\n\n\n\n#5 Meaning / Context"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-13",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-13",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "#5 Meaning / Context"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-14",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-14",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://www.anychart.com\n\nhttps://graphics.wsj.com/infectious-diseases-and-vaccines/\n\n\n#5 Meaning / Context"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-15",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-15",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://www.bbc.com\n\n#5 Meaning / Context"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-16",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-16",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Figure 2. Learning was facilitated and predicted by previous learning of a similar task and very-long delay (VLD) conditioning was easier to learn than trace conditioning.\n\nSource: Nokia et al. (2012)\n\n#5 Meaning / Context"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#accessible-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#accessible-1",
+    "title": "How to assess data visualizations",
+    "section": "#6 — Accessible",
+    "text": "#6 — Accessible\nMake figures that are adequate for most humans\n\nEnsure size, form, and contrast are adequate for human viewers.\nConsider color blindness and the medium;\nAvoid overplotting.\n\n\n#6 Accessible"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-17",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-17",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Fig 3. Training Performance of DQN Agent with 1000 Episodes and Episode Steps. Cyber security Enhancements with reinforcement learning: A zero-day vulnerability identification perspective. Naeem et al. (2025) — Source: https://journals.plos.org\n\n#6 Accessible"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-18",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-18",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: Portal da Transparência / https://viz.wtf\n\n#6 Accessible"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-19",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-19",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Fig 6. Offline computation cost Vs. Performance (accurate case). Castronovo et al. (2016) — Source: https://journals.plos.org\n\n#6 Accessible"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#intuitive-conventional-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#intuitive-conventional-1",
+    "title": "How to assess data visualizations",
+    "section": "#7 — Intuitive / Conventional",
+    "text": "#7 — Intuitive / Conventional\nPeople have expectations and make assumptions. Violating those assumptions can mislead people. Show images to clarify topic\nExample of common conventions:\n\nincreases go up\ngreen is positive\nreading top-down, left-right\n\n\n#7 Intuitive / Conventional"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-20",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-20",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://visualisingdata.com\n\n#7 Intuitive / Conventional"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-21",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-21",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://github.com/z3tt/TidyTuesday\n\n#7 Intuitive / Conventional"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-22",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-22",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "#7 Intuitive / Conventional"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-23",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-23",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: Tufte (1991)\n\n#7 Intuitive / Conventional"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-24",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-24",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "also discussed here: https://mdsr-book.github.io/mdsr3e/08-ethics.html\n\n\n#7 Intuitive / Conventional"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-25",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-25",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://viz.wtf\n\n#7 Intuitive / Conventional"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#conventions-may-be-audience-specific",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#conventions-may-be-audience-specific",
+    "title": "How to assess data visualizations",
+    "section": "Conventions may be audience specific!",
+    "text": "Conventions may be audience specific!\n\nSource: Wager and Lindquist (2015) Principles of fMRI"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#effective-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#effective-1",
+    "title": "How to assess data visualizations",
+    "section": "#8 — Effective",
+    "text": "#8 — Effective\nBy effective I mean visual representation that are optimized for human perception and structurally adequate to support its message.\n\nuse the correct type of visualization\nmap the data to aesthetics following the laws of human perception\n\n\nsome representations are perceived more accurately than others some types of relationships are better conveyed by some types of representations;\n\n\n#8 Effective"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-26",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-26",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: Cleveland and McGill (1984)\n\n\n#8 Effective\n\n\nI will cover this more in a future session."
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-27",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-27",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "3D pie chart example\n\n#8 Effective"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-28",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-28",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "#8 Effective"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-29",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-29",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "#8 Effective"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-30",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-30",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Source: https://viz.wtf\n\n#8 Effective"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#efficient-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#efficient-1",
+    "title": "How to assess data visualizations",
+    "section": "#9 — Efficient",
+    "text": "#9 — Efficient\n\nEvery element should serve a purpose.\nRemove clutter and unnecessary decoration.\nAim for simplicity while remaining truthful to the data.\n\n\n#9 Efficient"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-31",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-31",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "#9 Efficient"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-32",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-32",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "#9 Efficient"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#dataink-ratio-chart-junk",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#dataink-ratio-chart-junk",
+    "title": "How to assess data visualizations",
+    "section": "Data/Ink ratio (chart junk)",
+    "text": "Data/Ink ratio (chart junk)\n\n\\[\\text{Data-ink ratio} = \\frac{\\text{ink used to display data}}{\\text{total ink used in visualization}}\\]\n\n\n#9 Efficient"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-33",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-33",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "#9 Efficient"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#ergonomic-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#ergonomic-1",
+    "title": "How to assess data visualizations",
+    "section": "#10 — Ergonomic",
+    "text": "#10 — Ergonomic\nMinimize effort: the elements in the figure should be organized to minimize effort (e.g., eye movements, searching, memorizing):\n\nput elements where they are needed\nadd lines/references to facilitate reading and comparing\nput things that are to be compared close to each other\nbe consistent (e.g., colors always mean the same thing)\n\nGuide attention trajectory: The elements in the figure are organized in a way that make it clear to the reader in what order they should be processed.\n\n#10 Ergonomic"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-34",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-34",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Figure 4. Weight variation (panel A) and Skin color variation (panel B) in Experiment 2. Means ± standard errors (alpha = 0.05) are plotted. Muzio et al. (2011) — Source: https://journals.plos.org\n\n#10 Ergonomic"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-35",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-35",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Ezaki & Masuda (2017) — Source: https://journals.plos.org\n\n#10 Ergonomic"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-36",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-36",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Gasque (2016) — Source: https://journals.plos.org\n\n#10 Ergonomic"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-37",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-37",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Figure 3. fMRI Results. Hujibers et al. (2009) — Source: https://journals.plos.org\n\n#10 Ergonomic"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#recap",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#recap",
+    "title": "How to assess data visualizations",
+    "section": "Recap",
+    "text": "Recap\n\n\n\nGood data\nHonest representation\nCompleteness\nPurposeful (message)\nMeaning and Context\n\n\n\nAccessible\nIntuitive\nEffective\nEfficient\nErgonomic"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#questions-comments",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#questions-comments",
+    "title": "How to assess data visualizations",
+    "section": "Questions? Comments?",
+    "text": "Questions? Comments?"
+  },
+  {
+    "objectID": "chapters/chapter2/chapter2.html",
+    "href": "chapters/chapter2/chapter2.html",
+    "title": "Chapter 2: What makes a visualization good?",
+    "section": "",
+    "text": "This chapter introduces ten key principles for evaluating the quality of a data visualization.",
     "crumbs": [
       "Chapters",
-      "Chapter 1"
+      "Chapter 2"
     ]
   },
   {
-    "objectID": "chapters/chapter1/chapter1.html#material",
-    "href": "chapters/chapter1/chapter1.html#material",
-    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "objectID": "chapters/chapter2/chapter2.html#material",
+    "href": "chapters/chapter2/chapter2.html#material",
+    "title": "Chapter 2: What makes a visualization good?",
     "section": "Material",
-    "text": "Material\n\nSlides\n\nDesigning Effective Data Visualizations",
+    "text": "Material\n\nSlides\n\nHow to assess graphs?",
     "crumbs": [
       "Chapters",
-      "Chapter 1"
-    ]
-  },
-  {
-    "objectID": "about/overview.html",
-    "href": "about/overview.html",
-    "title": "Course Overview",
-    "section": "",
-    "text": "This is the homepage for Data Visualization Design taught by Prof. Pedro Cardoso-Leite and Sophie Doublet at the University of Luxembourg.\nAll course materials will be posted on this site.",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#what",
-    "href": "about/overview.html#what",
-    "title": "Course Overview",
-    "section": "What?",
-    "text": "What?\nThis course is an introduction to data visualization design",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#when-and-where",
-    "href": "about/overview.html#when-and-where",
-    "title": "Course Overview",
-    "section": "When and where",
-    "text": "When and where\n\n\n\n\n\n\n\n\n\n\nSession\nDate\nTime\nRoom\nLocation\n\n\n\n\n1\nMonday 03.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n2\nMonday 10.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n3\nMonday 17.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n4\nMonday 24.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n5\nMonday 01.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n6\nMonday 08.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n7\nMonday 15.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "This is the (work in progress) course website for “Data Visualization Design”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction to Data Visualization Design\n\nEach chapter contains links to slides and possibly other resources.",
-    "crumbs": [
-      "Home"
+      "Chapter 2"
     ]
   },
   {
@@ -116,6 +472,71 @@
     "crumbs": [
       "Course Information",
       "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "This is the (work in progress) course website for “Data Visualization Design”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction to Data Visualization Design\nChapter 2: How to assess graphs?\n\nEach chapter contains links to slides and possibly other resources.",
+    "crumbs": [
+      "Home"
+    ]
+  },
+  {
+    "objectID": "about/overview.html",
+    "href": "about/overview.html",
+    "title": "Course Overview",
+    "section": "",
+    "text": "This is the homepage for Data Visualization Design taught by Prof. Pedro Cardoso-Leite and Sophie Doublet at the University of Luxembourg.\nAll course materials will be posted on this site.",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#what",
+    "href": "about/overview.html#what",
+    "title": "Course Overview",
+    "section": "What?",
+    "text": "What?\nThis course is an introduction to data visualization design",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#when-and-where",
+    "href": "about/overview.html#when-and-where",
+    "title": "Course Overview",
+    "section": "When and where",
+    "text": "When and where\n\n\n\n\n\n\n\n\n\n\nSession\nDate\nTime\nRoom\nLocation\n\n\n\n\n1\nMonday 03.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n2\nMonday 10.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n3\nMonday 17.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n4\nMonday 24.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n5\nMonday 01.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n6\nMonday 08.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n7\nMonday 15.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html",
+    "href": "chapters/chapter1/chapter1.html",
+    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "section": "",
+    "text": "This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world.\nThe goal of this chapter is to enforce the idea that it is important to not just “show the data” and that instead designing effective data visualization is purposeful and requires particular skills and knowledge.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html#material",
+    "href": "chapters/chapter1/chapter1.html#material",
+    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "section": "Material",
+    "text": "Material\n\nSlides\n\nDesigning Effective Data Visualizations",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1"
     ]
   },
   {
@@ -299,5 +720,103 @@
     "title": "Data Visualization Design",
     "section": "Resources",
     "text": "Resources\n\n  \n\n\nhttps://www.storytellingwithdata.com/books"
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "You will read a series of scenarios describing a dataset and communication intention.\nFor each scenario, imagine what a relevant data visualization could look like.\nExplore as many ideas as possible for each scenario."
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#tips",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#tips",
+    "title": "Draw me a picture",
+    "section": "Tips:",
+    "text": "Tips:\n\nidentify the relevant variables and their relationship\nit may help to first imagine what the underlying data would look like"
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-1",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-1",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#1\n\nA company claims their pill increases IQ.\n\n20 participants are enrolled in your study. You measure their IQ before and after they take the pill.\nMake a plot showing the effectiveness of the pill."
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-2",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-2",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#2\n\nA company claims their pill increases IQ.\n\n40 participants are enrolled in your study.\nYou measure their IQ before and after they take the pill.\n\n20 participants get the real pill;\n20 participants get a fake pill (placebo);\n\n\nWhat type of claim would you like to make about this study? Make a plot showing that."
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-3",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-3",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#3\n\nA company claims their pill increases IQ.\n1000 participants are enrolled in your study. You measure their IQ before and after they take the pill. The dosage of the ingredient in the pill is varied across participants.\nWhat type of claim would you like to make about this study? Make a plot showing that."
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-4",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-4",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#4\n\nA company claims their pill increases IQ.\n1000 participants are enrolled in your study. You measure their IQ before and after they take the pill. The company claims the pill is most effective for younger women.\nDesign a type of plot that the company might want to show."
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-5",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-5",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#5\n\nA company claims their pill increases IQ.\nThe company sold pills to 5 different universities. The number of students and their average IQ is different across each University. Some Universities enroll their students in multiple IQ increasing programs. From each student you know the age, gender, grades before the pill, grades after the pill, nationality, IQ before the pill, IQ after the pill and self-rating of well-being. Are the effects of the pill on IQ different across the 5 universities?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-6",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-6",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#6\n\nSome customers complain that the pill has no effect on them. You wonder whether the pill is effective for some people but not for others.\nUsing any data you collected until now, how would you test this hypothesis visually?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-7",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-7",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#7\n\nThe company wants to know the long-term effects of taking their IQ-increasing pill once.\n20 participants are enrolled in your study. You measure their IQ before they take the pill. Then you repeat that IQ measure every day for the next week."
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-8",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-8",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#8\n\nA biochemist suggests that the effectiveness of the molecule depends on your hormonal state, which varies across the day. On the other hand, you believe that IQ measures themselves will vary depending on the hours of day (sleepy people perform worse).\nYou have unlimited resources to test this hypothesis. But before you start, what would it look like if indeed the pill is more effective at certain times of the day?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-9",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-9",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#9\n\nYou are investigating a legal case against a company that claims their pill increases IQ. The data so far indicates that this is true for some people, but you suspect a methodological flaw: people were allowed to refuse the post-pill IQ test if they want to and if so, they were excluded from the study (the “out” group).\nImagine different scenarios of what the data for the “out” group would look like if they had completed the post-pill IQ test.\nWhich of these scenarios did the company assume?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-10",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-10",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#10\n\nYou are the head of marketing for the company selling IQ increasing pills. You want your clients to know the effect a given pill will have on them. The effects of the pills vary in intensity (how much IQ is increased), longevity (how does the effect start and wear off) and severity of side effects (head aches, jitters, etc.). The effects of each pill interact with features of the person such as their age, gender and BMI category (small, medium, large).\nWhat do you do?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-11",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-11",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#11\n\nYou measured 5 variables and want to know how they relate.\nYou measured 10 variables and want to know how they relate.\nYou measured 100 variables and want to know how they relate."
+  },
+  {
+    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#homework",
+    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#homework",
+    "title": "Draw me a picture",
+    "section": "Homework",
+    "text": "Homework\nShare your drawings on Moodle."
   }
 ]
