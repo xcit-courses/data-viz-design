@@ -9,6 +9,6 @@ In this course we will cover the following content:
 
 
 - [Chapter 1: Introduction to Data Visualization Design](../chapters/chapter1/chapter1.qmd)
-
+- [Chapter 2: How to assess graphs?](../chapters/chapter2/chapter2.qmd)
 
 Each chapter contains links to slides and possibly other resources.

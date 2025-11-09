@@ -11,6 +11,7 @@ project:
     - chapters/*/chapter*.qmd
     - chapters/*/slides/*.qmd
     - chapters/*/slides/*.Rmd
+    - exercises/*/slides/*.qmd
     - resources/*
     - assets/styles.css
 website:
@@ -43,6 +44,9 @@ website:
         contents:
           - text: Chapter 1
             href: chapters/chapter1/chapter1.qmd
+          - text: Chapter 2
+            href: chapters/chapter2/chapter2.qmd
+
       - text: Resources
         href: resources/resources.md
 
@@ -60,7 +64,8 @@ book:
         - about/syllabus.qmd
     - part: "Chapters"
       chapters:
-        - chapters/chapter1/chapter1.qmd                                      
+        - chapters/chapter1/chapter1.qmd               
+        - chapters/chapter2/chapter2.qmd                                              
     - resources/resources.md
 
 format:

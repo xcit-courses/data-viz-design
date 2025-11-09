@@ -1,0 +1,17 @@
+---
+title: "Chapter 2: What makes a visualization good?"
+---
+
+
+This chapter introduces ten key principles for evaluating the quality of a data visualization. 
+
+
+
+
+## Material
+
+### Slides
+
+- [How to assess graphs?](slides/how_to_assess_graphs.qmd)
+
+

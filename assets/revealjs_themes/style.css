@@ -97,6 +97,32 @@
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
+/* Scenario card styling */
+.scenario-card {
+  background-color: white;
+  padding: 100px 100px 100px 100px;
+  box-shadow: 16px 16px 0px rgba(54, 54, 54, 0.8);
+  max-width: 1000px;
+  margin: 100px auto;
+  position: relative;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.7em;
+  line-height: 1.8;
+  color:#1a1a1a;
+}
+
+.scenario-card .scenario-number {
+  position: absolute;
+  top: 5px;
+  right: 20px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #6b6a6a;
+  font-family: "Courier New", Courier, monospace;
+}
+
+
+
 /* Title slide styling */
 .reveal .slides section.title-slide {
   text-align: left;
