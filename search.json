@@ -10,6 +10,104 @@
     ]
   },
   {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "You will read a series of scenarios describing a dataset and communication intention.\nFor each scenario, imagine what a relevant data visualization could look like.\nExplore as many ideas as possible for each scenario."
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#tips",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#tips",
+    "title": "Draw me a picture",
+    "section": "Tips:",
+    "text": "Tips:\n\nidentify the relevant variables and their relationship\nit may help to first imagine what the underlying data would look like"
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-1",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-1",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#1\n\nA company claims their pill increases IQ.\n\n20 participants are enrolled in your study. You measure their IQ before and after they take the pill.\nMake a plot showing the effectiveness of the pill."
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-2",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-2",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#2\n\nA company claims their pill increases IQ.\n\n40 participants are enrolled in your study.\nYou measure their IQ before and after they take the pill.\n\n20 participants get the real pill;\n20 participants get a fake pill (placebo);\n\n\nWhat type of claim would you like to make about this study? Make a plot showing that."
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-3",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-3",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#3\n\nA company claims their pill increases IQ.\n1000 participants are enrolled in your study. You measure their IQ before and after they take the pill. The dosage of the ingredient in the pill is varied across participants.\nWhat type of claim would you like to make about this study? Make a plot showing that."
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-4",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-4",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#4\n\nA company claims their pill increases IQ.\n1000 participants are enrolled in your study. You measure their IQ before and after they take the pill. The company claims the pill is most effective for younger women.\nDesign a type of plot that the company might want to show."
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-5",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-5",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#5\n\nA company claims their pill increases IQ.\nThe company sold pills to 5 different universities. The number of students and their average IQ is different across each University. Some Universities enroll their students in multiple IQ increasing programs. From each student you know the age, gender, grades before the pill, grades after the pill, nationality, IQ before the pill, IQ after the pill and self-rating of well-being. Are the effects of the pill on IQ different across the 5 universities?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-6",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-6",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#6\n\nSome customers complain that the pill has no effect on them. You wonder whether the pill is effective for some people but not for others.\nUsing any data you collected until now, how would you test this hypothesis visually?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-7",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-7",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#7\n\nThe company wants to know the long-term effects of taking their IQ-increasing pill once.\n20 participants are enrolled in your study. You measure their IQ before they take the pill. Then you repeat that IQ measure every day for the next week."
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-8",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-8",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#8\n\nA biochemist suggests that the effectiveness of the molecule depends on your hormonal state, which varies across the day. On the other hand, you believe that IQ measures themselves will vary depending on the hours of day (sleepy people perform worse).\nYou have unlimited resources to test this hypothesis. But before you start, what would it look like if indeed the pill is more effective at certain times of the day?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-9",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-9",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#9\n\nYou are investigating a legal case against a company that claims their pill increases IQ. The data so far indicates that this is true for some people, but you suspect a methodological flaw: people were allowed to refuse the post-pill IQ test if they want to and if so, they were excluded from the study (the “out” group).\nImagine different scenarios of what the data for the “out” group would look like if they had completed the post-pill IQ test.\nWhich of these scenarios did the company assume?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-10",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-10",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#10\n\nYou are the head of marketing for the company selling IQ increasing pills. You want your clients to know the effect a given pill will have on them. The effects of the pills vary in intensity (how much IQ is increased), longevity (how does the effect start and wear off) and severity of side effects (head aches, jitters, etc.). The effects of each pill interact with features of the person such as their age, gender and BMI category (small, medium, large).\nWhat do you do?"
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-11",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#section-11",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "#11\n\nYou measured 5 variables and want to know how they relate.\nYou measured 10 variables and want to know how they relate.\nYou measured 100 variables and want to know how they relate."
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#share-your-drawings-on-moodle.",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_IQ.html#share-your-drawings-on-moodle.",
+    "title": "Draw me a picture",
+    "section": "Share your drawings on Moodle.",
+    "text": "Share your drawings on Moodle."
+  },
+  {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#how-to-assess-if-a-data-visualization-is-good-or-not",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#how-to-assess-if-a-data-visualization-is-good-or-not",
     "title": "How to assess data visualizations",
@@ -409,79 +507,47 @@
     "text": "Questions? Comments?"
   },
   {
-    "objectID": "chapters/chapter2/chapter2.html",
-    "href": "chapters/chapter2/chapter2.html",
-    "title": "Chapter 2: What makes a visualization good?",
+    "objectID": "chapters/chapter3/chapter3.html",
+    "href": "chapters/chapter3/chapter3.html",
+    "title": "Chapter 3: Picking the right type of data visualization",
     "section": "",
-    "text": "This chapter introduces ten key principles for evaluating the quality of a data visualization.",
+    "text": "In this chapter we will review some of the most common data visualization types as well as various criteria to help you decide which data visualization to pick for your use case.",
     "crumbs": [
       "Chapters",
-      "Chapter 2"
+      "Chapter 3"
     ]
   },
   {
-    "objectID": "chapters/chapter2/chapter2.html#material",
-    "href": "chapters/chapter2/chapter2.html#material",
-    "title": "Chapter 2: What makes a visualization good?",
+    "objectID": "chapters/chapter3/chapter3.html#material",
+    "href": "chapters/chapter3/chapter3.html#material",
+    "title": "Chapter 3: Picking the right type of data visualization",
     "section": "Material",
-    "text": "Material\n\nSlides\n\nHow to assess graphs?",
+    "text": "Material\n\nSlides\n\nPicking the right type of data visualization\n\n\n\nExercises\n\nDrawing exercises",
     "crumbs": [
       "Chapters",
-      "Chapter 2"
+      "Chapter 3"
     ]
   },
   {
-    "objectID": "about/syllabus.html",
-    "href": "about/syllabus.html",
-    "title": "Syllabus",
+    "objectID": "chapters/chapter1/chapter1.html",
+    "href": "chapters/chapter1/chapter1.html",
+    "title": "Chapter 1: Introduction to Data Visualization Design",
     "section": "",
-    "text": "This course provides a hands-on introduction to designing effective data visualizations.\n\n\n\n\n\nWill cover examples illustrating the importance of designing effective data visualizations.\nStudents will be asked to pick 3 good and 3 bad examples from their fields and comment them (why they like or dislike them; at the end of the course they will redo that and maybe redesign one of them in Figma).\n\n\n\nI will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they’ve done in 1.\n\n\n\nThere are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.\n\n\n\nPicking the right type of graph for your data; know your data viz vocabulary\n\n\n\nTools; Testing you data visualization;\n\n\n\nPresenting some tools/software for making graphs (e.g., ggplot2, D3); Cover other forms of visualization (e.g., dashboards, diagrams, visual explanations, infographics)\n\n\n\nStudents are organized in groups and asked to work on particular data visualization projects.\n\n\n\n\n\nknowledge about data visualizations\ndata viz critique\ndata viz generation",
+    "text": "This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world.\nThe goal of this chapter is to enforce the idea that it is important to not just “show the data” and that instead designing effective data visualization is purposeful and requires particular skills and knowledge.",
     "crumbs": [
-      "Course Information",
-      "Syllabus"
+      "Chapters",
+      "Chapter 1"
     ]
   },
   {
-    "objectID": "about/syllabus.html#course-description",
-    "href": "about/syllabus.html#course-description",
-    "title": "Syllabus",
-    "section": "",
-    "text": "This course provides a hands-on introduction to designing effective data visualizations.",
+    "objectID": "chapters/chapter1/chapter1.html#material",
+    "href": "chapters/chapter1/chapter1.html#material",
+    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "section": "Material",
+    "text": "Material\n\nSlides\n\nDesigning Effective Data Visualizations",
     "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#chapters-wip",
-    "href": "about/syllabus.html#chapters-wip",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Will cover examples illustrating the importance of designing effective data visualizations.\nStudents will be asked to pick 3 good and 3 bad examples from their fields and comment them (why they like or dislike them; at the end of the course they will redo that and maybe redesign one of them in Figma).\n\n\n\nI will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they’ve done in 1.\n\n\n\nThere are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.\n\n\n\nPicking the right type of graph for your data; know your data viz vocabulary\n\n\n\nTools; Testing you data visualization;\n\n\n\nPresenting some tools/software for making graphs (e.g., ggplot2, D3); Cover other forms of visualization (e.g., dashboards, diagrams, visual explanations, infographics)\n\n\n\nStudents are organized in groups and asked to work on particular data visualization projects.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#exam",
-    "href": "about/syllabus.html#exam",
-    "title": "Syllabus",
-    "section": "",
-    "text": "knowledge about data visualizations\ndata viz critique\ndata viz generation",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "This is the (work in progress) course website for “Data Visualization Design”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction to Data Visualization Design\nChapter 2: How to assess graphs?\n\nEach chapter contains links to slides and possibly other resources.",
-    "crumbs": [
-      "Home"
+      "Chapters",
+      "Chapter 1"
     ]
   },
   {
@@ -518,25 +584,68 @@
     ]
   },
   {
-    "objectID": "chapters/chapter1/chapter1.html",
-    "href": "chapters/chapter1/chapter1.html",
-    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "objectID": "about/index.html",
+    "href": "about/index.html",
+    "title": "Data Visualization Design",
     "section": "",
-    "text": "This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world.\nThe goal of this chapter is to enforce the idea that it is important to not just “show the data” and that instead designing effective data visualization is purposeful and requires particular skills and knowledge.",
+    "text": "This is the (work in progress) course website for “Data Visualization Design”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction to Data Visualization Design\nChapter 2: How to assess graphs?\nChapter 3: Picking the right type of data visualization\n\nEach chapter contains links to slides and possibly other resources.",
     "crumbs": [
-      "Chapters",
-      "Chapter 1"
+      "Home"
     ]
   },
   {
-    "objectID": "chapters/chapter1/chapter1.html#material",
-    "href": "chapters/chapter1/chapter1.html#material",
-    "title": "Chapter 1: Introduction to Data Visualization Design",
-    "section": "Material",
-    "text": "Material\n\nSlides\n\nDesigning Effective Data Visualizations",
+    "objectID": "about/syllabus.html",
+    "href": "about/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course provides a hands-on introduction to designing effective data visualizations.\n\n\n\n\n\nWill cover examples illustrating the importance of designing effective data visualizations.\nStudents will be asked to pick 3 good and 3 bad examples from their fields and comment them (why they like or dislike them; at the end of the course they will redo that and maybe redesign one of them in Figma).\n\n\n\nI will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they’ve done in 1.\n\n\n\nPicking the right type of graph for your data; know your data viz vocabulary\n\n\n\nTools; Testing you data visualization;\n\n\n\nThere are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.\n\n\n\nPresenting some tools/software for making graphs (e.g., ggplot2, D3); Cover other forms of visualization (e.g., dashboards, diagrams, visual explanations, infographics)\n\n\n\nStudents are organized in groups and asked to work on particular data visualization projects.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#course-description",
+    "href": "about/syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course provides a hands-on introduction to designing effective data visualizations.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#chapters-wip",
+    "href": "about/syllabus.html#chapters-wip",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Will cover examples illustrating the importance of designing effective data visualizations.\nStudents will be asked to pick 3 good and 3 bad examples from their fields and comment them (why they like or dislike them; at the end of the course they will redo that and maybe redesign one of them in Figma).\n\n\n\nI will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they’ve done in 1.\n\n\n\nPicking the right type of graph for your data; know your data viz vocabulary\n\n\n\nTools; Testing you data visualization;\n\n\n\nThere are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.\n\n\n\nPresenting some tools/software for making graphs (e.g., ggplot2, D3); Cover other forms of visualization (e.g., dashboards, diagrams, visual explanations, infographics)\n\n\n\nStudents are organized in groups and asked to work on particular data visualization projects.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter2/chapter2.html",
+    "href": "chapters/chapter2/chapter2.html",
+    "title": "Chapter 2: What makes a visualization good?",
+    "section": "",
+    "text": "This chapter introduces ten key principles for evaluating the quality of a data visualization.",
     "crumbs": [
       "Chapters",
-      "Chapter 1"
+      "Chapter 2"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter2/chapter2.html#material",
+    "href": "chapters/chapter2/chapter2.html#material",
+    "title": "Chapter 2: What makes a visualization good?",
+    "section": "Material",
+    "text": "Material\n\nSlides\n\nHow to assess graphs?",
+    "crumbs": [
+      "Chapters",
+      "Chapter 2"
     ]
   },
   {
@@ -722,99 +831,288 @@
     "text": "Resources\n\n  \n\n\nhttps://www.storytellingwithdata.com/books"
   },
   {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section",
-    "title": "Draw me a picture",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section",
+    "title": "Data Visualization Design",
     "section": "",
-    "text": "You will read a series of scenarios describing a dataset and communication intention.\nFor each scenario, imagine what a relevant data visualization could look like.\nExplore as many ideas as possible for each scenario."
+    "text": "Picking the right type of data visualization\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nThe Global Warming Stripes by Ed Hawkins."
   },
   {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#tips",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#tips",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-1",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-1",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "There are many ways to visualize data\n\n\nYou need to know some classics\n\n\nA principled approach leads to better choices"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#classification-strategies",
+    "href": "chapters/chapter3/slides/data_viz_types.html#classification-strategies",
+    "title": "Data Visualization Design",
+    "section": "Classification strategies",
+    "text": "Classification strategies\n\nwhat structure in the data do you want to show?\nwhat cognitive operations do you want your users to apply on the visualization?\n\n\n\nwhat kind of data do you have?\n\n\n\nOther considerations\n\n\nOften both approaches are used together"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-2",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-2",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "There’s no algorithm to determine the “best” solution\n\n\nYou need to jointly consider many criteria\n\n\nYou need to think for yourself and make choices\n\n\nbut you can often say which of two versions is better"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#what-is-analytic-purpose",
+    "href": "chapters/chapter3/slides/data_viz_types.html#what-is-analytic-purpose",
+    "title": "Data Visualization Design",
+    "section": "What is analytic purpose?",
+    "text": "What is analytic purpose?\n\nWhat structure in the data do you want to show?\nWhat cognitive operations do you want users to apply?\n\n\nThere is no single agreed-upon categorization.\nDifferent authors propose different systems, but there is large overlap."
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-3",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-3",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "FT Visual Vocabulary"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-4",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-4",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "r-graph-gallery.com"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-5",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-5",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "https://python-graph-gallery.com"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#the-type-of-data-you-have-is-a-major-determinant-of-data-visualization-choice.",
+    "href": "chapters/chapter3/slides/data_viz_types.html#the-type-of-data-you-have-is-a-major-determinant-of-data-visualization-choice.",
+    "title": "Data Visualization Design",
+    "section": "The type of data you haveis a major determinantof data visualization choice.",
+    "text": "The type of data you haveis a major determinantof data visualization choice."
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#common-data-types",
+    "href": "chapters/chapter3/slides/data_viz_types.html#common-data-types",
+    "title": "Data Visualization Design",
+    "section": "Common data types:",
+    "text": "Common data types:\n\nNumeric (integer, float; ratio, interval, ordinal)\nCategorical (ordered, unordered)\nText\nGeospatial data\nNetwork data\nDates and time"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#chart-choosers",
+    "href": "chapters/chapter3/slides/data_viz_types.html#chart-choosers",
+    "title": "Data Visualization Design",
+    "section": "Chart Choosers",
+    "text": "Chart Choosers\ndata-to-viz\nhighcharts (js)\nFT Visual Vocabulary\nR Graph Gallery\nPython Graph Gallery"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-8",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-8",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "data-to-viz.com"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#multiple-other-factors-to-consider",
+    "href": "chapters/chapter3/slides/data_viz_types.html#multiple-other-factors-to-consider",
+    "title": "Data Visualization Design",
+    "section": "Multiple other factors to consider",
+    "text": "Multiple other factors to consider\n\nHuman perception\nImportance hierarchy\nStyle and preferences\nData complexity\nTarget audience\nMedium (print, web, presentation)"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-9",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-9",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Google Maps - University of Luxembourg\n\n\n\nZoom in: see small streets, buildings, landmarks (high detail, small area)\nZoom out: see countries, capitals (low detail, large area)"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#complexity",
+    "href": "chapters/chapter3/slides/data_viz_types.html#complexity",
+    "title": "Data Visualization Design",
+    "section": "Complexity?",
+    "text": "Complexity?\n\nData\n\nNumber of observations (rows)\nNumber of attributes (columns)\n\n\n\nConceptual\n\nDifficult/abstract concepts\nMultivariate phenomena"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#adjust-the-level-of-complexity-to-your-target-audience",
+    "href": "chapters/chapter3/slides/data_viz_types.html#adjust-the-level-of-complexity-to-your-target-audience",
+    "title": "Data Visualization Design",
+    "section": "Adjust the levelof complexityto your target audience",
+    "text": "Adjust the levelof complexityto your target audience"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#common-strategies-to-handle-complexity",
+    "href": "chapters/chapter3/slides/data_viz_types.html#common-strategies-to-handle-complexity",
+    "title": "Data Visualization Design",
+    "section": "Common strategies to handle complexity",
+    "text": "Common strategies to handle complexity\n\nExplain\n\nannotations\ntutorials\ntext\n\n\n\nSimplify\n\nselect and focus on key aspects\ncompute aggregations\n\n\n\nSpread out\n\nmultiple figures, small multiples\ninteractive visualization / animations"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#example",
+    "href": "chapters/chapter3/slides/data_viz_types.html#example",
+    "title": "Data Visualization Design",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-10",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-10",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Uber’s H3: Hexagonal Hierarchical Geospatial Indexing System"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-11",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-11",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Line Plot - R Graph Gallery\n\n\nspagethi graph"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-13",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-13",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Mortality Visualization - Holtzy"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#interactive-examples",
+    "href": "chapters/chapter3/slides/data_viz_types.html#interactive-examples",
+    "title": "Data Visualization Design",
+    "section": "Interactive examples",
+    "text": "Interactive examples"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-14",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-14",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Earth Wind Patterns - earth.nullschool.net"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-15",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-15",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Global Ship Traffic - Shipmap.org"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-16",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-16",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "A Day in the Life of Americans - FlowingData"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#chart-chooser-tools",
+    "href": "chapters/chapter3/slides/data_viz_types.html#chart-chooser-tools",
+    "title": "Data Visualization Design",
+    "section": "Chart chooser tools",
+    "text": "Chart chooser tools\n\nFT Visual Vocabulary\ndata-to-viz.com - Comprehensive guide with decision tree\nHighcharts Chart Chooser - Interactive selection\nR Graph Gallery\nPython Graph Gallery"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-avoid",
+    "href": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-avoid",
+    "title": "Data Visualization Design",
+    "section": "Inspiration (what to avoid)",
+    "text": "Inspiration (what to avoid)\n\n\n\nWTF Visualizations - viz.wtf"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-mimic",
+    "href": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-mimic",
+    "title": "Data Visualization Design",
+    "section": "Inspiration (what to mimic)",
+    "text": "Inspiration (what to mimic)\n\n\n\nData Visualization Inspiration"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#mapping-multivariate-data-to-graph-attributes",
+    "href": "chapters/chapter3/slides/data_viz_types.html#mapping-multivariate-data-to-graph-attributes",
+    "title": "Data Visualization Design",
+    "section": "Mapping multivariate data to graph attributes",
+    "text": "Mapping multivariate data to graph attributes\n\n\n\nProf. Hans Rosling, Gapminder"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-17",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-17",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Remixing Rosling - Truth & Beauty"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#key-takeaways",
+    "href": "chapters/chapter3/slides/data_viz_types.html#key-takeaways",
+    "title": "Data Visualization Design",
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nMultiple classification systems exist (purpose, data type)\nNo single “best” visualization - depends on context\nConsider multiple criteria when choosing\nUse tools and galleries for guidance and inspiration\nManage complexity through simplification and interaction\nTest and iterate to find what works"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#questions",
+    "href": "chapters/chapter3/slides/data_viz_types.html#questions",
+    "title": "Data Visualization Design",
+    "section": "Questions?",
+    "text": "Questions?"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#exercise-1",
+    "href": "chapters/chapter3/slides/data_viz_types.html#exercise-1",
+    "title": "Data Visualization Design",
+    "section": "Exercise",
+    "text": "Exercise\n\nReview the 4 images you have selected last time.\n\n\nDo those figures use the appropriate type of data visualization?\nAre there other types that would be equivalent or better?\nJustify your answers\n\n\nPost your work on Moodle as:\n\nPDF file called &lt;your_name&gt;_graph_type.pdf\nOne page per graph (i.e., the image of the graph, the source, and your comments)"
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section",
+    "title": "Draw me a picture",
+    "section": "",
+    "text": "You will read a series of messages.\nFor each message, imagine what a relevant data visualization could look like.\nExplore as many ideas as possible for each scenario."
+  },
+  {
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#tips",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#tips",
     "title": "Draw me a picture",
     "section": "Tips:",
     "text": "Tips:\n\nidentify the relevant variables and their relationship\nit may help to first imagine what the underlying data would look like"
   },
   {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-1",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-1",
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-1",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-1",
     "title": "Draw me a picture",
     "section": "",
-    "text": "#1\n\nA company claims their pill increases IQ.\n\n20 participants are enrolled in your study. You measure their IQ before and after they take the pill.\nMake a plot showing the effectiveness of the pill."
+    "text": "#1\n\n“Ransomware attacks have dramatically increased since 2025”"
   },
   {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-2",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-2",
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-2",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-2",
     "title": "Draw me a picture",
     "section": "",
-    "text": "#2\n\nA company claims their pill increases IQ.\n\n40 participants are enrolled in your study.\nYou measure their IQ before and after they take the pill.\n\n20 participants get the real pill;\n20 participants get a fake pill (placebo);\n\n\nWhat type of claim would you like to make about this study? Make a plot showing that."
+    "text": "#2\n\n“Rich countries invest more in cybersecurity”"
   },
   {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-3",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-3",
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-3",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-3",
     "title": "Draw me a picture",
     "section": "",
-    "text": "#3\n\nA company claims their pill increases IQ.\n1000 participants are enrolled in your study. You measure their IQ before and after they take the pill. The dosage of the ingredient in the pill is varied across participants.\nWhat type of claim would you like to make about this study? Make a plot showing that."
+    "text": "#3\n\n“Phishing was the most common cyberattack method during COVID”"
   },
   {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-4",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-4",
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-4",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-4",
     "title": "Draw me a picture",
     "section": "",
-    "text": "#4\n\nA company claims their pill increases IQ.\n1000 participants are enrolled in your study. You measure their IQ before and after they take the pill. The company claims the pill is most effective for younger women.\nDesign a type of plot that the company might want to show."
+    "text": "#4\n\n“Cyberattacks peak twice per year”"
   },
   {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-5",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-5",
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-5",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section-5",
     "title": "Draw me a picture",
     "section": "",
-    "text": "#5\n\nA company claims their pill increases IQ.\nThe company sold pills to 5 different universities. The number of students and their average IQ is different across each University. Some Universities enroll their students in multiple IQ increasing programs. From each student you know the age, gender, grades before the pill, grades after the pill, nationality, IQ before the pill, IQ after the pill and self-rating of well-being. Are the effects of the pill on IQ different across the 5 universities?"
+    "text": "#5\n\n“The effectiveness of cyber-protection depends on the level of training, team size and team composition.”"
   },
   {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-6",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-6",
-    "title": "Draw me a picture",
-    "section": "",
-    "text": "#6\n\nSome customers complain that the pill has no effect on them. You wonder whether the pill is effective for some people but not for others.\nUsing any data you collected until now, how would you test this hypothesis visually?"
-  },
-  {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-7",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-7",
-    "title": "Draw me a picture",
-    "section": "",
-    "text": "#7\n\nThe company wants to know the long-term effects of taking their IQ-increasing pill once.\n20 participants are enrolled in your study. You measure their IQ before they take the pill. Then you repeat that IQ measure every day for the next week."
-  },
-  {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-8",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-8",
-    "title": "Draw me a picture",
-    "section": "",
-    "text": "#8\n\nA biochemist suggests that the effectiveness of the molecule depends on your hormonal state, which varies across the day. On the other hand, you believe that IQ measures themselves will vary depending on the hours of day (sleepy people perform worse).\nYou have unlimited resources to test this hypothesis. But before you start, what would it look like if indeed the pill is more effective at certain times of the day?"
-  },
-  {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-9",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-9",
-    "title": "Draw me a picture",
-    "section": "",
-    "text": "#9\n\nYou are investigating a legal case against a company that claims their pill increases IQ. The data so far indicates that this is true for some people, but you suspect a methodological flaw: people were allowed to refuse the post-pill IQ test if they want to and if so, they were excluded from the study (the “out” group).\nImagine different scenarios of what the data for the “out” group would look like if they had completed the post-pill IQ test.\nWhich of these scenarios did the company assume?"
-  },
-  {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-10",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-10",
-    "title": "Draw me a picture",
-    "section": "",
-    "text": "#10\n\nYou are the head of marketing for the company selling IQ increasing pills. You want your clients to know the effect a given pill will have on them. The effects of the pills vary in intensity (how much IQ is increased), longevity (how does the effect start and wear off) and severity of side effects (head aches, jitters, etc.). The effects of each pill interact with features of the person such as their age, gender and BMI category (small, medium, large).\nWhat do you do?"
-  },
-  {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-11",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#section-11",
-    "title": "Draw me a picture",
-    "section": "",
-    "text": "#11\n\nYou measured 5 variables and want to know how they relate.\nYou measured 10 variables and want to know how they relate.\nYou measured 100 variables and want to know how they relate."
-  },
-  {
-    "objectID": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#homework",
-    "href": "exercises/draw_scenarios_IQ/slides/draw_scenarios_IQ.html#homework",
+    "objectID": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#homework",
+    "href": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#homework",
     "title": "Draw me a picture",
     "section": "Homework",
     "text": "Homework\nShare your drawings on Moodle."

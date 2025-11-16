@@ -9,7 +9,8 @@
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-4c0671d767c74aad3c4d4016b4e342bd.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.6.39">
 
-  <title>Data Visualization Design – quarto-inputb3f7facaffa05fa1</title>
+  <meta name="author" content="Pedro Cardoso-Leite">
+  <title>Data Visualization Design – data_viz_types</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -135,7 +136,7 @@
 <div style="text-align: left; position: absolute; bottom: 150px; left: 50px;">
 <div style="background-color: rgba(245, 42, 42, 0.88); color: white; padding: 30px 40px; display: inline-block; margin-bottom: 20px;">
 <h2 style="margin: 0; color: white;">
-Designing Effective Data Visualizations
+Picking the right type of data visualization
 </h2>
 </div>
 <div style="background-color: rgba(6, 23, 99, 0.9); color: white; padding: 15px 25px; display: inline-block;">
@@ -152,492 +153,520 @@ Pedro Cardoso-Leite
 </div>
 </section>
 <section>
-<section id="lets-start-with-a-story" class="title-slide slide level1 center">
-<h1>Let’s start with a story…</h1>
+<section id="how-to-choose-a-graph-type" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>How to choose a graph type?</h1>
 
 </section>
 <section id="section-1" class="slide level2 center">
 <h2></h2>
-<div style="display: flex; gap: 0px; align-items: center; justify-content: center; margin-top: 0px;">
-<p><img data-src="images/challenger_crew.jpg" style="height: 700px; width: auto;"></p>
-<p><img data-src="images/challenger_spaceship.png" style="height: 700px; width: auto;"></p>
+<div class="fragment">
+<p>There are many ways to visualize data</p>
 </div>
-<div class="footer">
-<p>The Challenger Space Shuttle January 28, 1986</p>
+<div class="fragment">
+<p>You need to know some classics</p>
 </div>
+<div class="fragment">
+<p>A principled approach leads to better choices</p>
+</div>
+</section></section>
+<section>
+<section id="typologies-of-data-visualizations" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>Typologies of<br>Data Visualizations</h1>
+
+</section>
+<section id="classification-strategies" class="slide level2 center">
+<h2>Classification strategies</h2>
+<div class="fragment">
+<p><em>what structure in the data do you want to show?</em></p>
+<p><em>what cognitive operations do you want your users to apply on the visualization?</em></p>
+</div>
+<p><br></p>
+<div class="fragment">
+<p><em>what kind of data do you have?</em></p>
+</div>
+<p><br></p>
+<div class="fragment">
+<p>Other considerations</p>
+</div>
+<aside class="notes">
+<p>Often both approaches are used together</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
 <section id="section-2" class="slide level2 center">
 <h2></h2>
-<p>The night before…</p>
+<div class="fragment">
+<p>There’s no algorithm to determine the “best” solution</p>
+</div>
+<div class="fragment">
+<p>You need to jointly consider many criteria</p>
+</div>
+<div class="fragment">
+<p>You need to think for yourself and make choices</p>
+</div>
+<aside class="notes">
+<p>but you can often say which of two versions is better</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section></section>
+<section>
+<section id="classification-by-analytic-purpose" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>Classification<br>by Analytic Purpose</h1>
 
-<img data-src="images/challenger_raising_issue.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:90.0%"></section>
+</section>
+<section id="what-is-analytic-purpose" class="slide level2">
+<h2>What is analytic purpose?</h2>
+<ul>
+<li class="fragment"><em>What structure in the data do you want to show?</em></li>
+<li class="fragment"><em>What cognitive operations do you want users to apply?</em></li>
+</ul>
+<aside class="notes">
+<p>There is no single agreed-upon categorization.</p>
+<p>Different authors propose different systems, but there is large overlap.</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="section-3" class="slide level2 center">
 <h2></h2>
-<div style="display: flex; align-items: center; height: 100%;">
-<div style="flex: 1; padding-right: 40px;">
-<p style="font-size: 1.5em; font-weight: regular;">
-What’s the issue?
-</p>
+<iframe src="https://ft-interactive.github.io/visual-vocabulary/" width="100%" height="800px" style="border: 2px solid #ccc;">
+</iframe>
+<div class="footer">
+<p><a href="https://ft-interactive.github.io/visual-vocabulary/">FT Visual Vocabulary</a></p>
 </div>
-<div style="flex: 1; display: flex; justify-content: flex-end;">
-<p><img data-src="images/challenger_spaceship.png" style="height: 700px; width: auto; box-shadow: 0 10px 30px rgba(0,0,0,0.3);"></p>
-</div>
-</div>
-<div class="fragment" data-fragment-index="6" style="position: absolute; top: 380px; left: 600px; text-align: center; line-height: 1.6;">
-<p><span class="annotation-text">O-rings</span><br>
-<span class="annotation-text">might get damaged</span><br>
-<span class="annotation-text">when it’s too cold.</span></p>
-</div>
-<svg class="fragment" data-fragment-index="6" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none;">
-<defs> <marker id="arrowhead" markerwidth="10" markerheight="10" refx="9" refy="3" orient="auto"> <polygon points="0 0, 10 3, 0 6" class="arrowhead-orange"></polygon> </marker> </defs> <!-- Curved arrow using path with quadratic bezier curve --> <path d="M 870 420 Q 950 400, 1255 382" class="arrow-orange" marker-end="url(#arrowhead)"></path>
-</svg>
 </section>
 <section id="section-4" class="slide level2 center">
 <h2></h2>
-<div style="position: relative; width: 70%; margin: 0 auto;">
-<p><img data-src="images/challenger_launch_decision.jpg" class="img-shadow" style="width:100.0%"></p>
-<div class="fragment" style="position: absolute; top: -1%; left: 0; width: 100%;">
-<p><img data-src="images/challenger_launch_decision_overlay.png" style="width:100.0%"></p>
-</div>
+<iframe src="https://r-graph-gallery.com" width="100%" height="700px" style="border: 2px solid #ccc;">
+</iframe>
+<div class="footer">
+<p><a href="https://r-graph-gallery.com">r-graph-gallery.com</a></p>
 </div>
 </section>
-<section id="section-5" class="slide level2" data-background-iframe="https://www.youtube.com/embed/OtzgbG8ZgdM?autoplay=1" data-background-interactive="true">
+<section id="section-5" class="slide level2 center">
 <h2></h2>
+<iframe src="https://python-graph-gallery.com" width="100%" height="700px" style="border: 2px solid #ccc;">
+</iframe>
+<div class="footer">
+<p><a href="https://python-graph-gallery.com">https://python-graph-gallery.com</a></p>
+</div>
+</section></section>
+<section>
+<section id="classification-by-data-type" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>Classification<br>by Data Type</h1>
+
 </section>
-<section id="what-happened" class="slide level2">
-<h2>What happened?</h2>
+<section id="the-type-of-data-you-have-is-a-major-determinant-of-data-visualization-choice." class="slide level2 center">
+<h2>The type of data you have<br>is a major determinant<br>of data visualization choice.</h2>
+</section>
+<section id="common-data-types" class="slide level2">
+<h2>Common data types:</h2>
+<ul>
+<li class="fragment">Numeric (integer, float; ratio, interval, ordinal)</li>
+<li class="fragment">Categorical (ordered, unordered)</li>
+<li class="fragment">Text</li>
+<li class="fragment">Geospatial data</li>
+<li class="fragment">Network data</li>
+<li class="fragment">Dates and time</li>
+</ul>
 </section>
 <section id="section-6" class="slide level2 center">
 <h2></h2>
-
-<img data-src="images/visual_explanations_book_cover.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
-<section id="what-happened-1" class="slide level2">
-<h2>What happened?</h2>
-<ul>
-<li class="fragment">What was the concern?</li>
-<li class="fragment">What data / information should they have shared?</li>
-</ul>
-<!-- list of exchanges -->
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/temp_continuous.png" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/temp_categorical.png" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+</div></div>
 </section>
 <section id="section-7" class="slide level2 center">
 <h2></h2>
-<div style="display: flex; gap: 30px; padding-top: 50px;">
-<div style="display: flex; flex-direction: column; gap: 8px;">
-<div class="fragment fade-out box-white" data-fragment-index="2">
+<div class="columns">
+<div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/temp_ordinal.png" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+</div><div class="column fragment" style="width:50%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/temp_categorical_ranking.png" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
+</figure>
+</div>
+</div></div>
+</section>
+<section id="chart-choosers" class="slide level2 center">
+<h2>Chart Choosers</h2>
+<p><a href="https://www.data-to-viz.com/">data-to-viz</a></p>
+<p><a href="https://www.highcharts.com/chartchooser/">highcharts (js)</a></p>
+<p><a href="https://ft-interactive.github.io/visual-vocabulary/">FT Visual Vocabulary</a></p>
+<p><a href="https://r-graph-gallery.com">R Graph Gallery</a></p>
+<p><a href="https://python-graph-gallery.com">Python Graph Gallery</a></p>
+<!--
+ (probably the coolest)
 
-</div>
-<div class="fragment box-black" data-fragment-index="2">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="2">
-
-</div>
-<div class="fragment box-black" data-fragment-index="2">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="2">
-
-</div>
-<div class="fragment box-black" data-fragment-index="2">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="2">
-
-</div>
-<div class="fragment box-black" data-fragment-index="2">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="2">
-
-</div>
-<div class="fragment box-black" data-fragment-index="2">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="2">
-
-</div>
-<div class="fragment box-black" data-fragment-index="2">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="4">
-
-</div>
-<div class="fragment box-gray" data-fragment-index="4">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="4">
-
-</div>
-<div class="fragment box-gray" data-fragment-index="4">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="4">
-
-</div>
-<div class="fragment box-gray" data-fragment-index="4">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="4">
-
-</div>
-<div class="fragment box-gray" data-fragment-index="4">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="4">
-
-</div>
-<div class="fragment box-gray" data-fragment-index="4">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="4">
-
-</div>
-<div class="fragment box-gray" data-fragment-index="4">
-
-</div>
-<div class="fragment fade-out box-white" data-fragment-index="5">
-
-</div>
-<div class="fragment box-yellow" data-fragment-index="5">
-
-</div>
-</div>
-<div style="flex: 1; display: flex; flex-direction: column; padding-top: 0;">
-<div class="fragment" data-fragment-index="1" style="min-height: 48px; display: flex; align-items: center; padding-left: 0px;">
-<p><strong>Of the 13 charts</strong> circulated by Thiokol managers and engineers to the scattered teleconferees,</p>
-</div>
-<div class="fragment" data-fragment-index="2" style="min-height: 200px; display: flex; align-items: center; padding-left: 40px;">
-<p><span style="background-color: black; color: white; padding: 2px 6px;"><strong>six contained no tabled data</strong></span> about either O-ring temperature, O-ring blow-by, or O-ring anomaly (these were primarily outlines of arguments being made by the Thiokol engineers).</p>
-</div>
-<div class="fragment" data-fragment-index="3" style="min-height: 20px; display: flex; align-items: center; padding-left: 80px;">
-<p><strong>Of the seven remaining charts containing data,</strong></p>
-</div>
-<div class="fragment" data-fragment-index="4" style="min-height: 100px; display: flex; align-items: center; padding-left: 120px;">
-<p><span style="background-color: gray; color: white; padding: 2px 6px;"><strong>six of them included data on either launch temperatures or O-ring anomaly <br>but not both</strong></span> in relation to each other.</p>
-</div>
-<div class="fragment" data-fragment-index="5" style="display: flex; align-items: center; padding-left: 160px;">
-<p><strong>Only one chart</strong> relating O-ring temperature and O-ring damage was prepared by a Thiokol engineer.</p>
-</div>
-</div>
-</div>
-<div class="fragment" data-fragment-index="6" style="position: absolute; top: 800px; left: 300px;">
-<p class="annotation-text">
-Let’s focus on this one document.
-</p>
-</div>
-<!-- arrow -->
-<svg class="fragment" data-fragment-index="6" style="position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; pointer-events: none; z-index: 1000; overflow: visible;">
-<defs> <marker id="arrowhead-orange-box" viewbox="0 0 10 10" refx="8" refy="5" markerwidth="6" markerheight="6" orient="auto"> <polygon points="0 0, 10 5, 0 10" fill="black"></polygon> </marker> </defs> <path d="M 300 830 Q 180 830, 50 680" stroke="black" stroke-width="3" fill="none" marker-end="url(#arrowhead-orange-box)"></path>
-</svg>
+https://www.fassforward.com/chartchoosercards
+-->
 </section>
 <section id="section-8" class="slide level2 center">
 <h2></h2>
-<div style="display: flex; gap: 20px; align-items: flex-start; justify-content: center; height: 100%;">
-<div style="flex: 3;">
-<p><img data-src="images/rocket_diagram_2_rows.jpg" class="img-shadow" style="width:100.0%"></p>
+<iframe src="https://www.data-to-viz.com/" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://www.data-to-viz.com/">data-to-viz.com</a></p>
 </div>
-<div style="flex: 1;">
-<p><img data-src="images/rocket_diagram_legend.jpg" class="img-shadow" style="width:100.0%"></p>
-</div>
-</div>
+</section></section>
+<section>
+<section id="other-criteria-for-choosing-visualizations" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>Other Criteria for Choosing Visualizations</h1>
+
+</section>
+<section id="multiple-other-factors-to-consider" class="slide level2">
+<h2>Multiple other factors to consider</h2>
+<ul>
+<li class="fragment">Human perception</li>
+<li class="fragment">Importance hierarchy</li>
+<li class="fragment">Style and preferences</li>
+<li class="fragment">Data complexity</li>
+<li class="fragment">Target audience</li>
+<li class="fragment">Medium (print, web, presentation)</li>
+</ul>
+<!--
+## Human perception principles
+
+Visual encoding effectiveness matters:
+
+- Position is most accurately perceived
+- Length is easier to compare than area
+- Color is good for categories, not quantities
+- Angle judgments are less accurate
+
+::: footer
+See Cleveland & McGill's perceptual hierarchy
+:::
+
+## Style and preferences
+
+Consider:
+
+- Organizational branding
+- Design consistency
+- Aesthetic preferences
+- Cultural context
+- Accessibility requirements
+
+-->
+</section></section>
+<section>
+<section id="managing-complexity" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>Managing<br>Complexity</h1>
+
 </section>
 <section id="section-9" class="slide level2 center">
 <h2></h2>
-
-<img data-src="images/rocket_diagram_legend.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:50.0%"></section>
+<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2610.0!2d5.950249!3d49.504086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slu!4v1234567890" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://www.google.com/maps/place/University+of+Luxembourg/@49.504086,5.950249,15z/">Google Maps - University of Luxembourg</a></p>
+</div>
+<aside class="notes">
+<ul>
+<li>Zoom in: see small streets, buildings, landmarks (high detail, small area)</li>
+<li>Zoom out: see countries, capitals (low detail, large area)</li>
+</ul>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="complexity" class="slide level2">
+<h2>Complexity?</h2>
+<div class="fragment">
+<p>Data</p>
+<ul>
+<li class="fragment">Number of observations (rows)</li>
+<li class="fragment">Number of attributes (columns)</li>
+</ul>
+</div>
+<div class="fragment">
+<p>Conceptual</p>
+<ul>
+<li class="fragment">Difficult/abstract concepts</li>
+<li class="fragment">Multivariate phenomena</li>
+</ul>
+</div>
+</section>
+<section id="adjust-the-level-of-complexity-to-your-target-audience" class="slide level2 center">
+<h2>Adjust the level<br>of complexity<br>to your target audience</h2>
+</section>
+<section id="common-strategies-to-handle-complexity" class="slide level2">
+<h2>Common strategies to handle complexity</h2>
+<div class="fragment">
+<p><strong>Explain</strong></p>
+<ul>
+<li class="fragment">annotations</li>
+<li class="fragment">tutorials</li>
+<li class="fragment">text</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Simplify</strong></p>
+<ul>
+<li class="fragment">select and focus on key aspects</li>
+<li class="fragment">compute aggregations</li>
+</ul>
+</div>
+<div class="fragment">
+<p><strong>Spread out</strong></p>
+<ul>
+<li class="fragment">multiple figures, small multiples</li>
+<li class="fragment">interactive visualization / animations</li>
+</ul>
+</div>
+</section>
+<section id="example" class="slide level2 center">
+<h2>Example</h2>
+<div class="columns">
+<div class="column" style="width:40%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/rocket_diagram_legend.jpg" class="img-shadow quarto-figure quarto-figure-center" height="500"></p>
+</figure>
+</div>
+</div><div class="column" style="width:60%;">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/tufte_challenger_1.png" class="img-shadow quarto-figure quarto-figure-center" height="500"></p>
+</figure>
+</div>
+</div></div>
+</section>
 <section id="section-10" class="slide level2 center">
 <h2></h2>
-
-<img data-src="images/rocket_diagram_2_rows.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:50.0%"></section>
-<section id="what-do-you-think-about-this-chart" class="slide level2">
-<h2>What do you think about this chart?</h2>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+<p><img data-src="images/hexa_plot.png" class="img-shadow" style="display: block; margin: 0 auto;;width:70.0%"></p>
+</div>
+<div class="footer">
+<p><a href="https://www.uber.com/en-FR/blog/h3/">Uber’s H3: Hexagonal Hierarchical Geospatial Indexing System</a></p>
+</div>
 </section>
-<section id="section-11" class="slide level2 center">
+<section id="section-11" class="slide level2">
 <h2></h2>
-
-<img data-src="images/rocket_diagram_1_row.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<iframe src="https://r-graph-gallery.com/line-plot.html" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://r-graph-gallery.com/line-plot.html">Line Plot - R Graph Gallery</a></p>
+</div>
+<aside class="notes">
+<p>spagethi graph</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
 <section id="section-12" class="slide level2 center">
 <h2></h2>
-<div style="text-align: center;">
-<p><img src="images/tufte_challenger_1.png" width="70%" class="img-shadow"></p>
-</div>
-<div class="footer">
-<p>Edward Tufte’s redesigned chart from “Visual Explanations”</p>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+<p><img data-src="images/Consumer-Confidence-2022-main.png" class="img-shadow" style="display: block; margin: 0 auto;;width:45.0%"></p>
 </div>
 </section>
-<section id="section-13" class="slide level2 center">
+<section id="section-13" class="slide level2">
 <h2></h2>
-
-<img data-src="images/tufte_challenger_2.jpg" class="img-shadow r-stretch" style="width:100.0%"><div class="footer">
-<p>Edward Tufte’s redesigned chart from “Visual Explanations”</p>
+<iframe src="https://holtzy.github.io/Mortality/index.html" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://holtzy.github.io/Mortality/index.html">Mortality Visualization - Holtzy</a></p>
+</div>
+</section>
+<section id="interactive-examples" class="slide level2">
+<h2>Interactive examples</h2>
+</section>
+<section id="section-14" class="slide level2 center">
+<h2></h2>
+<iframe src="https://earth.nullschool.net/#current/wind/surface/level/orthographic" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://earth.nullschool.net/#current/wind/surface/level/orthographic">Earth Wind Patterns - earth.nullschool.net</a></p>
+</div>
+</section>
+<section id="section-15" class="slide level2 center">
+<h2></h2>
+<iframe src="https://www.shipmap.org/" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://www.shipmap.org/">Global Ship Traffic - Shipmap.org</a></p>
+</div>
+</section>
+<section id="section-16" class="slide level2 center">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+<p><img data-src="images/american_time_use_survey.png" class="img-shadow" style="display: block; margin: 0 auto;;width:80.0%"></p>
+</div>
+<div class="footer">
+<p><a href="https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/">A Day in the Life of Americans - FlowingData</a></p>
 </div>
 </section></section>
 <section>
-<section id="one-more-story" class="title-slide slide level1 center">
-<h1>One more story…</h1>
+<section id="how-to" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>How to</h1>
 
 </section>
-<section id="section-14" class="slide level2" data-background-iframe="https://www.youtube.com/embed/lNjrAXGRda4?autoplay=1" data-background-interactive="true">
-<h2></h2>
-<aside class="notes">
-<p>other interesting videos: - https://www.youtube.com/watch?v=VJ86D_DtyWg - https://www.youtube.com/watch?v=Pq32LB8j2K8</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="section-15" class="slide level2">
-<h2></h2>
-<p><a href="https://flourish.studio/blog/masters-john-snow/">There are now more modern version of the John Snow data exploration</a></p>
-<div class="footer">
-<p>https://flourish.studio/blog/masters-john-snow/</p>
-</div>
-</section></section>
-<section>
-<section id="lets-have-a-look-at-some-numbers" class="title-slide slide level1 center">
-<h1>Let’s have a look at some numbers…</h1>
-<!-- Anscombe's 
- Do we really need to visualize data?
--->
-</section>
-<section id="section-16" class="slide level2">
-<h2></h2>
-<div style="text-align: center;">
-<object type="image/svg+xml" data="images/anscome_slide_gs.svg" style="width: 80%; max-width: 1400px;">
-Your browser does not support SVG
-</object>
-</div>
-<div class="fragment" style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); text-align: center; line-height: 1.6;">
-<p><span class="annotation-text">What can you tell me about these four datasets?</span><br>
-<span class="annotation-text">Are they the same?</span></p>
-</div>
-</section>
-<section id="what-can-you-say-about-these-four-datasets" class="slide level2">
-<h2>What can you say about these four datasets?</h2>
-<div style="display: flex; align-items: center; justify-content: center; height: 100%;">
-<p><img src="images/anscombe_quartett.png" style="width: 1000px;" class="img-shadow"></p>
-</div>
-</section>
-<section id="anscombes-quartet" class="slide level2">
-<h2>Anscombe’s Quartet</h2>
+<section id="chart-chooser-tools" class="slide level2">
+<h2>Chart chooser tools</h2>
 <ul>
-<li class="fragment">Constructed in 1973 by statistician <strong>Francis Anscombe</strong></li>
-<li class="fragment">Demonstrates the importance of <strong>graphing data</strong></li>
-<li class="fragment">Shows the effect of <strong>outliers</strong> on statistical properties</li>
-<li class="fragment">Intended to counter the impression among statisticians that <strong>“numerical calculations are exact, but graphs are rough.”</strong></li>
+<li class="fragment"><a href="https://ft-interactive.github.io/visual-vocabulary/">FT Visual Vocabulary</a></li>
+<li class="fragment"><a href="https://www.data-to-viz.com/">data-to-viz.com</a> - Comprehensive guide with decision tree</li>
+<li class="fragment"><a href="https://www.highcharts.com/chartchooser/">Highcharts Chart Chooser</a> - Interactive selection</li>
+<li class="fragment"><a href="https://r-graph-gallery.com">R Graph Gallery</a></li>
+<li class="fragment"><a href="https://python-graph-gallery.com">Python Graph Gallery</a></li>
 </ul>
-
-<aside><div>
-<p><a href="https://en.wikipedia.org/wiki/Anscombe%27s_quartet">Wikipedia: Anscombe’s quartet</a></p>
-</div></aside></section>
-<section id="section-17" class="slide level2">
-<h2></h2>
-<div class="img-shadow" style="background-color: white; padding: 120px; border-radius: 10px; max-width: 800px; margin: 150px auto;">
-<p><em>“The greatest value of a picture is when it forces us to notice what we never expected to see.”</em></p>
-<p><br></p>
-<p><span style="color: var(--color-gray-dark);"><strong>John W. Tukey</strong></span></p>
-</div>
 </section>
-<section id="the-data-science-workflow" class="slide level2">
-<h2>The data science workflow</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/data_science_workflow.jpg" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-
-<aside><div>
-<p>Source: <a href="https://r4ds.hadley.nz/">R for Data Science</a></p>
-</div></aside></section>
-<section id="the-two-reasons-for-visualizing-data" class="slide level2">
-<h2>The two reasons for visualizing data</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/data_science_workflow.jpg" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-
-<div class="fragment" data-fragment-index="1" style="position: absolute; top: 480px; left: 720px; width: 190px; height: 80px; border: 6px solid red; background-color: transparent;">
-
-</div>
-<div class="fragment" data-fragment-index="2" style="position: absolute; top: 170px; left: 720px; width: 250px; height: 80px; border: 6px solid red; background-color: transparent;">
-
-</div>
-<aside><div>
-<p>Source: <a href="https://r4ds.hadley.nz/">R for Data Science</a></p>
-</div></aside></section></section>
-<section>
-<section id="what-have-learned" class="title-slide slide level1 center">
-<h1>What have learned?</h1>
-
-</section>
-<section id="the-two-purposes-of-data-visualization" class="slide level2">
-<h2>The two purposes of data visualization</h2>
-<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"></p>
-<p><em>The key function of data visualization is to move information from point A to point B.</em></p>
-<div style="display: flex; gap: 60px; max-width: 1400px; justify-content: center; margin: 80px auto 0 auto;">
-<div style="background: white; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border-radius: 10px; flex: 1; text-align: left;">
-<div style="font-style: italic; margin-bottom: 30px;">
-In <span style="color: var(--color-blue-light); font-weight: bold;">exploratory</span> visualization,
-</div>
-<div style="display: flex; align-items: center; justify-content: center; gap: 20px; font-size: 1.2em; margin: 30px 0;">
-<p><i class="fas fa-table" style="font-size: 3em; color: var(--color-gray-dark);"></i> <i class="fas fa-arrow-right" style="font-size: 2em; color: var(--color-blue-light);"></i> <i class="fas fa-user" style="font-size: 3em; color: var(--color-gray-dark);"></i></p>
-</div>
-<div style="font-style: italic; margin-top: 30px; font-size: 0.85em;">
-point A is the dataset and<br>point B is the designer’s own mind.
-</div>
-</div>
-<div style="background: white; padding: 40px; box-shadow: 0 10px 30px rgba(0,0,0,0.3); border-radius: 10px; flex: 1; text-align: left;">
-<div style="font-style: italic; margin-bottom: 30px;">
-In <span style="color: var(--color-orange); font-weight: bold;">explanatory</span> visualization,
-</div>
-<div style="display: flex; align-items: center; justify-content: center; gap: 20px; font-size: 1.2em; margin: 30px 0;">
-<p><i class="fas fa-user" style="font-size: 3em; color: var(--color-gray-dark);"></i> <i class="fas fa-arrow-right" style="font-size: 2em; color: var(--color-orange);"></i> <i class="fas fa-user" style="font-size: 3em; color: var(--color-gray-dark);"></i></p>
-</div>
-<div style="font-style: italic; margin-top: 30px; font-size: 0.85em;">
-point A is the mind of the designer, and<br>point B is the mind of the reader.”
-</div>
-</div>
-</div>
-
-<aside><div>
-<p>Julie Steele &amp; Noah Iliinsky, <em>Designing Data Visualizations</em></p>
-</div></aside></section>
-<section id="two-types-of-visualizing-data" class="slide level2">
-<h2>Two “types” of visualizing data</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/data_science_workflow.jpg" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-
-<div class="fragment" data-fragment-index="1" style="position: absolute; top: 170px; left: 720px; width: 250px; height: 80px; border: 6px solid var(--color-blue-light); background-color: transparent;">
-
-</div>
-<div class="fragment" data-fragment-index="1" style="position: absolute; top: 120px; left: 1190px; transform: translateX(-50%); text-align: left; color: var(--color-blue-light);">
-<p><strong>Exploration</strong> <br>iterate fast <br>check and recheck</p>
-</div>
-<div class="fragment" data-fragment-index="2" style="position: absolute; top: 330px; left: 1130px; width: 370px; height: 80px; border: 6px solid var(--color-orange); background-color: transparent;">
-
-</div>
-<div class="fragment" data-fragment-index="2" style="position: absolute; top: 425px; left: 1130px; text-align: left; color: var(--color-orange);">
-<p><strong>Explanation</strong> <br>deliberate, purposeful <br>specific, perfect</p>
-</div>
-<!--
-# {data-background-image="images/climate-stripes.jpg" data-background-size="cover"}
-
-::: {style="background-color: rgba(255, 255, 255, 0.9); padding: 30px; max-width: 800px; margin: 150px auto; border-radius: 10px;" class="img-shadow"}
-**Beyond informing...**
-<br/>
-Informing might not be enough.
-:::
--->
-<aside><div>
-<p>Source: <a href="https://r4ds.hadley.nz/">R for Data Science</a></p>
-</div></aside></section>
-<section id="beyond-informing" class="slide level2">
-<h2>Beyond informing…</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/climate-stripes.jpg" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-
-<aside><div>
-<p>Source: <a href="https://ed-hawkins.github.io/climate-visuals/stripes.html">The Global Warming Stripes by Ed Hawkins</a></p>
-</div></aside></section>
-<section id="section-18" class="slide level2" data-background-iframe="https://www.youtube.com/embed/3VIHRLUnVOI?autoplay=1" data-background-interactive="true">
-<h2></h2>
-</section>
-<section id="section-19" class="slide level2 center">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 100%;">
-<p><img src="images/climate-stripes_with_linechart.jpg" style="width: 90%; height: auto;" class="img-shadow"></p>
-</div>
+<section id="inspiration-what-to-avoid" class="slide level2">
+<h2>Inspiration (what to avoid)</h2>
+<iframe src="https://viz.wtf/" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
 <div class="footer">
-<p>https://doi.org/10.1175/BAMS-D-24-0212.1</p>
+<p><a href="https://viz.wtf/">WTF Visualizations - viz.wtf</a></p>
 </div>
 </section>
-<section id="section-20" class="slide level2" data-background-image="images/climate-stripes_showcase.png" data-background-size="cover">
-<h2></h2>
+<section id="inspiration-what-to-mimic" class="slide level2">
+<h2>Inspiration (what to mimic)</h2>
+<iframe src="https://www.dataviz-inspiration.com/" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
 <div class="footer">
-<p>https://showyourstripes.info/showcase</p>
+<p><a href="https://www.dataviz-inspiration.com/">Data Visualization Inspiration</a></p>
 </div>
-</section>
-<section id="make-it-personal." class="slide level2">
-<h2>Make it personal.</h2>
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/climate-stripes_luxembourg.png" class="quarto-figure quarto-figure-center" style="width:80.0%"></p>
-</figure>
-</div>
-
-<aside><div>
-<p><a href="https://showyourstripes.info/l/europe/luxembourg/luxembourg">Show Your Stripes - Luxembourg</a></p>
-</div></aside></section></section>
-<section>
-<section id="the-purpose-of-this-course" class="title-slide slide level1 center">
-<h1>The purpose of this course</h1>
-
-</section>
-<section id="section-21" class="slide level2 center">
-<h2></h2>
-<div>
-<div class="fragment">
-<p><strong>Effective data visualization matters!</strong></p>
-</div>
-<div class="fragment">
-<p>It’s not about programming or using a specific tool.</p>
-</div>
-<div class="fragment">
-<p>It’s about <em>Designing</em> Effective Data Visualizations.</p>
-</div>
-</div>
-</section>
-<section id="resources" class="slide level2">
-<h2>Resources</h2>
-<div style="display: flex; justify-content: center; align-items: center; height: 100%; margin-top: -100px;">
-<p><img src="../../../assets/images/how_charts_work.jpg" style="height: 400px; width: auto; margin: 0 50px;"> <img src="../../../assets/images/story_telling_with_data.jpg" style="height: 400px; width: auto; margin: 0 50px;"> <img src="images/truthful_art_book_cover.jpg" style="height: 400px; width: auto; margin: 0 50px;"></p>
-</div>
-<aside class="notes">
-<p>https://www.storytellingwithdata.com/books</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section></section>
-<section id="assignment" class="title-slide slide level1 center">
-<h1>Assignment</h1>
-<ol type="1">
-<li class="fragment">Look for (open access) articles in your field of interest</li>
-<li class="fragment">Find 2 figures that you <strong>like</strong></li>
-<li class="fragment">Find 2 figures that you <strong>don’t like</strong> (all from different papers)</li>
-<li class="fragment">Explain briefly for each figure why you like/dislike it</li>
-<li class="fragment">Upload your document on Moodle</li>
-</ol>
+<section>
+<section id="exercise" class="title-slide slide level1 center">
+<h1>Exercise</h1>
+<div class="fragment">
+<p>You have a dataset that contains</p>
+</div>
+<div class="fragment">
 <ul>
-<li class="fragment">one page per figure + your comment</li>
-<li class="fragment">name the file using your <code>&lt;lastname&gt;_graph_selection.pdf</code> pattern</li>
+<li class="fragment">the list of the 500 most common passwords.</li>
+<li class="fragment">the time needed to crack each password (from seconds to years)</li>
+<li class="fragment">one of 10 category labels assigned to that password (e.g.&nbsp;animal, sport)</li>
 </ul>
-
+</div>
+<div class="fragment">
+<p>What <a href="https://r-graph-gallery.com/web-circular-lollipop-plot-with-ggplot2.html">type of data visualization</a> would you choose for this project?</p>
+</div>
+</section>
+<section id="mapping-multivariate-data-to-graph-attributes" class="slide level2">
+<h2>Mapping multivariate data to graph attributes</h2>
+<iframe src="https://www.gapminder.org/tools/#$chart-type=bubbles&amp;url=v2" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://www.gapminder.org/answers/how-does-income-relate-to-life-expectancy/">Prof.&nbsp;Hans Rosling, Gapminder</a></p>
+</div>
+</section>
+<section id="section-17" class="slide level2 center">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
+<p><img data-src="images/fertility_life_expectancy.png" class="img-shadow" style="display: block; margin: 0 auto;;width:80.0%"></p>
+</div>
+<div class="footer">
+<p><a href="https://truth-and-beauty.net/projects/remixing-rosling">Remixing Rosling - Truth &amp; Beauty</a></p>
+</div>
+</section></section>
+<section>
+<section id="recap" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>Recap</h1>
 
 </section>
+<section id="key-takeaways" class="slide level2">
+<h2>Key takeaways</h2>
+<ul>
+<li class="fragment"><strong>Multiple classification systems</strong> exist (purpose, data type)</li>
+<li class="fragment"><strong>No single “best” visualization</strong> - depends on context</li>
+<li class="fragment"><strong>Consider multiple criteria</strong> when choosing</li>
+<li class="fragment"><strong>Use tools and galleries</strong> for guidance and inspiration</li>
+<li class="fragment"><strong>Manage complexity</strong> through simplification and interaction</li>
+<li class="fragment"><strong>Test and iterate</strong> to find what works</li>
+</ul>
+</section>
+<section id="questions" class="slide level2 center">
+<h2>Questions?</h2>
+</section></section>
+<section>
+<section id="your-turn" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>Your turn</h1>
+
+</section>
+<section id="exercise-1" class="slide level2">
+<h2>Exercise</h2>
+<div class="fragment">
+<p>Review the 4 images you have selected last time.</p>
+</div>
+<ul>
+<li class="fragment">Do those figures use the appropriate type of data visualization?</li>
+<li class="fragment">Are there other types that would be equivalent or better?</li>
+<li class="fragment">Justify your answers</li>
+</ul>
+<div class="fragment">
+<p>Post your work on Moodle as:</p>
+<ul>
+<li class="fragment">PDF file called <code>&lt;your_name&gt;_graph_type.pdf</code></li>
+<li class="fragment">One page per graph (i.e., the image of the graph, the source, and your comments)</li>
+</ul>
+</div>
+
+
+</section></section>
     </div>
   <div class="quarto-auto-generated-content" style="display: none;">
+<p><img src="https://xcit.org/images/xcit/logofinaline.png" class="slide-logo"></p>
 <div class="footer footer-default">
 
 </div>
@@ -855,6 +884,44 @@ Informing might not be enough.
         ]
       });
     </script>
+    
+    <script>
+      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
+      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
+      // slide changes (different for each slide format).
+      (function () {
+        // dispatch for htmlwidgets
+        function fireSlideEnter() {
+          const event = window.document.createEvent("Event");
+          event.initEvent("slideenter", true, true);
+          window.document.dispatchEvent(event);
+        }
+
+        function fireSlideChanged(previousSlide, currentSlide) {
+          fireSlideEnter();
+
+          // dispatch for shiny
+          if (window.jQuery) {
+            if (previousSlide) {
+              window.jQuery(previousSlide).trigger("hidden");
+            }
+            if (currentSlide) {
+              window.jQuery(currentSlide).trigger("shown");
+            }
+          }
+        }
+
+        // hookup for slidy
+        if (window.w3c_slidy) {
+          window.w3c_slidy.add_observer(function (slide_num) {
+            // slide_num starts at position 1
+            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
+          });
+        }
+
+      })();
+    </script>
+
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
