@@ -1,0 +1,17 @@
+---
+title: "Chapter 3: Picking the right type of data visualization"
+---
+
+In this chapter we will review some of the most commun data visualization types as well as various criteria to help you decide which data visualization to pick for your use case.
+
+
+
+
+
+
+## Material
+
+### Slides
+
+- [Picking the right type of data visualization](slides/data_viz_types.qmd)
+

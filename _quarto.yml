@@ -46,6 +46,9 @@ website:
             href: chapters/chapter1/chapter1.qmd
           - text: Chapter 2
             href: chapters/chapter2/chapter2.qmd
+          - text: Chapter 3
+            href: chapters/chapter3/chapter3.qmd
+
 
       - text: Resources
         href: resources/resources.md
@@ -65,7 +68,8 @@ book:
     - part: "Chapters"
       chapters:
         - chapters/chapter1/chapter1.qmd               
-        - chapters/chapter2/chapter2.qmd                                              
+        - chapters/chapter2/chapter2.qmd             
+        - chapters/chapter3/chapter3.qmd                                 
     - resources/resources.md
 
 format:

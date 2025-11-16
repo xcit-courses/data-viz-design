@@ -26,18 +26,21 @@ Students will be asked to pick 3 good and 3 bad examples from their fields and c
 
 I will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they've done in 1.
 
-### 3. Introduction to Figma (with Sophie Doublet)
 
-There are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.
-
-
-### 4. Data Viz Vocabulary
+### 3. Data Viz Vocabulary
 
 Picking the right type of graph for your data; know your data viz vocabulary
 
-### 5. Colors and Fonts, Scales, titles
+
+### 4. Colors and Fonts, Scales, titles
 
 Tools; Testing you data visualization; 
+
+
+### 5. Introduction to Figma (with Sophie Doublet)
+
+There are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.
+
 
 ### 6. Software to make visuzlization
 
@@ -48,11 +51,7 @@ Cover other forms of visualization (e.g., dashboards, diagrams, visual explanati
 
 Students are organized in groups and asked to work on particular data visualization projects.
 
-## Exam
 
-- knowledge about data visualizations
-- data viz critique
-- data viz generation
 
 
 
