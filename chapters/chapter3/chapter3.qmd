@@ -17,4 +17,5 @@ In this chapter we will review some of the most common data visualization types 
 
 ### Exercises
 
-- [Drawing exercises](../../exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.qmd)
+- [Drawing exercises (cybersecurity)](../../exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.qmd)
+- [Drawing exercises (IQ)](../../exercises/draw_scenarios/slides/draw_scenarios_IQ.qmd)
