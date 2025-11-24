@@ -10,7 +10,7 @@
   <meta name="generator" content="quarto-1.6.39">
 
   <meta name="author" content="Pedro Cardoso-Leite">
-  <title>Data Visualization Design – data_viz_types</title>
+  <title>Data Visualization Design – data_viz_science</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -131,15 +131,16 @@
     <div class="slides">
 
 
-<section id="section" class="slide level2" data-background-image="images/climate-stripes.jpg" data-background-size="cover">
+<section id="section" class="slide level2 blurred-bg" data-background-image="images/franconeri_table_graphs.jpg" data-background-size="cover">
 <h2></h2>
-<div style="text-align: left; position: absolute; bottom: 150px; left: 50px;">
-<div style="background-color: rgba(245, 42, 42, 0.88); color: white; padding: 30px 40px; display: inline-block; margin-bottom: 20px;">
-<h2 style="margin: 0; color: white;">
-<p>Picking the right type of data visualization</p>
+<div style="text-align: left; position: absolute; bottom: 150px; left: 50px; z-index: 10;">
+<div style="background-color: rgba(247, 243, 243, 0.88); color:  rgba(245, 42, 42, 0.88); padding: 30px 40px; display: inline-block; margin-bottom: 20px;">
+<h2 style="margin: 0; color:  rgba(56, 55, 55, 0.88);">
+<p>The Science of Data visualization</p>
 </h2>
 </div>
-<div style="background-color: rgba(6, 23, 99, 0.9); color: white; padding: 15px 25px; display: inline-block;">
+<p><br></p>
+<div style="background-color: rgba(6, 23, 99, 0.55); color:  rgba(252, 252, 252, 0.88); padding: 15px 25px; display: inline-block;">
 <p style="margin: 0; font-size: 1em;">
 </p><p>Pedro Cardoso-Leite</p>
 <p></p>
@@ -149,358 +150,444 @@
 </div>
 </div>
 <div class="footer" style="color: white !important; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">
-<p><a href="https://ed-hawkins.github.io/climate-visuals/stripes.html" style="color: white !important; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">The Global Warming Stripes by Ed Hawkins.</a></p>
+<p><a href="https://journals.sagepub.com/doi/10.1177/15291006211051956" style="color: white !important; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">Franconeri et al (2021)</a></p>
 </div>
 </section>
 <section>
-<section id="how-to-choose-a-graph-type" class="title-slide slide level1 center" data-background-color="#849ba5">
-<h1>How to choose a graph type?</h1>
+<section id="human-visual-perception" class="title-slide slide level1 center">
+<h1>Human Visual Perception</h1>
+<!--
+<iframe src="https://en.wikipedia.org/wiki/Fovea_centralis" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen loading="lazy"></iframe>
 
+::: footer
+[Fovea Centralis - Wikipedia](https://en.wikipedia.org/wiki/Fovea_centralis)
+:::
+
+##
+
+<iframe src="https://en.wikipedia.org/wiki/Visual_cortex" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen loading="lazy"></iframe>
+
+::: footer
+[Visual Cortex - Wikipedia](https://en.wikipedia.org/wiki/Visual_cortex)
+:::
+
+-->
 </section>
-<section id="section-1" class="slide level2 center">
+<section id="section-1" class="slide level2">
 <h2></h2>
-<div class="fragment">
-<p>There are many ways to visualize data</p>
+<iframe src="https://openbooks.lib.msu.edu/introneuroscience1/chapter/vision-the-retina/" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://openbooks.lib.msu.edu/introneuroscience1/chapter/vision-the-retina/">Vision: The Retina - MSU OpenBooks</a></p>
 </div>
-<div class="fragment">
-<p>You need to know some classics</p>
-</div>
-<div class="fragment">
-<p>A principled approach leads to better choices</p>
-</div>
-</section></section>
-<section>
-<section id="typologies-of-data-visualizations" class="title-slide slide level1 center" data-background-color="#849ba5">
-<h1>Typologies of<br>Data Visualizations</h1>
-
 </section>
-<section id="classification-strategies" class="slide level2 center">
-<h2>Classification strategies</h2>
-<div class="fragment">
-<p><em>what structure in the data do you want to show?</em></p>
-<p><em>what cognitive operations do you want your users to apply on the visualization?</em></p>
-</div>
-<p><br></p>
-<div class="fragment">
-<p><em>what kind of data do you have?</em></p>
-</div>
-<p><br></p>
-<div class="fragment">
-<p>Other considerations</p>
-</div>
-<aside class="notes">
-<p>Often both approaches are used together</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="section-2" class="slide level2 center">
+<section id="section-2" class="slide level2">
 <h2></h2>
-<div class="fragment">
-<p>There’s no algorithm to determine the “best” solution</p>
+<iframe src="https://openbooks.lib.msu.edu/introneuroscience1/chapter/vision-central-processing/" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://openbooks.lib.msu.edu/introneuroscience1/chapter/vision-central-processing/">Vision: Central Processing - MSU OpenBooks</a></p>
 </div>
-<div class="fragment">
-<p>You need to jointly consider many criteria</p>
-</div>
-<div class="fragment">
-<p>You need to think for yourself and make choices</p>
-</div>
-<aside class="notes">
-<p>but you can often say which of two versions is better</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section></section>
-<section>
-<section id="classification-by-analytic-purpose" class="title-slide slide level1 center" data-background-color="#849ba5">
-<h1>Classification<br>by Analytic Purpose</h1>
-
-</section>
-<section id="what-is-analytic-purpose" class="slide level2">
-<h2>What is analytic purpose?</h2>
-<ul>
-<li class="fragment"><em>What structure in the data do you want to show?</em></li>
-<li class="fragment"><em>What cognitive operations do you want users to apply?</em></li>
-</ul>
-<aside class="notes">
-<p>There is no single agreed-upon categorization.</p>
-<p>Different authors propose different systems, but there is large overlap.</p>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
 </section>
 <section id="section-3" class="slide level2 center">
 <h2></h2>
-<iframe src="https://ft-interactive.github.io/visual-vocabulary/" width="100%" height="800px" style="border: 2px solid #ccc;">
-</iframe>
-<div class="footer">
-<p><a href="https://ft-interactive.github.io/visual-vocabulary/">FT Visual Vocabulary</a></p>
+
+<img data-src="images/fellman_visual_areas.jpg" class="img-shadow r-stretch" style="display: block; margin: 0 auto; width: 1400px;"><div style="text-align: center; margin-top: 20px;">
+<p><a href="https://www.cns.nyu.edu/~tony/vns/readings/felleman-vanessen-1991.pdf">Felleman and Van Essen (1991)</a></p>
 </div>
 </section>
 <section id="section-4" class="slide level2 center">
 <h2></h2>
-<iframe src="https://r-graph-gallery.com" width="100%" height="700px" style="border: 2px solid #ccc;">
-</iframe>
+<div style="margin: 0 auto; width: 85%;">
+<div class="columns">
+<div class="column" style="width:38%;">
+<p><img data-src="images/retina_photo.jpg" class="img-shadow" style="height: 400px; object-fit: contain;;width:100.0%"></p>
+<p><img data-src="images/RetinalReceptorDensity-2D.png" class="img-shadow" style="margin-top: 20px;;width:100.0%"></p>
+</div><div class="column" style="width:62%;">
+<p><img data-src="images/Density-distribution-of-retinal-rods-and-cones-A-retinal-image-is-shown-above-the_W640.jpg" class="img-shadow" style="height: 400px; object-fit: contain;;width:100.0%"></p>
+</div></div>
+</div>
 <div class="footer">
-<p><a href="https://r-graph-gallery.com">r-graph-gallery.com</a></p>
+<p><a href="https://www.researchgate.net/publication/303550015_Laser_pointers_and_eye_injuries_An_analysis_of_reported_cases/figures?lo=1">Photo, 1D diagram</a></p>
+<p><a href="https://openbooks.lib.msu.edu/introneuroscience1/chapter/vision-the-retina/">2D diagram</a></p>
 </div>
 </section>
-<section id="section-5" class="slide level2 center">
-<h2></h2>
-<iframe src="https://python-graph-gallery.com" width="100%" height="700px" style="border: 2px solid #ccc;">
-</iframe>
-<div class="footer">
-<p><a href="https://python-graph-gallery.com" class="uri">https://python-graph-gallery.com</a></p>
-</div>
-</section></section>
-<section>
-<section id="classification-by-data-type" class="title-slide slide level1 center" data-background-color="#849ba5">
-<h1>Classification<br>by Data Type</h1>
-
-</section>
-<section id="the-type-of-data-you-have-is-a-major-determinant-of-data-visualization-choice." class="slide level2 center">
-<h2>The type of data you have<br>is a major determinant<br>of data visualization choice.</h2>
-</section>
-<section id="common-data-types" class="slide level2">
-<h2>Common data types:</h2>
-<ul>
-<li class="fragment">Numeric (integer, float; ratio, interval, ordinal)</li>
-<li class="fragment">Categorical (ordered, unordered)</li>
-<li class="fragment">Text</li>
-<li class="fragment">Geospatial data</li>
-<li class="fragment">Network data</li>
-<li class="fragment">Dates and time</li>
-</ul>
-</section>
-<section id="section-6" class="slide level2 center">
+<section id="section-5" class="slide level2">
 <h2></h2>
 <div class="columns">
-<div class="column fragment" style="width:50%;">
+<div class="column" style="width:50%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/temp_continuous.png" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
+<p><img data-src="images/unexpected_visitor.jpg" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
 </figure>
 </div>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/temp_categorical.png" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
+</div><div class="column" style="width:50%;">
+<p>The Unexpected Visitor. <br> <span style="font-size: 0.8em; color: darkgray;">Oil on canvas painting by Ilya Repin, 1884–88.</span> <br> <span style="font-size: 0.8em; color: darkgray;">(Source: Courtesy of www.ilyarepin.org.)</span></p>
 </div></div>
 </section>
-<section id="section-7" class="slide level2 center">
+<section id="section-6" class="slide level2">
 <h2></h2>
-<div class="columns">
-<div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/temp_ordinal.png" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-</div><div class="column fragment" style="width:50%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/temp_categorical_ranking.png" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
-</figure>
-</div>
-</div></div>
-</section>
-<section id="chart-choosers" class="slide level2 center">
-<h2>Chart Choosers</h2>
-<p><a href="https://www.data-to-viz.com/">data-to-viz</a></p>
-<p><a href="https://www.highcharts.com/chartchooser/">highcharts (js)</a></p>
-<p><a href="https://ft-interactive.github.io/visual-vocabulary/">FT Visual Vocabulary</a></p>
-<p><a href="https://r-graph-gallery.com">R Graph Gallery</a></p>
-<p><a href="https://python-graph-gallery.com">Python Graph Gallery</a></p>
-<!--
- (probably the coolest)
-
-https://www.fassforward.com/chartchoosercards
--->
-</section>
-<section id="section-8" class="slide level2 center">
-<h2></h2>
-<iframe src="https://www.data-to-viz.com/" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
-</iframe>
-<div class="footer">
-<p><a href="https://www.data-to-viz.com/">data-to-viz.com</a></p>
-</div>
-</section></section>
-<section>
-<section id="other-criteria-for-choosing-visualizations" class="title-slide slide level1 center" data-background-color="#849ba5">
-<h1>Other Criteria for Choosing Visualizations</h1>
-
-</section>
-<section id="multiple-other-factors-to-consider" class="slide level2">
-<h2>Multiple other factors to consider</h2>
-<ul>
-<li class="fragment">Human perception</li>
-<li class="fragment">Importance hierarchy</li>
-<li class="fragment">Style and preferences</li>
-<li class="fragment">Data complexity</li>
-<li class="fragment">Target audience</li>
-<li class="fragment">Medium (print, web, presentation)</li>
-</ul>
-<!--
-## Human perception principles
-
-Visual encoding effectiveness matters:
-
-- Position is most accurately perceived
-- Length is easier to compare than area
-- Color is good for categories, not quantities
-- Angle judgments are less accurate
-
-::: footer
-See Cleveland & McGill's perceptual hierarchy
-:::
-
-## Style and preferences
-
-Consider:
-
-- Organizational branding
-- Design consistency
-- Aesthetic preferences
-- Cultural context
-- Accessibility requirements
-
--->
-</section></section>
-<section>
-<section id="managing-complexity" class="title-slide slide level1 center" data-background-color="#849ba5">
-<h1>Managing<br>Complexity</h1>
-
-</section>
-<section id="section-9" class="slide level2 center">
-<h2></h2>
-<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d2610.0!2d5.950249!3d49.504086!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2slu!4v1234567890" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
-</iframe>
-<div class="footer">
-<p><a href="https://www.google.com/maps/place/University+of+Luxembourg/@49.504086,5.950249,15z/">Google Maps - University of Luxembourg</a></p>
-</div>
-<aside class="notes">
-<ul>
-<li>Zoom in: see small streets, buildings, landmarks (high detail, small area)</li>
-<li>Zoom out: see countries, capitals (low detail, large area)</li>
-</ul>
-<style type="text/css">
-        span.MJX_Assistive_MathML {
-          position:absolute!important;
-          clip: rect(1px, 1px, 1px, 1px);
-          padding: 1px 0 0 0!important;
-          border: 0!important;
-          height: 1px!important;
-          width: 1px!important;
-          overflow: hidden!important;
-          display:block!important;
-      }</style></aside>
-</section>
-<section id="complexity" class="slide level2">
-<h2>Complexity?</h2>
-<div class="fragment">
-<p>Data</p>
-<ul>
-<li class="fragment">Number of observations (rows)</li>
-<li class="fragment">Number of attributes (columns)</li>
-</ul>
-</div>
-<div class="fragment">
-<p>Conceptual</p>
-<ul>
-<li class="fragment">Difficult/abstract concepts</li>
-<li class="fragment">Multivariate phenomena</li>
-</ul>
-</div>
-</section>
-<section id="adjust-the-level-of-complexity-to-your-target-audience" class="slide level2 center">
-<h2>Adjust the level<br>of complexity<br>to your target audience</h2>
-</section>
-<section id="common-strategies-to-handle-complexity" class="slide level2">
-<h2>Common strategies to handle complexity</h2>
-<div class="fragment">
-<p><strong>Explain</strong></p>
-<ul>
-<li class="fragment">annotations</li>
-<li class="fragment">tutorials</li>
-<li class="fragment">text</li>
-</ul>
-</div>
-<div class="fragment">
-<p><strong>Simplify</strong></p>
-<ul>
-<li class="fragment">select and focus on key aspects</li>
-<li class="fragment">compute aggregations</li>
-</ul>
-</div>
-<div class="fragment">
-<p><strong>Spread out</strong></p>
-<ul>
-<li class="fragment">multiple figures, small multiples</li>
-<li class="fragment">interactive visualization / animations</li>
-</ul>
-</div>
-</section>
-<section id="example" class="slide level2 center">
-<h2>Example</h2>
 <div class="columns">
 <div class="column" style="width:40%;">
 <div class="quarto-figure quarto-figure-center">
 <figure>
-<p><img data-src="images/rocket_diagram_legend.jpg" class="img-shadow quarto-figure quarto-figure-center" height="500"></p>
+<p><img data-src="images/yarbus_eye_movement_tasks.jpg" class="img-shadow quarto-figure quarto-figure-center" style="width:90.0%"></p>
 </figure>
 </div>
-</div><div class="column" style="width:60%;">
-<div class="quarto-figure quarto-figure-center">
-<figure>
-<p><img data-src="images/tufte_challenger_1.png" class="img-shadow quarto-figure quarto-figure-center" height="500"></p>
-</figure>
+</div><div class="column fragment" style="font-size: 0.85em;">
+<p><strong>Tasks</strong></p>
+<ol type="a">
+<li class="fragment">Free examination</li>
+<li class="fragment">Estimate the material circumstances of the family</li>
+<li class="fragment">Give the ages of the people</li>
+<li class="fragment">Surmise what the family had been doing before the arrival of the ‘unexpected visitor’</li>
+<li class="fragment">Remember the clothes worn by the people</li>
+<li class="fragment">Remember the position of the people and objects in the room</li>
+<li class="fragment">Estimate how long the unexpected visitor had been away from the family</li>
+</ol>
+<div class="footer">
+<p><a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC3563050/">Adpated from Yarbus (1967)</a></p>
 </div>
 </div></div>
 </section>
-<section id="section-10" class="slide level2 center">
+<section id="section-7" class="slide level2">
 <h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-<p><img data-src="images/hexa_plot.png" class="img-shadow" style="display: block; margin: 0 auto;;width:70.0%"></p>
+
+<img data-src="images/eyemvt_of_dataviz.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:90.0%"><div class="footer">
+<p><a href="https://dl.acm.org/doi/pdf/10.1145/3706598.3713128">Shi et al.&nbsp;(2025)</a></p>
+</div>
+</section></section>
+<section>
+<section id="modules-and-automatic-processing" class="title-slide slide level1 center">
+<h1>Modules and Automatic processing</h1>
+
+</section>
+<section id="section-8" class="slide level2 center">
+<h2></h2>
+<div style="display: flex; justify-content: center; align-items: center;">
+<p><img src="images/Thatcher_modified.jpg" class="img-shadow thatcher-flip" style="width: 100%; transform: rotate(180deg); transition: transform 0.8s ease; cursor: pointer;" onclick="this.style.transform = this.style.transform === 'rotate(180deg)' ? 'rotate(0deg)' : 'rotate(180deg)';"></p>
 </div>
 <div class="footer">
-<p><a href="https://www.uber.com/en-FR/blog/h3/">Uber’s H3: Hexagonal Hierarchical Geospatial Indexing System</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Thatcher_effect">Wikipedia</a></p>
+</div>
+</section>
+<section id="seeing-stuff-that-isnt-there" class="slide level2">
+<h2>seeing stuff that isn’t there</h2>
+<iframe src="https://en.wikipedia.org/wiki/Pareidolia" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://en.wikipedia.org/wiki/Pareidolia">Pareidolia - Wikipedia</a></p>
+</div>
+</section>
+<section id="kanizsa-illusion" class="slide level2">
+<h2>Kanizsa illusion</h2>
+<iframe width="100%" height="900px" src="https://www.youtube.com/embed/2ODdj9fhCMI" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://www.youtube.com/watch?v=2ODdj9fhCMI">Kanizsa Illusion - YouTube</a></p>
+</div>
+</section>
+<section id="automatic-reading" class="slide level2">
+<h2>Automatic Reading</h2>
+<!--basic https://www.youtube.com/watch?v=E92GSwr46DY-->
+<iframe width="100%" height="900px" src="https://www.youtube.com/embed/UAKAlP1B5WY" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://en.wikipedia.org/wiki/Stroop_effect">The Stroop effect</a></p>
+</div>
+</section>
+<section id="color-perception" class="slide level2">
+<h2>Color perception</h2>
+<iframe width="100%" height="900px" src="https://www.youtube.com/embed/l8_fZPHasdo" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://www.youtube.com/watch?v=l8_fZPHasdo">Color Perception - YouTube</a></p>
+</div>
+</section></section>
+<section>
+<section id="visual-illusions" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>Visual illusions</h1>
+
+</section>
+<section id="section-9" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/">Optical illusions–Michael Bach</a></p>
+</div>
+<!-- Percieved size -->
+</section>
+<section id="section-10" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/cog-Ebbinghaus/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/cog-Ebbinghaus/index.html">Ebbinghaus Illusion - Michael Bach</a></p>
 </div>
 </section>
 <section id="section-11" class="slide level2">
 <h2></h2>
-<iframe src="https://r-graph-gallery.com/line-plot.html" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+<iframe src="https://michaelbach.de/ot/sze-shepardTerrors/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
 </iframe>
 <div class="footer">
-<p><a href="https://r-graph-gallery.com/line-plot.html">Line Plot - R Graph Gallery</a></p>
+<p><a href="https://michaelbach.de/ot/sze-shepardTerrors/index.html">Shepard’s Terror - Michael Bach</a></p>
 </div>
+</section>
+<section id="section-12" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/sze-ShepardTables/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/sze-ShepardTables/index.html">Shepard Tables - Michael Bach</a></p>
+</div>
+</section>
+<section id="section-13" class="slide level2">
+<h2></h2>
+<iframe src="https://en.wikipedia.org/wiki/M%C3%BCller-Lyer_illusion" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://en.wikipedia.org/wiki/M%C3%BCller-Lyer_illusion">Müller-Lyer illusion - Wikipedia</a></p>
+</div>
+</section>
+<section id="section-14" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/sze-tIllusion/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/sze-tIllusion/index.html">T-illusion - Michael Bach</a></p>
+</div>
+<!-- "Color" effects -->
+</section>
+<section id="section-15" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/lum-inducedBrightness/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/lum-inducedBrightness/index.html">Induced Brightness - Michael Bach</a></p>
+</div>
+</section>
+<section id="section-16" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/col-neon/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/col-neon/index.html">Neon Color Spreading - Michael Bach</a></p>
+</div>
+</section>
+<section id="section-17" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/col-watercolor/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/col-watercolor/index.html">Watercolor Illusion - Michael Bach</a></p>
+</div>
+<!-- 3D perception related effects -->
+</section>
+<section id="section-18" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/lum-adelsonCheckShadow/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/lum-adelsonCheckShadow/index.html">Adelson’s Checkershadow Illusion - Michael Bach</a></p>
+</div>
+</section>
+<section id="section-19" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/lum-shapeFromShading/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/lum-shapeFromShading/index.html">Shape from Shading - Michael Bach</a></p>
+</div>
+</section>
+<section id="section-20" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/sze-Necker/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/sze-Necker/index.html">Necker Cube - Michael Bach</a></p>
+</div>
+<!-- Grouping 
+
+## Dalmatian illusion
+
+Prior knowledge affects grouping
+
+<iframe src="https://michaelbach.de/ot/cog-Dalmatian/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen loading="lazy"></iframe>
+
+::: footer
+[Dalmatian Illusion - Michael Bach](https://michaelbach.de/ot/cog-Dalmatian/index.html)
+:::
+
+-->
+</section>
+<section id="section-21" class="slide level2">
+<h2></h2>
+<iframe src="https://michaelbach.de/ot/col-isoluNuBleu/index.html" width="100%" height="900px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://michaelbach.de/ot/col-isoluNuBleu/index.html">Gestalt in Isoluminance - Michael Bach</a></p>
+</div>
+</section></section>
+<section>
+<section id="attention" class="title-slide slide level1 center">
+<h1>Attention</h1>
+
+</section>
+<section id="section-22" class="slide level2">
+<h2></h2>
+<iframe width="100%" height="900px" src="https://www.youtube.com/embed/vJG698U2Mvo" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://www.youtube.com/watch?v=vJG698U2Mvo">YouTube</a></p>
+</div>
+</section>
+<section id="section-23" class="slide level2">
+<h2></h2>
+<iframe width="100%" height="900px" src="https://www.youtube.com/embed/GOF-saZ1XSQ" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://www.youtube.com/watch?v=GOF-saZ1XSQ">YouTube</a></p>
+</div>
+</section>
+<section id="section-24" class="slide level2">
+<h2></h2>
+<iframe width="100%" height="900px" src="https://www.youtube.com/embed/Yt3GVbH_uuE" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+</iframe>
+<div class="footer">
+<p><a href="https://www.youtube.com/watch?v=Yt3GVbH_uuE">YouTube</a></p>
+</div>
+</section></section>
+<section>
+<section id="how-do-humans-perceive-graphs" class="title-slide slide level1 center" data-background-color="#849ba5">
+<h1>How do humans perceive graphs?</h1>
+
+</section>
+<section id="neural-recycling" class="slide level2">
+<h2>Neural recycling</h2>
+<div style="display: flex; gap: 20px; align-items: flex-start;">
+<div style="width: 30%;">
+<p><img src="images/fellman_visual_areas.jpg" style="height: 700px; object-fit: contain; box-shadow: 0 10px 30px rgba(0,0,0,0.3);"></p>
+</div>
+<div style="width: 70%;">
+<p><img src="images/cpu_gpu.png" class="fragment fade-in" data-fragment-index="1" style="height: 700px; object-fit: contain; box-shadow: 0 10px 30px rgba(0,0,0,0.3); background: transparent !important;"></p>
+</div>
+</div>
+<div class="footer">
+<p><a href="https://www.college-de-france.fr/fr/agenda/cours/la-perception-des-graphiques-un-nouvel-exemple-de-recyclage-neuronal">Course by Stanislas Dehaene (Collège de France)</a></p>
+</div>
+</section>
+<section id="section-25" class="slide level2 center">
+<h2></h2>
+<p><img src="images/anscombes_quartet.jpg" class="img-shadow" style="max-width: 1000px; height: auto; display: block; margin: auto;"></p>
+<div class="footer">
+<p>https://journals.sagepub.com/doi/10.1177/15291006211051956</p>
+</div>
+</section>
+<section id="mapping-of-data-to-visual-attributes" class="slide level2">
+<h2>Mapping of data to visual attributes</h2>
+<iframe src="https://www.lucypark.kr/courses/2015-dm/visualization.html" width="100%" height="700px" style="border: 2px solid black;">
+</iframe>
+</section>
+<section id="how-do-you-decide-which-visual-attributes-to-map-to-your-data" class="slide level2 center">
+<h2>How do you decide<br>which visual attributes<br>to map to your data?</h2>
+</section></section>
+<section>
+<section id="quiz" class="title-slide slide level1 center">
+<h1>Quiz</h1>
+
+</section>
+<section id="section-26" class="slide level2 center">
+<h2>1</h2>
+
+<img data-src="images/comparison_discs.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-27" class="slide level2 center">
+<h2>2</h2>
+
+<img data-src="images/comparison_squares.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-28" class="slide level2 center">
+<h2>3</h2>
+
+<img data-src="images/comparison_bars.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-29" class="slide level2 center">
+<h2>4</h2>
+
+<img data-src="images/comparison_rectangles_aspect.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-30" class="slide level2 center">
+<h2>5</h2>
+
+<img data-src="images/comparison_spheres.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-31" class="slide level2 center">
+<h2>6</h2>
+
+<img data-src="images/colormap_diverging.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-32" class="slide level2 center">
+<h2>7</h2>
+
+<img data-src="images/stripe_a.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-33" class="slide level2 center">
+<h2>8</h2>
+
+<img data-src="images/stripe_b.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-34" class="slide level2 center">
+<h2>9</h2>
+
+<img data-src="images/stripe_c.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="section-35" class="slide level2 center">
+<h2>10</h2>
+
+<img data-src="images/stripe_d.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"></section>
+<section id="solutions" class="slide level2 center">
+<h2>Solutions</h2>
+<div class="fragment">
+<div class="quarto-figure quarto-figure-center">
+<figure>
+<p><img data-src="images/colormap_functions.png" class="img-shadow quarto-figure quarto-figure-center" style="width:70.0%"></p>
+</figure>
+</div>
+</div>
+</section></section>
+<section>
+<section id="vision-psychophysics" class="title-slide slide level1 center">
+<h1>Vision psychophysics</h1>
+
+</section>
+<section id="stevens-power-law" class="slide level2 center">
+<h2>Stevens’ Power law</h2>
+
+<img data-src="images/stevens_law.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:70.0%"><div class="footer">
+<p>https://graphworkflow.com/decoding/perceived-magnitude/</p>
+</div>
+</section>
+<section id="section-36" class="slide level2">
+<h2></h2>
+<iframe src="https://en.wikipedia.org/wiki/Stevens%27s_power_law" width="100%" height="900px" style="border: 2px solid black;">
+</iframe>
+</section>
+<section id="section-37" class="slide level2 center">
+<h2></h2>
+
+<img data-src="images/misuse_of_color.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:60.0%"><div class="footer">
+<p><a href="https://doi.org/10.1038/s41467-020-19160-7">Crameri et al.&nbsp;(2020)</a></p>
+</div>
+</section></section>
+<section>
+<section id="studies-on-graph-perception" class="title-slide slide level1 center">
+<h1>Studies on Graph perception</h1>
+
+</section>
+<section id="section-38" class="slide level2 center">
+<h2></h2>
+<ul>
+<li class="fragment"><a href="https://www.statsclass.org/dsci310/Notes/Cleveland_McGill_EPT.pdf">Cleveland &amp; McGill (1984)</a></li>
+<li class="fragment"><a href="https://journals.sagepub.com/doi/10.1177/15291006211051956">Franconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., &amp; Hullman, J. (2021). The Science of Visual Data Communication: What Works. Psychological Science in the Public Interest, 22(3), 110-161.</a></li>
+<li class="fragment"><a href="https://www.college-de-france.fr/fr/agenda/cours/la-perception-des-graphiques-un-nouvel-exemple-de-recyclage-neuronal">Course by Stanislas Dehaene (Collège de France)</a></li>
+</ul>
 <aside class="notes">
-<p>spagethi graph</p>
+<p>https://priceonomics.com/how-william-cleveland-turned-data-visualization/</p>
+<p>http://vis.stanford.edu/papers/crowdsourcing-graphical-perception</p>
+<p>https://idl.uw.edu/</p>
+<p>Crowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design http://vis.stanford.edu/files/2010-MTurk-CHI.pdf</p>
 <style type="text/css">
         span.MJX_Assistive_MathML {
           position:absolute!important;
@@ -513,105 +600,49 @@ Consider:
           display:block!important;
       }</style></aside>
 </section>
-<section id="section-12" class="slide level2 center">
+<section id="section-39" class="slide level2 center">
 <h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-<p><img data-src="images/Consumer-Confidence-2022-main.png" class="img-shadow" style="display: block; margin: 0 auto;;width:45.0%"></p>
+
+<img data-src="images/franconeri_table_graphs.jpg" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:60.0%"><div class="footer">
+<p>https://journals.sagepub.com/doi/10.1177/15291006211051956</p>
 </div>
 </section>
-<section id="section-13" class="slide level2">
-<h2></h2>
-<iframe src="https://holtzy.github.io/Mortality/index.html" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
-</iframe>
+<section id="text-perception" class="slide level2">
+<h2>Text perception</h2>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p><img data-src="images/reading_img_1.jpg" class="img-shadow" style="width:100.0%"></p>
+</div><div class="column fragment" style="width:40%;">
+<p><img data-src="images/reading_img_2.jpg" class="img-shadow" style="width:100.0%"></p>
+</div></div>
 <div class="footer">
-<p><a href="https://holtzy.github.io/Mortality/index.html">Mortality Visualization - Holtzy</a></p>
+<p><a href="https://www.sciencedirect.com/science/article/pii/S1053811907010762">Cohen et al.&nbsp;(2008)</a></p>
 </div>
 </section>
-<section id="interactive-examples" class="slide level2">
-<h2>Interactive examples</h2>
-</section>
-<section id="section-14" class="slide level2 center">
+<section id="section-40" class="slide level2 center">
 <h2></h2>
-<iframe src="https://earth.nullschool.net/#current/wind/surface/level/orthographic" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
-</iframe>
-<div class="footer">
-<p><a href="https://earth.nullschool.net/#current/wind/surface/level/orthographic">Earth Wind Patterns - earth.nullschool.net</a></p>
+<div style="text-align: center;">
+<p><img src="images/co2_emissions_vertical.png" class="img-shadow" style="width: 1100px;"></p>
 </div>
 </section>
-<section id="section-15" class="slide level2 center">
+<section id="section-41" class="slide level2 center">
 <h2></h2>
-<iframe src="https://www.shipmap.org/" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
-</iframe>
-<div class="footer">
-<p><a href="https://www.shipmap.org/">Global Ship Traffic - Shipmap.org</a></p>
-</div>
-</section>
-<section id="section-16" class="slide level2 center">
-<h2></h2>
-<div style="display: flex; justify-content: center; align-items: center; width: 100%;">
-<p><img data-src="images/american_time_use_survey.png" class="img-shadow" style="display: block; margin: 0 auto;;width:80.0%"></p>
-</div>
-<div class="footer">
-<p><a href="https://flowingdata.com/2015/12/15/a-day-in-the-life-of-americans/">A Day in the Life of Americans - FlowingData</a></p>
-</div>
-</section></section>
+
+<img data-src="images/co2_emissions_horizontal.png" class="img-shadow quarto-figure quarto-figure-center r-stretch" style="width:60.0%"></section></section>
 <section>
-<section id="how-to" class="title-slide slide level1 center" data-background-color="#849ba5">
-<h1>How to</h1>
+<section id="exercises" class="title-slide slide level1 center">
+<h1>Exercises</h1>
 
 </section>
-<section id="chart-chooser-tools" class="slide level2">
-<h2>Chart chooser tools</h2>
-<ul>
-<li class="fragment"><a href="https://ft-interactive.github.io/visual-vocabulary/">FT Visual Vocabulary</a></li>
-<li class="fragment"><a href="https://www.data-to-viz.com/">data-to-viz.com</a> - Comprehensive guide with decision tree</li>
-<li class="fragment"><a href="https://www.highcharts.com/chartchooser/">Highcharts Chart Chooser</a> - Interactive selection</li>
-<li class="fragment"><a href="https://r-graph-gallery.com">R Graph Gallery</a></li>
-<li class="fragment"><a href="https://python-graph-gallery.com">Python Graph Gallery</a></li>
-</ul>
-</section>
-<section id="inspiration-what-to-avoid" class="slide level2">
-<h2>Inspiration (what to avoid)</h2>
-<iframe src="https://viz.wtf/" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
+<section id="section-42" class="slide level2">
+<h2></h2>
+<iframe src="https://www.gapminder.org/tools/?from=world#$chart-type=bubbles&amp;url=v2" width="100%" height="900px" style="border: 2px solid black;">
 </iframe>
 <div class="footer">
-<p><a href="https://viz.wtf/">WTF Visualizations - viz.wtf</a></p>
+<p><a href="https://www.gapminder.org" class="uri">https://www.gapminder.org</a></p>
 </div>
 </section>
-<section id="inspiration-what-to-mimic" class="slide level2">
-<h2>Inspiration (what to mimic)</h2>
-<iframe src="https://www.dataviz-inspiration.com/" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
-</iframe>
-<div class="footer">
-<p><a href="https://www.dataviz-inspiration.com/">Data Visualization Inspiration</a></p>
-</div>
-</section></section>
-<section>
-<section id="exercise" class="title-slide slide level1 center">
-<h1>Exercise</h1>
-<div class="fragment">
-<p>You have a dataset that contains</p>
-</div>
-<div class="fragment">
-<ul>
-<li class="fragment">the list of the 500 most common passwords.</li>
-<li class="fragment">the time needed to crack each password (from seconds to years)</li>
-<li class="fragment">one of 10 category labels assigned to that password (e.g.&nbsp;animal, sport)</li>
-</ul>
-</div>
-<div class="fragment">
-<p>What <a href="https://r-graph-gallery.com/web-circular-lollipop-plot-with-ggplot2.html">type of data visualization</a> would you choose for this project?</p>
-</div>
-</section>
-<section id="mapping-multivariate-data-to-graph-attributes" class="slide level2">
-<h2>Mapping multivariate data to graph attributes</h2>
-<iframe src="https://www.gapminder.org/tools/#$chart-type=bubbles&amp;url=v2" width="100%" height="700px" style="border: 2px solid #ccc;" allowfullscreen="" loading="lazy">
-</iframe>
-<div class="footer">
-<p><a href="https://www.gapminder.org/answers/how-does-income-relate-to-life-expectancy/">Prof.&nbsp;Hans Rosling, Gapminder</a></p>
-</div>
-</section>
-<section id="section-17" class="slide level2 center">
+<section id="section-43" class="slide level2 center">
 <h2></h2>
 <div style="display: flex; justify-content: center; align-items: center; width: 100%;">
 <p><img data-src="images/fertility_life_expectancy.png" class="img-shadow" style="display: block; margin: 0 auto;;width:80.0%"></p>
@@ -619,48 +650,60 @@ Consider:
 <div class="footer">
 <p><a href="https://truth-and-beauty.net/projects/remixing-rosling">Remixing Rosling - Truth &amp; Beauty</a></p>
 </div>
-</section></section>
-<section>
-<section id="recap" class="title-slide slide level1 center" data-background-color="#849ba5">
-<h1>Recap</h1>
-
 </section>
-<section id="key-takeaways" class="slide level2">
-<h2>Key takeaways</h2>
-<ul>
-<li class="fragment"><strong>Multiple classification systems</strong> exist (purpose, data type)</li>
-<li class="fragment"><strong>No single “best” visualization</strong> - depends on context</li>
-<li class="fragment"><strong>Consider multiple criteria</strong> when choosing</li>
-<li class="fragment"><strong>Use tools and galleries</strong> for guidance and inspiration</li>
-<li class="fragment"><strong>Manage complexity</strong> through simplification and interaction</li>
-<li class="fragment"><strong>Test and iterate</strong> to find what works</li>
-</ul>
-</section>
-<section id="questions" class="slide level2 center">
-<h2>Questions?</h2>
-</section></section>
-<section>
-<section id="your-turn" class="title-slide slide level1 center" data-background-color="#849ba5">
-<h1>Your turn</h1>
-
-</section>
-<section id="exercise-1" class="slide level2">
-<h2>Exercise</h2>
+<section id="assignment" class="slide level2">
+<h2>Assignment</h2>
 <div class="fragment">
-<p>Review the 4 images you have selected last time.</p>
-</div>
+<p>Review your 4 images again.</p>
+<p>For each image:</p>
 <ul>
-<li class="fragment">Do those figures use the appropriate type of data visualization?</li>
-<li class="fragment">Are there other types that would be equivalent or better?</li>
-<li class="fragment">Justify your answers</li>
-</ul>
-<div class="fragment">
-<p>Post your work on Moodle as:</p>
-<ul>
-<li class="fragment">PDF file called <code>&lt;your_name&gt;_graph_type.pdf</code></li>
-<li class="fragment">One page per graph (i.e., the image of the graph, the source, and your comments)</li>
+<li class="fragment">identify the mapping of data to visual attributes</li>
+<li class="fragment">describe what you think about those choices</li>
 </ul>
 </div>
+<div class="fragment">
+<p>Post 1 pdf with 1 page per image on Moodle.</p>
+</div>
+<!--
+## Symmetry perception
+
+
+
+
+## Automatic processing
+
+
+Human graphical perception human graph comprehension
+
+elementary perceptual tasks
+
+
+
+collège de France slides: https://www.college-de-france.fr/sites/default/files/media/document/2025-01/dehaene_2024-2025_cours_24_janvier.pdf
+
+“At their best, graphics are instruments for reasoning about quantitative information.Often, the most effective way to describe, explore and summarize a set of numbers – even a very large set –is to look at pictures of those numbers.”
+
+course 2 is the most relevant here: https://www.college-de-france.fr/sites/default/files/media/document/2025-02/dehaene_2024-2025_cours_31_janvier.pdf
+
+https://www.college-de-france.fr/fr/agenda/cours/la-perception-des-graphiques-un-nouvel-exemple-de-recyclage-neuronal/la-grammaire-des-courbes-et-des-graphiques
+
+
+https://homepage.divms.uiowa.edu/~luke/classes/STAT4580/percep.html
+
+
+## Pre-attentive features
+https://readmedium.com/data-storytelling-101-the-magic-of-pre-attentive-attributes-522da9785f36
+
+https://medium.com/microsoft-power-bi/data-storytelling-101-the-magic-of-pre-attentive-attributes-522da9785f36
+
+# visual search; pop-out effects
+https://www.openpsychologylabs.com/labs/visualsearchpopout.html
+
+## Gestalt 
+https://www.slideserve.com/calantha/visual-perception
+https://www.slideserve.com/dieter/visual-perception
+
+-->
 
 
 </section></section>
@@ -884,44 +927,6 @@ Consider:
         ]
       });
     </script>
-    
-    <script>
-      // htmlwidgets need to know to resize themselves when slides are shown/hidden.
-      // Fire the "slideenter" event (handled by htmlwidgets.js) when the current
-      // slide changes (different for each slide format).
-      (function () {
-        // dispatch for htmlwidgets
-        function fireSlideEnter() {
-          const event = window.document.createEvent("Event");
-          event.initEvent("slideenter", true, true);
-          window.document.dispatchEvent(event);
-        }
-
-        function fireSlideChanged(previousSlide, currentSlide) {
-          fireSlideEnter();
-
-          // dispatch for shiny
-          if (window.jQuery) {
-            if (previousSlide) {
-              window.jQuery(previousSlide).trigger("hidden");
-            }
-            if (currentSlide) {
-              window.jQuery(currentSlide).trigger("shown");
-            }
-          }
-        }
-
-        // hookup for slidy
-        if (window.w3c_slidy) {
-          window.w3c_slidy.add_observer(function (slide_num) {
-            // slide_num starts at position 1
-            fireSlideChanged(null, w3c_slidy.slides[slide_num - 1]);
-          });
-        }
-
-      })();
-    </script>
-
     <script id="quarto-html-after-body" type="application/javascript">
     window.document.addEventListener("DOMContentLoaded", function (event) {
       const toggleBodyColorMode = (bsSheetEl) => {
