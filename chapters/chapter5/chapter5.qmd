@@ -1,0 +1,18 @@
+---
+title: "Chapter 4: The art of data visualization"
+---
+
+In this chapter we will review some of the key principles of visual design and how they related to data visualization. 
+
+Understanding the fundamentals of visual design is critical for designing effective data visualizations.
+
+
+
+
+
+## Material
+
+### Slides
+
+- [The art of data visualization](slides/data_viz_art.qmd)
+

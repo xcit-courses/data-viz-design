@@ -1,0 +1,756 @@
+---
+title: ""
+author: "[Pedro Cardoso-Leite](pedro.cardosoleite@uni.lu)"
+format: 
+  revealjs:
+    theme: [default, ../../../assets/revealjs_themes/teaching.scss]
+    css: ../../../assets/revealjs_themes/style.css
+    incremental: false
+    chalkboard: true
+    logo: "https://xcit.org/images/xcit/logofinaline.png"
+    width: 1600
+    height: 900
+    pointer:
+      color: "#db0d23"
+      pointerSize: 24
+    revealjs-plugins:
+      - pointer
+editor: visual
+---
+
+
+
+
+##  {.blurred-bg data-background-image="images/mondrian.jpg" data-background-size="cover"}
+
+::::: {style="text-align: left; position: absolute; bottom: 150px; left: 50px; z-index: 10;"}
+::: {style="background-color: rgba(247, 243, 243, 0.88); color:  rgba(245, 42, 42, 0.88); padding: 30px 40px; display: inline-block; margin-bottom: 20px;"}
+<h2 style="margin: 0; color:  rgba(56, 55, 55, 0.88);">
+
+The Art of Data visualization
+
+</h2>
+:::
+
+<br>
+
+::: {style="background-color: rgba(6, 23, 99, 0.55); color:  rgba(252, 252, 252, 0.88); padding: 15px 25px; display: inline-block;"}
+<p style="margin: 0; font-size: 1em;">
+
+Pedro Cardoso-Leite
+
+</p>
+
+<p style="margin: 0; font-size: 0.5em;">
+<a href="mailto:pedro.cardosoleite@uni.lu" style="color: white;">pedro.cardosoleite\@uni.lu</a>
+</p>
+:::
+:::::
+
+
+
+::: {.footer style="color: white !important; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);"}
+<a href="https://en.wikipedia.org/wiki/Piet_Mondrian" style="color: white !important; text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.8);">Piet Mondrian (1921) Tableau 1</a>
+:::
+
+
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Monsieur+La+Doulaise&family=Comic+Relief&display=swap" rel="stylesheet">
+
+<style>
+.img-shadow:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.2) !important;
+}
+</style>
+
+
+
+
+
+
+
+
+
+## {.center}
+
+Key Design principles for data visualization
+
+::: {.fragment}
+- Gestalt theory (hierarchy, contrast, structure)
+:::
+
+::: {.fragment}
+- Typography
+:::
+
+::: {.fragment}
+- Color
+:::
+
+
+
+
+
+
+
+
+
+# Gestalt Theory
+
+
+## {.center}
+
+::: {.img-shadow style="background: white; padding: 60px 80px; border-radius: 12px; max-width: 1200px; margin: 0 auto;"}
+
+::: {.fragment style="border-left: 4px solid #849ba5; padding-left: 30px; margin-bottom: 40px;"}
+<p style="font-size: 1.3em; line-height: 1.6; color: #333; font-style: italic;">
+We don't perceive individual elements, 
+</p>
+:::
+
+::: {.fragment style="border-left: 4px solid #849ba5; padding-left: 30px;"}
+<p style="font-size: 1.3em; line-height: 1.6; color: #333; font-style: italic;">
+we perceive "Gestalts":  the elements interact to form a perception. 
+</p>
+:::
+
+::: {style="text-align: right; margin-top: 30px; font-size: 0.9em; color: #666;"}
+— [Wikipedia: Gestalt Psychology](https://en.wikipedia.org/wiki/Gestalt_psychology)
+:::
+
+:::
+
+
+
+## {.center}
+
+![](images/gestalt_principles_base.png){.img-shadow width="500" style="display: block; margin: 0 auto; height: auto;"}
+
+::: footer
+No structure
+:::
+
+
+## {.center}
+
+![](images/gestalt_principles_proximity.png){.img-shadow width="500" style="display: block; margin: 0 auto; height: auto;"}
+
+::: footer
+Proximity
+:::
+
+
+## {.center}
+
+![](images/gestalt_principles_similarity.png){.img-shadow width="500" style="display: block; margin: 0 auto; height: auto;"}
+
+::: footer
+Similarity
+:::
+
+
+##  {.center}
+
+![](images/gestalt_principles_enclosure.png){.img-shadow width="500" style="display: block; margin: 0 auto; height: auto;"}
+
+::: footer
+Enclosure
+:::
+
+
+##  {.center}
+
+![](images/gestalt_principles_connectedness.png){.img-shadow width="500" style="display: block; margin: 0 auto; height: auto;"}
+
+
+::: footer
+Connection
+:::
+
+
+
+## {.center}
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 40px;"}
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1.1em;"}
+Manager
+
+John Doe
+
+Architect
+
+Jane Doe
+
+Computer scientist
+
+John Smith
+
+Engineer
+:::
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1.1em; line-height: 1.0;"}
+<p style="margin: 0 0 40px 0; padding: 0;">Manager</p>
+
+<p style="margin: 0; padding: 0;">John Doe</p>
+<p style="margin: 0 0 40px 0; padding: 0;">Architect</p>
+
+<p style="margin: 0; padding: 0;">Jane Doe</p>
+<p style="margin: 0 0 40px 0; padding: 0;">Computer scientist</p>
+
+<p style="margin: 0; padding: 0;">John Smith</p>
+<p style="margin: 0; padding: 0;">Engineer</p>
+:::
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1.1em; line-height: 1.2;"}
+
+<p style="margin: 0; padding: 0;">Manager</p>
+<p style="margin: 0 0 40px 0; padding: 0;">John Doe</p>
+
+<p style="margin: 0; padding: 0;">Architect</p>
+<p style="margin: 0 0 50px 0; padding: 0;">Jane Doe</p>
+
+<p style="margin: 0; padding: 0;">Computer scientist</p>
+<p style="margin: 0 0 50px 0; padding: 0;">John Smith</p>
+
+<p style="margin: 0; padding: 0;">Engineer</p>
+:::
+
+:::
+
+
+
+
+
+## {.center}
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 40px;"}
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1.1em;"}
+<span style="font-size:1em;">Manager</span><br>
+<span style="font-size:0.618em;">John Doe</span><br>
+<span style="font-size:1em;">Architect</span><br>
+<span style="font-size:0.618em;">Jane Doe</span><br>
+<span style="font-size:1em;">Computer scientist</span><br>
+<span style="font-size:0.618em;">John Smith</span><br>
+<span style="font-size:1em;">Engineer</span>
+:::
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1em; line-height: 1.0;"}
+<p style="margin: 0 0 40px 0; padding: 0; font-size:1em;">Manager</p>
+<p style="margin: 0; padding: 0; font-size:0.618em;">John Doe</p>
+<p style="margin: 0 0 40px 0; padding: 0; font-size:1em;">Architect</p>
+<p style="margin: 0; padding: 0; font-size:0.618em;">Jane Doe</p>
+<p style="margin: 0 0 40px 0; padding: 0; font-size:1em;">Computer scientist</p>
+<p style="margin: 0; padding: 0; font-size:0.618em;">John Smith</p>
+<p style="margin: 0; padding: 0; font-size:1em;">Engineer</p>
+:::
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1.1em; line-height: 1.2;"}
+<p style="margin: 0; padding: 0; font-size:1em;">Manager</p>
+<p style="margin: 0 0 40px 0; padding: 0; font-size:0.618em;">John Doe</p>
+<p style="margin: 0; padding: 0; font-size:1em;">Architect</p>
+<p style="margin: 0 0 50px 0; padding: 0; font-size:0.618em;">Jane Doe</p>
+<p style="margin: 0; padding: 0; font-size:1em;">Computer scientist</p>
+<p style="margin: 0 0 50px 0; padding: 0; font-size:0.618em;">John Smith</p>
+<p style="margin: 0; padding: 0; font-size:1em;">Engineer</p>
+:::
+
+:::
+
+
+
+
+
+
+
+## {.center}
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 40px;"}
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1.1em;"}
+<span style="font-size:0.618em;">Manager</span><br>
+<span style="font-size:1em;">John Doe</span><br>
+<span style="font-size:0.618em;">Architect</span><br>
+<span style="font-size:1em;">Jane Doe</span><br>
+<span style="font-size:0.618em;">Computer scientist</span><br>
+<span style="font-size:1em;">John Smith</span><br>
+<span style="font-size:0.618em;">Engineer</span>
+:::
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1em; line-height: 1.0;"}
+<p style="margin: 0 0 40px 0; padding: 0; font-size:0.618em;">Manager</p>
+<p style="margin: 0; padding: 0; font-size:1em;">John Doe</p>
+<p style="margin: 0 0 40px 0; padding: 0; font-size:0.618em;">Architect</p>
+<p style="margin: 0; padding: 0; font-size:1em;">Jane Doe</p>
+<p style="margin: 0 0 40px 0; padding: 0; font-size:0.618em;">Computer scientist</p>
+<p style="margin: 0; padding: 0; font-size:1em;">John Smith</p>
+<p style="margin: 0; padding: 0; font-size:0.618em;">Engineer</p>
+:::
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1.1em; line-height: 1.2;"}
+<p style="margin: 0; padding: 0; font-size:0.618em;">Manager</p>
+<p style="margin: 0 0 40px 0; padding: 0; font-size:1em;">John Doe</p>
+<p style="margin: 0; padding: 0; font-size:0.618em;">Architect</p>
+<p style="margin: 0 0 50px 0; padding: 0; font-size:1em;">Jane Doe</p>
+<p style="margin: 0; padding: 0; font-size:0.618em;">Computer scientist</p>
+<p style="margin: 0 0 50px 0; padding: 0; font-size:1em;">John Smith</p>
+<p style="margin: 0; padding: 0; font-size:0.618em;">Engineer</p>
+:::
+
+:::
+
+
+
+
+## {.center}
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 40px;"}
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1.1em;"}
+<span style="font-size:0.618em; font-weight:bold; color:#cc5500;">Manager</span><br>
+<span style="font-size:1em;">John Doe</span><br>
+<span style="font-size:0.618em; font-weight:bold; color:#cc5500;">Architect</span><br>
+<span style="font-size:1em;">Jane Doe</span><br>
+<span style="font-size:0.618em; font-weight:bold; color:#cc5500;">Computer scientist</span><br>
+<span style="font-size:1em;">John Smith</span><br>
+<span style="font-size:0.618em; font-weight:bold; color:#cc5500;">Engineer</span>
+:::
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1em; line-height: 1.0;"}
+<p style="margin: 0 0 40px 0; padding: 0; font-size:0.618em; font-weight:bold; color:#cc5500;">Manager</p>
+<p style="margin: 0; padding: 0; font-size:1em;">John Doe</p>
+<p style="margin: 0 0 40px 0; padding: 0; font-size:0.618em; font-weight:bold; color:#cc5500;">Architect</p>
+<p style="margin: 0; padding: 0; font-size:1em;">Jane Doe</p>
+<p style="margin: 0 0 40px 0; padding: 0; font-size:0.618em; font-weight:bold; color:#cc5500;">Computer scientist</p>
+<p style="margin: 0; padding: 0; font-size:1em;">John Smith</p>
+<p style="margin: 0; padding: 0; font-size:0.618em; font-weight:bold; color:#cc5500;">Engineer</p>
+:::
+
+::: {.img-shadow .fragment style="background: #f5f5f5; padding: 30px; border-radius: 8px; font-size: 1.1em; line-height: 1.2;"}
+<p style="margin: 0; padding: 0; font-size:0.618em; font-weight:bold; color:#cc5500;">Manager</p>
+<p style="margin: 0 0 40px 0; padding: 0; font-size:1em;">John Doe</p>
+<p style="margin: 0; padding: 0; font-size:0.618em; font-weight:bold; color:#cc5500;">Architect</p>
+<p style="margin: 0 0 50px 0; padding: 0; font-size:1em;">Jane Doe</p>
+<p style="margin: 0; padding: 0; font-size:0.618em; font-weight:bold; color:#cc5500;">Computer scientist</p>
+<p style="margin: 0 0 50px 0; padding: 0; font-size:1em;">John Smith</p>
+<p style="margin: 0; padding: 0; font-size:0.618em; font-weight:bold; color:#cc5500;">Engineer</p>
+:::
+
+:::
+
+
+
+
+
+# Data Viz example
+
+## {.center}
+
+::: {style="display: flex; justify-content: center; align-items: center; width: 100%;"}
+![](images/co2_emissions_horizontal_v0.png){.img-shadow width="1000px" style="display: block; margin: 0 auto;"}
+:::
+
+## {.center}
+
+::: {style="display: flex; justify-content: center; align-items: center; width: 100%;"}
+![](images/co2_emissions_horizontal_v1.png){.img-shadow width="1000px" style="display: block; margin: 0 auto;"}
+:::
+
+## {.center}
+
+::: {style="display: flex; justify-content: center; align-items: center; width: 100%;"}
+![](images/co2_emissions_horizontal_v2.png){.img-shadow width="1000px" style="display: block; margin: 0 auto;"}
+:::
+
+## {.center}
+
+::: {style="display: flex; justify-content: center; align-items: center; width: 100%;"}
+![](images/co2_emissions_horizontal_v3.png){.img-shadow width="1000px" style="display: block; margin: 0 auto;"}
+:::
+
+## {.center}
+
+::: {style="display: flex; justify-content: center; align-items: center; width: 100%;"}
+![](images/co2_emissions_horizontal_v4.png){.img-shadow width="1000px" style="display: block; margin: 0 auto;"}
+:::
+
+
+
+
+
+
+# Typography
+
+
+## {.center}
+
+::: {.img-shadow style="background: white; padding: 60px 80px; border-radius: 12px; max-width: 1200px; margin: 0 auto;"}
+
+::: {.fragment style="border-left: 4px solid #849ba5; padding-left: 30px; margin-bottom: 40px;"}
+<p style="font-size: 1.3em; line-height: 1.6; color: #333; font-style: italic;">
+Typography is the art and technique of arranging type to make written language legible, readable and appealing when displayed.
+</p>
+:::
+
+::: {.fragment style="border-left: 4px solid #849ba5; padding-left: 30px;"}
+<p style="font-size: 1.3em; line-height: 1.6; color: #333; font-style: italic;">
+The arrangement of type involves selecting typefaces, point sizes, line lengths, line spacing, letter spacing, and spaces between pairs of letters.
+</p>
+:::
+
+::: {style="text-align: right; margin-top: 30px; font-size: 0.9em; color: #666;"}
+— [Wikipedia: Typography](https://en.wikipedia.org/wiki/Typography)
+:::
+
+:::
+
+
+
+## {.center}
+
+::: {style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; padding: 20px;"}
+
+::: {.fragment style="display: contents;"}
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Libre Baskerville', serif; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+I'm sorry.
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+I'm sorry.
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Monsieur La Doulaise', cursive; font-size: 1.2em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+I'm sorry.
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Comic Relief', cursive; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+I'm sorry.
+:::
+:::
+
+::: {.fragment style="display: contents;"}
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Libre Baskerville', serif; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+It's my 5^th^ birthday!
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+It's my 5^th^ birthday!
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Monsieur La Doulaise', cursive; font-size: 1.2em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+It's my 5^th^ birthday!
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Comic Relief', cursive; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+It's my 5^th^ birthday!
+:::
+:::
+
+::: {.fragment style="display: contents;"}
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Libre Baskerville', serif; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+The Royal Society
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+The Royal Society
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Monsieur La Doulaise', cursive; font-size: 1.2em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+The Royal Society
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Comic Relief', cursive; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+The Royal Society
+:::
+:::
+
+::: {.fragment style="display: contents;"}
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Libre Baskerville', serif; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+Climate change is real.
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Inter', sans-serif; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+Climate change is real.
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Monsieur La Doulaise', cursive; font-size: 1.2em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+Climate change is real.
+:::
+
+::: {.img-shadow style="background: #f5f5f5; padding: 20px; border-radius: 8px; font-family: 'Comic Relief', cursive; font-size: 1em; transition: transform 0.3s ease, box-shadow 0.3s ease;"}
+Climate change is real.
+:::
+:::
+
+:::
+
+
+
+
+## {.center}
+
+::: {style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 40px; padding: 40px; max-width: 1200px; margin: 0 auto;"}
+
+
+::: {.img-shadow style="background: white; padding: 50px; border-radius: 8px; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;"}
+<p style="font-family: 'Libre Baskerville', serif; font-size: 2em; margin: 20px 0;">Serif</p>
+<p style="font-size: 0.9em; color: #666; margin: 10px 0;">Libre Baskerville</p>
+:::
+
+
+
+
+::: {.img-shadow style="background: white; padding: 50px; border-radius: 8px; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;"}
+<p style="font-family: 'Inter', sans-serif; font-size: 2em; margin: 20px 0;">Sans Serif</p>
+<p style="font-size: 0.9em; color: #666; margin: 10px 0;">Inter</p>
+:::
+
+
+
+::: {.img-shadow style="background: white; padding: 50px; border-radius: 8px; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;"}
+<p style="font-family: 'Monsieur La Doulaise', cursive; font-size: 2em; margin: 20px 0;">Display</p>
+<p style="font-size: 0.9em; color: #666; margin: 10px 0;">Monsieur La Doulaise</p>
+:::
+
+
+::: {.img-shadow style="background: white; padding: 50px; border-radius: 8px; text-align: center; min-height: 200px; display: flex; flex-direction: column; justify-content: center;"}
+<p style="font-family: 'Courier New', monospace; font-size: 2em; margin: 20px 0;">Monospace</p>
+<p style="font-size: 0.9em; color: #666; margin: 10px 0;">Courier New</p>
+:::
+
+:::
+
+
+
+
+## 
+
+::: {style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 30px; padding: 40px; max-width: 1400px; margin: 0 auto;"}
+
+::: {.img-shadow style="background: white; padding: 40px; border-radius: 8px; text-align: center;"}
+<p style="font-family: 'Roboto', sans-serif; font-weight: 100; font-size: 1em; margin: 10px 0;">Roboto Thin</p>
+<p style="font-size: 0.8em; color: #666;">Weight: 100</p>
+:::
+
+::: {.img-shadow style="background: white; padding: 40px; border-radius: 8px; text-align: center;"}
+<p style="font-family: 'Roboto', sans-serif; font-weight: 300; font-size: 1em; margin: 10px 0;">Roboto Light</p>
+<p style="font-size: 0.8em; color: #666;">Weight: 300</p>
+:::
+
+::: {.img-shadow style="background: white; padding: 40px; border-radius: 8px; text-align: center;"}
+<p style="font-family: 'Roboto', sans-serif; font-weight: 400; font-size: 1em; margin: 10px 0;">Roboto Regular</p>
+<p style="font-size: 0.8em; color: #666;">Weight: 400</p>
+:::
+
+
+::: {.img-shadow style="background: white; padding: 40px; border-radius: 8px; text-align: center;"}
+<p style="font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 1em; margin: 10px 0;">Roboto Bold</p>
+<p style="font-size: 0.8em; color: #666;">Weight: 700</p>
+:::
+
+::: {.img-shadow style="background: white; padding: 40px; border-radius: 8px; text-align: center;"}
+<p style="font-family: 'Roboto', sans-serif; font-weight: 900; font-size: 1em; margin: 10px 0;">Roboto Black</p>
+<p style="font-size: 0.8em; color: #666;">Weight: 900</p>
+:::
+
+::: {.img-shadow style="background: white; padding: 40px; border-radius: 8px; text-align: center;"}
+<p style="font-family: 'Roboto', sans-serif; font-weight: 400; font-style: italic; font-size: 1em; margin: 10px 0;">Roboto Italic</p>
+<p style="font-size: 0.8em; color: #666;">Italic style</p>
+:::
+
+::: {.img-shadow style="background: white; padding: 40px; border-radius: 8px; text-align: center;"}
+<p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 300; font-size: 1em; margin: 10px 0;">Roboto Condensed Light</p>
+<p style="font-size: 0.8em; color: #666;">Condensed 300</p>
+:::
+
+::: {.img-shadow style="background: white; padding: 40px; border-radius: 8px; text-align: center;"}
+<p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 700; font-size: 1em; margin: 10px 0;">Roboto Condensed Bold</p>
+<p style="font-size: 0.8em; color: #666;">Condensed 700</p>
+:::
+
+::: {.img-shadow style="background: white; padding: 40px; border-radius: 8px; text-align: center;"}
+<p style="font-family: 'Roboto Condensed', sans-serif; font-weight: 400; font-style: italic; font-size: 1em; margin: 10px 0;">Roboto Condensed Italic</p>
+<p style="font-size: 0.8em; color: #666;">Condensed Italic</p>
+:::
+
+:::
+
+
+
+## {.center}
+
+::: {style="display: flex; justify-content: center; align-items: center; width: 100%;"}
+[![](images/google_fonts.png){.img-shadow width="1200px" style="display: block; margin: 0 auto;"}](https://fonts.google.com/)
+:::
+
+::: footer
+[fonts.google.com](https://fonts.google.com/)
+:::
+
+
+
+
+
+
+
+
+# Color
+
+
+## Color Theory
+
+- [Color Space](https://en.wikipedia.org/wiki/Color_space)
+- [Color Theory](https://www.interaction-design.org/literature/topics/color-theory)
+- [UI Color Palette](https://www.interaction-design.org/literature/article/ui-color-palette?r=pedro-cardoso-leite)
+- [Understand Color Symbolism](https://www.interaction-design.org/literature/article/understand-color-symbolism)
+
+
+
+
+
+## {.center}
+
+<iframe src="https://www.datawrapper.de/blog/gendercolor" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[Gender and Color](https://www.datawrapper.de/blog/gendercolor)
+:::
+
+
+
+# Color palettes<br>for data visualization
+
+
+## {.center}
+
+![](images/palette_types.png){.img-shadow width="700px" style="display: block; margin: 0 auto;"}
+
+
+
+
+
+## {.center}
+
+<iframe src="https://www.datawrapper.de/blog/create-good-color-palettes" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[Create Good Color Palettes](https://www.datawrapper.de/blog/create-good-color-palettes)
+:::
+
+## {.center}
+
+<iframe src="https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[Color Contrast Check](https://www.datawrapper.de/blog/color-contrast-check-data-vis-wcag-apca)
+:::
+
+
+
+## {.center}
+
+<iframe src="https://projects.susielu.com/viz-palette?colors=[%22#ffd700%22,%22#ffb14e%22,%22#fa8775%22,%22#ea5f94%22,%22#cd34b5%22,%22#9d02d7%22,%22#0000ff%22]&backgroundColor=%22white%22&fontColor=%22black%22&mode=%22normal%22" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[Viz Palette](https://projects.susielu.com/viz-palette)
+:::
+
+
+
+# Styleguides
+
+## {.center}
+
+<iframe src="https://urbaninstitute.github.io/graphics-styleguide/" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[Urban Institute Style Guide](https://urbaninstitute.github.io/graphics-styleguide/)
+:::
+
+
+
+
+
+
+# Tools
+
+
+
+## {.center}
+
+<iframe src="https://colorbrewer2.org/#type=sequential&scheme=BuGn&n=3" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[ColorBrewer 2.0](https://colorbrewer2.org/)
+:::
+
+
+
+## {.center}
+
+<iframe src="https://projects.susielu.com/viz-palette" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[Viz Palette Tool](https://projects.susielu.com/viz-palette)
+:::
+
+
+
+## {.center}
+
+<iframe src="https://r-graph-gallery.com/color-palette-finder?s=09" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[R Color Palette Finder](https://r-graph-gallery.com/color-palette-finder)
+:::
+
+
+
+<!-- Tools for designers in general -->
+
+## {.center}
+
+<iframe src="https://coolors.co/" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[Coolors](https://coolors.co/)
+:::
+
+## {.center}
+
+<iframe src="https://huemint.com/" width="100%" height="700px" style="border: 2px solid #ccc;"></iframe>
+
+::: footer
+[Huemint](https://huemint.com/)
+:::
+
+
+
+
+
+# Key message
+
+## {.center}
+
+::: {style="display: flex; align-items: center; justify-content: center; height: 100%;"}
+::: {.img-shadow style="background: white; padding: 100px; border-radius: 12px; font-size: 1.5em; max-width: 90%; text-align: center;"}
+::: {.fragment}
+differences in meaning ⟺ visual differences
+:::
+
+::: {.fragment style="margin-top: 50px;"}
+semantic similarity = visual similarity
+:::
+:::
+:::
+
+
+
+# 
+
+
+

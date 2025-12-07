@@ -6,50 +6,77 @@ title: "Syllabus"
 
 ## Course Description
 
-This course provides a hands-on introduction to designing effective data visualizations.
+This course provides a hands-on introduction to designing effective data visualizations, covering principles, techniques, and best practices for creating clear, accurate, and impactful visual representations of data.
+
+## Learning Objectives
+
+By the end of this course, students will be able to:
+
+- Understand why data visualization design matters and its impact on communication
+- Apply key principles to evaluate and critique data visualizations
+- Select appropriate visualization types for different data and purposes
+- Apply perceptual and aesthetic principles to create effective visualizations
+- Use design tools (Figma) to prototype and refine visualizations
+- Create and present professional data visualization projects
+
+## Chapters
+
+### 1. Introduction to Data Visualization Design
+
+Explores the importance of data visualization through concrete examples. Emphasizes that effective visualization requires purposeful design, specific skills, and knowledge—not just "showing the data."
+
+**Activity**: Students identify and analyze 2 good and 2 bad visualization examples from their field.
+
+### 2. What Makes a Visualization Good?
+
+Introduces ten key principles for evaluating data visualization quality. Students learn to systematically assess and critique graphs based on clarity, accuracy, design, and communication effectiveness.
+
+**Activity**: Students re-evaluate the 2 good and 2 bad visualization examples they identified in the first session.
 
 
+### 3. Picking the Right Type of Data Visualization
+
+Reviews common visualization types and decision criteria for selecting the appropriate chart for a given data type and purpose. 
+
+**Exercises**: Drawing scenarios to practice matching visualization types to data and questions (cybersecurity and IQ datasets).
+
+**Activity**: Students re-evaluate the 2 good and 2 bad visualization examples they identified in the first session.
 
 
+### 4. The Science of Data Visualization Perception
 
-## Chapters (WIP)
+Examines experimental psychology findings on how humans perceive visual information. Understanding perceptual fundamentals helps avoid critical mistakes and design more effective visualizations. 
 
-### 1. Introduction and motivation for course
-
-Will cover examples illustrating the importance of designing effective data visualizations.
-
-Students will be asked to pick 3 good and 3 bad examples from their fields and comment them (why they like or dislike them; at the end of the course they will redo that and maybe redesign one of them in Figma).
-
-
-
-### 2. 10 principles for good data vizualization + data viz critique
-
-I will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they've done in 1.
-
-
-### 3. Data Viz Vocabulary
-
-Picking the right type of graph for your data; know your data viz vocabulary
-
-
-### 4. Colors and Fonts, Scales, titles
-
-Tools; Testing you data visualization; 
+**Activity**: Students re-evaluate the 2 good and 2 bad visualization examples they identified in the first session.
 
 
 ### 5. Introduction to Figma (with Sophie Doublet)
 
-There are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.
+Hands-on introduction to Figma, a collaborative design tool for prototyping data visualizations. Students learn to draft, iterate, and refine visualization designs before implementation.
 
 
-### 6. Software to make visuzlization
+**Activity**: Students create a data visualization using Figma, ideally using as a starting point one of the figures identified earlier.
 
-Presenting some tools/software for making graphs (e.g., ggplot2, D3); 
-Cover other forms of visualization (e.g., dashboards, diagrams, visual explanations, infographics)
 
-### 7. Redesign a graph: Before/After
+### 6. The Art of Data Visualization
 
-Students are organized in groups and asked to work on particular data visualization projects.
+Explores aesthetic and perceptual design principles that enhance visualization effectiveness:
+
+- **Gestalt Theory**: Proximity, similarity, enclosure, connection, and how viewers naturally group visual elements
+- **Typography**: Font selection and how typeface choices convey meaning and emotion
+- **Color**: Color theory, palette types (sequential, diverging, qualitative), accessibility, and practical tools
+
+**Key principle**: Differences in meaning should correspond to visual differences; semantic similarity should match visual similarity.
+
+
+**Activity**: Students form groups and select a common data visualization project.
+
+
+
+
+### 7. Student Projects
+
+Students present their data visualization projects, demonstrating application of course principles and techniques.
 
 
 

@@ -50,7 +50,8 @@ website:
             href: chapters/chapter3/chapter3.qmd
           - text: Chapter 4
             href: chapters/chapter4/chapter4.qmd
-
+          - text: Chapter 5
+            href: chapters/chapter5/chapter5.qmd
       - text: Resources
         href: resources/resources.md
 
@@ -71,7 +72,8 @@ book:
         - chapters/chapter1/chapter1.qmd               
         - chapters/chapter2/chapter2.qmd             
         - chapters/chapter3/chapter3.qmd                                 
-        - chapters/chapter4/chapter4.qmd                         
+        - chapters/chapter4/chapter4.qmd 
+        - chapters/chapter5/chapter5.qmd                         
     - resources/resources.md
 
 format:
