@@ -108,581 +108,368 @@
     "text": "Share your drawings on Moodle."
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Picking the right type of data visualization\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nThe Global Warming Stripes by Ed Hawkins."
+    "text": "The Science of Data visualization\n\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nFranconeri et al (2021)"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-1",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-1",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-1",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-1",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "There are many ways to visualize data\n\n\nYou need to know some classics\n\n\nA principled approach leads to better choices"
+    "text": "Vision: The Retina - MSU OpenBooks"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#classification-strategies",
-    "href": "chapters/chapter3/slides/data_viz_types.html#classification-strategies",
-    "title": "Data Visualization Design",
-    "section": "Classification strategies",
-    "text": "Classification strategies\n\nwhat structure in the data do you want to show?\nwhat cognitive operations do you want your users to apply on the visualization?\n\n\n\nwhat kind of data do you have?\n\n\n\nOther considerations\n\n\nOften both approaches are used together"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-2",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-2",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-2",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-2",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "There’s no algorithm to determine the “best” solution\n\n\nYou need to jointly consider many criteria\n\n\nYou need to think for yourself and make choices\n\n\nbut you can often say which of two versions is better"
+    "text": "Vision: Central Processing - MSU OpenBooks"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#what-is-analytic-purpose",
-    "href": "chapters/chapter3/slides/data_viz_types.html#what-is-analytic-purpose",
-    "title": "Data Visualization Design",
-    "section": "What is analytic purpose?",
-    "text": "What is analytic purpose?\n\nWhat structure in the data do you want to show?\nWhat cognitive operations do you want users to apply?\n\n\nThere is no single agreed-upon categorization.\nDifferent authors propose different systems, but there is large overlap."
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-3",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-3",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-3",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-3",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "FT Visual Vocabulary"
+    "text": "Felleman and Van Essen (1991)"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-4",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-4",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-4",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-4",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "r-graph-gallery.com"
+    "text": "Photo, 1D diagram\n2D diagram"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-5",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-5",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-5",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-5",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "https://python-graph-gallery.com"
+    "text": "The Unexpected Visitor.  Oil on canvas painting by Ilya Repin, 1884–88.  (Source: Courtesy of www.ilyarepin.org.)"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#the-type-of-data-you-have-is-a-major-determinant-of-data-visualization-choice.",
-    "href": "chapters/chapter3/slides/data_viz_types.html#the-type-of-data-you-have-is-a-major-determinant-of-data-visualization-choice.",
-    "title": "Data Visualization Design",
-    "section": "The type of data you haveis a major determinantof data visualization choice.",
-    "text": "The type of data you haveis a major determinantof data visualization choice."
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#common-data-types",
-    "href": "chapters/chapter3/slides/data_viz_types.html#common-data-types",
-    "title": "Data Visualization Design",
-    "section": "Common data types:",
-    "text": "Common data types:\n\nNumeric (integer, float; ratio, interval, ordinal)\nCategorical (ordered, unordered)\nText\nGeospatial data\nNetwork data\nDates and time"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#chart-choosers",
-    "href": "chapters/chapter3/slides/data_viz_types.html#chart-choosers",
-    "title": "Data Visualization Design",
-    "section": "Chart Choosers",
-    "text": "Chart Choosers\ndata-to-viz\nhighcharts (js)\nFT Visual Vocabulary\nR Graph Gallery\nPython Graph Gallery"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-8",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-8",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-6",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-6",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "data-to-viz.com"
+    "text": "Tasks\n\nFree examination\nEstimate the material circumstances of the family\nGive the ages of the people\nSurmise what the family had been doing before the arrival of the ‘unexpected visitor’\nRemember the clothes worn by the people\nRemember the position of the people and objects in the room\nEstimate how long the unexpected visitor had been away from the family\n\n\nAdpated from Yarbus (1967)"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#multiple-other-factors-to-consider",
-    "href": "chapters/chapter3/slides/data_viz_types.html#multiple-other-factors-to-consider",
-    "title": "Data Visualization Design",
-    "section": "Multiple other factors to consider",
-    "text": "Multiple other factors to consider\n\nHuman perception\nImportance hierarchy\nStyle and preferences\nData complexity\nTarget audience\nMedium (print, web, presentation)"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-9",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-9",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-7",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-7",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Google Maps - University of Luxembourg\n\n\n\nZoom in: see small streets, buildings, landmarks (high detail, small area)\nZoom out: see countries, capitals (low detail, large area)"
+    "text": "Shi et al. (2025)"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#complexity",
-    "href": "chapters/chapter3/slides/data_viz_types.html#complexity",
-    "title": "Data Visualization Design",
-    "section": "Complexity?",
-    "text": "Complexity?\n\nData\n\nNumber of observations (rows)\nNumber of attributes (columns)\n\n\n\nConceptual\n\nDifficult/abstract concepts\nMultivariate phenomena"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#adjust-the-level-of-complexity-to-your-target-audience",
-    "href": "chapters/chapter3/slides/data_viz_types.html#adjust-the-level-of-complexity-to-your-target-audience",
-    "title": "Data Visualization Design",
-    "section": "Adjust the levelof complexityto your target audience",
-    "text": "Adjust the levelof complexityto your target audience"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#common-strategies-to-handle-complexity",
-    "href": "chapters/chapter3/slides/data_viz_types.html#common-strategies-to-handle-complexity",
-    "title": "Data Visualization Design",
-    "section": "Common strategies to handle complexity",
-    "text": "Common strategies to handle complexity\n\nExplain\n\nannotations\ntutorials\ntext\n\n\n\nSimplify\n\nselect and focus on key aspects\ncompute aggregations\n\n\n\nSpread out\n\nmultiple figures, small multiples\ninteractive visualization / animations"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#example",
-    "href": "chapters/chapter3/slides/data_viz_types.html#example",
-    "title": "Data Visualization Design",
-    "section": "Example",
-    "text": "Example"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-10",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-10",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-8",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-8",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Uber’s H3: Hexagonal Hierarchical Geospatial Indexing System"
+    "text": "Wikipedia"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-11",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-11",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#seeing-stuff-that-isnt-there",
+    "href": "chapters/chapter4/slides/data_viz_science.html#seeing-stuff-that-isnt-there",
+    "title": "Data Visualization Design",
+    "section": "seeing stuff that isn’t there",
+    "text": "seeing stuff that isn’t there\n\n\n\nPareidolia - Wikipedia"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#kanizsa-illusion",
+    "href": "chapters/chapter4/slides/data_viz_science.html#kanizsa-illusion",
+    "title": "Data Visualization Design",
+    "section": "Kanizsa illusion",
+    "text": "Kanizsa illusion\n\n\n\nKanizsa Illusion - YouTube"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#automatic-reading",
+    "href": "chapters/chapter4/slides/data_viz_science.html#automatic-reading",
+    "title": "Data Visualization Design",
+    "section": "Automatic Reading",
+    "text": "Automatic Reading\n\n\n\n\nThe Stroop effect"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#color-perception",
+    "href": "chapters/chapter4/slides/data_viz_science.html#color-perception",
+    "title": "Data Visualization Design",
+    "section": "Color perception",
+    "text": "Color perception\n\n\n\nColor Perception - YouTube"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-9",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-9",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Line Plot - R Graph Gallery\n\n\nspagethi graph"
+    "text": "Optical illusions–Michael Bach"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-13",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-13",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-10",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-10",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Mortality Visualization - Holtzy"
+    "text": "Ebbinghaus Illusion - Michael Bach"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#interactive-examples",
-    "href": "chapters/chapter3/slides/data_viz_types.html#interactive-examples",
-    "title": "Data Visualization Design",
-    "section": "Interactive examples",
-    "text": "Interactive examples"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-14",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-14",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-11",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-11",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Earth Wind Patterns - earth.nullschool.net"
+    "text": "Shepard’s Terror - Michael Bach"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-15",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-15",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-12",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-12",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Global Ship Traffic - Shipmap.org"
+    "text": "Shepard Tables - Michael Bach"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-16",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-16",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-13",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-13",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "A Day in the Life of Americans - FlowingData"
+    "text": "Müller-Lyer illusion - Wikipedia"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#chart-chooser-tools",
-    "href": "chapters/chapter3/slides/data_viz_types.html#chart-chooser-tools",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-14",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-14",
     "title": "Data Visualization Design",
-    "section": "Chart chooser tools",
-    "text": "Chart chooser tools\n\nFT Visual Vocabulary\ndata-to-viz.com - Comprehensive guide with decision tree\nHighcharts Chart Chooser - Interactive selection\nR Graph Gallery\nPython Graph Gallery"
+    "section": "",
+    "text": "T-illusion - Michael Bach"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-avoid",
-    "href": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-avoid",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-15",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-15",
     "title": "Data Visualization Design",
-    "section": "Inspiration (what to avoid)",
-    "text": "Inspiration (what to avoid)\n\n\n\nWTF Visualizations - viz.wtf"
+    "section": "",
+    "text": "Induced Brightness - Michael Bach"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-mimic",
-    "href": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-mimic",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-16",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-16",
     "title": "Data Visualization Design",
-    "section": "Inspiration (what to mimic)",
-    "text": "Inspiration (what to mimic)\n\n\n\nData Visualization Inspiration"
+    "section": "",
+    "text": "Neon Color Spreading - Michael Bach"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#mapping-multivariate-data-to-graph-attributes",
-    "href": "chapters/chapter3/slides/data_viz_types.html#mapping-multivariate-data-to-graph-attributes",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-17",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-17",
     "title": "Data Visualization Design",
-    "section": "Mapping multivariate data to graph attributes",
-    "text": "Mapping multivariate data to graph attributes\n\n\n\nProf. Hans Rosling, Gapminder"
+    "section": "",
+    "text": "Watercolor Illusion - Michael Bach"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-17",
-    "href": "chapters/chapter3/slides/data_viz_types.html#section-17",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-18",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-18",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Adelson’s Checkershadow Illusion - Michael Bach"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-19",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-19",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Shape from Shading - Michael Bach"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-20",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-20",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Necker Cube - Michael Bach"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-21",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-21",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Gestalt in Isoluminance - Michael Bach"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-22",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-22",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "YouTube"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-23",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-23",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "YouTube"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-24",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-24",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "YouTube"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#neural-recycling",
+    "href": "chapters/chapter4/slides/data_viz_science.html#neural-recycling",
+    "title": "Data Visualization Design",
+    "section": "Neural recycling",
+    "text": "Neural recycling\n\n\n\n\n\n\n\n\n\nCourse by Stanislas Dehaene (Collège de France)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-25",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-25",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "https://journals.sagepub.com/doi/10.1177/15291006211051956"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#mapping-of-data-to-visual-attributes",
+    "href": "chapters/chapter4/slides/data_viz_science.html#mapping-of-data-to-visual-attributes",
+    "title": "Data Visualization Design",
+    "section": "Mapping of data to visual attributes",
+    "text": "Mapping of data to visual attributes"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#how-do-you-decide-which-visual-attributes-to-map-to-your-data",
+    "href": "chapters/chapter4/slides/data_viz_science.html#how-do-you-decide-which-visual-attributes-to-map-to-your-data",
+    "title": "Data Visualization Design",
+    "section": "How do you decidewhich visual attributesto map to your data?",
+    "text": "How do you decidewhich visual attributesto map to your data?"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-26",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-26",
+    "title": "Data Visualization Design",
+    "section": "1",
+    "text": "1"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-27",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-27",
+    "title": "Data Visualization Design",
+    "section": "2",
+    "text": "2"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-28",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-28",
+    "title": "Data Visualization Design",
+    "section": "3",
+    "text": "3"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-29",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-29",
+    "title": "Data Visualization Design",
+    "section": "4",
+    "text": "4"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-30",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-30",
+    "title": "Data Visualization Design",
+    "section": "5",
+    "text": "5"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-31",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-31",
+    "title": "Data Visualization Design",
+    "section": "6",
+    "text": "6"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-32",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-32",
+    "title": "Data Visualization Design",
+    "section": "7",
+    "text": "7"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-33",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-33",
+    "title": "Data Visualization Design",
+    "section": "8",
+    "text": "8"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-34",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-34",
+    "title": "Data Visualization Design",
+    "section": "9",
+    "text": "9"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-35",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-35",
+    "title": "Data Visualization Design",
+    "section": "10",
+    "text": "10"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#solutions",
+    "href": "chapters/chapter4/slides/data_viz_science.html#solutions",
+    "title": "Data Visualization Design",
+    "section": "Solutions",
+    "text": "Solutions"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#stevens-power-law",
+    "href": "chapters/chapter4/slides/data_viz_science.html#stevens-power-law",
+    "title": "Data Visualization Design",
+    "section": "Stevens’ Power law",
+    "text": "Stevens’ Power law\n\n\nhttps://graphworkflow.com/decoding/perceived-magnitude/"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-37",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-37",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Crameri et al. (2020)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-38",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-38",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Cleveland & McGill (1984)\nFranconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., & Hullman, J. (2021). The Science of Visual Data Communication: What Works. Psychological Science in the Public Interest, 22(3), 110-161.\nCourse by Stanislas Dehaene (Collège de France)\n\n\nhttps://priceonomics.com/how-william-cleveland-turned-data-visualization/\nhttp://vis.stanford.edu/papers/crowdsourcing-graphical-perception\nhttps://idl.uw.edu/\nCrowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design http://vis.stanford.edu/files/2010-MTurk-CHI.pdf"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-39",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-39",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "https://journals.sagepub.com/doi/10.1177/15291006211051956"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#text-perception",
+    "href": "chapters/chapter4/slides/data_viz_science.html#text-perception",
+    "title": "Data Visualization Design",
+    "section": "Text perception",
+    "text": "Text perception\n\n\n\n\n\n\n\nCohen et al. (2008)"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-42",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-42",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "https://www.gapminder.org"
+  },
+  {
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-43",
+    "href": "chapters/chapter4/slides/data_viz_science.html#section-43",
     "title": "Data Visualization Design",
     "section": "",
     "text": "Remixing Rosling - Truth & Beauty"
   },
   {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#key-takeaways",
-    "href": "chapters/chapter3/slides/data_viz_types.html#key-takeaways",
+    "objectID": "chapters/chapter4/slides/data_viz_science.html#assignment",
+    "href": "chapters/chapter4/slides/data_viz_science.html#assignment",
     "title": "Data Visualization Design",
-    "section": "Key takeaways",
-    "text": "Key takeaways\n\nMultiple classification systems exist (purpose, data type)\nNo single “best” visualization - depends on context\nConsider multiple criteria when choosing\nUse tools and galleries for guidance and inspiration\nManage complexity through simplification and interaction\nTest and iterate to find what works"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#questions",
-    "href": "chapters/chapter3/slides/data_viz_types.html#questions",
-    "title": "Data Visualization Design",
-    "section": "Questions?",
-    "text": "Questions?"
-  },
-  {
-    "objectID": "chapters/chapter3/slides/data_viz_types.html#exercise-1",
-    "href": "chapters/chapter3/slides/data_viz_types.html#exercise-1",
-    "title": "Data Visualization Design",
-    "section": "Exercise",
-    "text": "Exercise\n\nReview the 4 images you have selected last time.\n\n\nDo those figures use the appropriate type of data visualization?\nAre there other types that would be equivalent or better?\nJustify your answers\n\n\nPost your work on Moodle as:\n\nPDF file called &lt;your_name&gt;_graph_type.pdf\nOne page per graph (i.e., the image of the graph, the source, and your comments)"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "Designing Effective Data Visualizations\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nThe Global Warming Stripes by Ed Hawkins."
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-1",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-1",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "The Challenger Space Shuttle January 28, 1986"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-2",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-2",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "The night before…"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-3",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-3",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "What’s the issue?\n\n\n\n\n\n\n\nO-rings\nmight get damaged\nwhen it’s too cold."
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-happened",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#what-happened",
-    "title": "Data Visualization Design",
-    "section": "What happened?",
-    "text": "What happened?"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-happened-1",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#what-happened-1",
-    "title": "Data Visualization Design",
-    "section": "What happened?",
-    "text": "What happened?\n\nWhat was the concern?\nWhat data / information should they have shared?"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-7",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-7",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "Of the 13 charts circulated by Thiokol managers and engineers to the scattered teleconferees,\n\n\nsix contained no tabled data about either O-ring temperature, O-ring blow-by, or O-ring anomaly (these were primarily outlines of arguments being made by the Thiokol engineers).\n\n\nOf the seven remaining charts containing data,\n\n\nsix of them included data on either launch temperatures or O-ring anomaly but not both in relation to each other.\n\n\nOnly one chart relating O-ring temperature and O-ring damage was prepared by a Thiokol engineer.\n\n\n\n\n\nLet’s focus on this one document."
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-do-you-think-about-this-chart",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#what-do-you-think-about-this-chart",
-    "title": "Data Visualization Design",
-    "section": "What do you think about this chart?",
-    "text": "What do you think about this chart?"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-12",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-12",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "Edward Tufte’s redesigned chart from “Visual Explanations”"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-13",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-13",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "Edward Tufte’s redesigned chart from “Visual Explanations”"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-14",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-14",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "other interesting videos: - https://www.youtube.com/watch?v=VJ86D_DtyWg - https://www.youtube.com/watch?v=Pq32LB8j2K8"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-15",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-15",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "There are now more modern version of the John Snow data exploration\n\nhttps://flourish.studio/blog/masters-john-snow/"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-16",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-16",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "Your browser does not support SVG\n\n\n\nWhat can you tell me about these four datasets?\nAre they the same?"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-can-you-say-about-these-four-datasets",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#what-can-you-say-about-these-four-datasets",
-    "title": "Data Visualization Design",
-    "section": "What can you say about these four datasets?",
-    "text": "What can you say about these four datasets?"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#anscombes-quartet",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#anscombes-quartet",
-    "title": "Data Visualization Design",
-    "section": "Anscombe’s Quartet",
-    "text": "Anscombe’s Quartet\n\nConstructed in 1973 by statistician Francis Anscombe\nDemonstrates the importance of graphing data\nShows the effect of outliers on statistical properties\nIntended to counter the impression among statisticians that “numerical calculations are exact, but graphs are rough.”\n\n\n\nWikipedia: Anscombe’s quartet"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-17",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-17",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "“The greatest value of a picture is when it forces us to notice what we never expected to see.”\n\nJohn W. Tukey"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#the-data-science-workflow",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#the-data-science-workflow",
-    "title": "Data Visualization Design",
-    "section": "The data science workflow",
-    "text": "The data science workflow\n\n\n\n\n\n\n\nSource: R for Data Science"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#the-two-reasons-for-visualizing-data",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#the-two-reasons-for-visualizing-data",
-    "title": "Data Visualization Design",
-    "section": "The two reasons for visualizing data",
-    "text": "The two reasons for visualizing data\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource: R for Data Science"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#the-two-purposes-of-data-visualization",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#the-two-purposes-of-data-visualization",
-    "title": "Data Visualization Design",
-    "section": "The two purposes of data visualization",
-    "text": "The two purposes of data visualization\n\nThe key function of data visualization is to move information from point A to point B.\n\n\n\nIn exploratory visualization,\n\n\n  \n\n\npoint A is the dataset andpoint B is the designer’s own mind.\n\n\n\n\nIn explanatory visualization,\n\n\n  \n\n\npoint A is the mind of the designer, andpoint B is the mind of the reader.”\n\n\n\n\n\nJulie Steele & Noah Iliinsky, Designing Data Visualizations"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#two-types-of-visualizing-data",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#two-types-of-visualizing-data",
-    "title": "Data Visualization Design",
-    "section": "Two “types” of visualizing data",
-    "text": "Two “types” of visualizing data\n\n\n\n\n\n\n\n\n\n\nExploration iterate fast check and recheck\n\n\n\n\n\nExplanation deliberate, purposeful specific, perfect\n\n\n\nSource: R for Data Science"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#beyond-informing",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#beyond-informing",
-    "title": "Data Visualization Design",
-    "section": "Beyond informing…",
-    "text": "Beyond informing…\n\n\n\n\n\n\n\nSource: The Global Warming Stripes by Ed Hawkins"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-19",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-19",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "https://doi.org/10.1175/BAMS-D-24-0212.1"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-20",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-20",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "https://showyourstripes.info/showcase"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#make-it-personal.",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#make-it-personal.",
-    "title": "Data Visualization Design",
-    "section": "Make it personal.",
-    "text": "Make it personal.\n\n\n\n\n\n\n\nShow Your Stripes - Luxembourg"
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-21",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#section-21",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "Effective data visualization matters!\n\n\nIt’s not about programming or using a specific tool.\n\n\nIt’s about Designing Effective Data Visualizations."
-  },
-  {
-    "objectID": "chapters/chapter1/slides/data_viz_intro.html#resources",
-    "href": "chapters/chapter1/slides/data_viz_intro.html#resources",
-    "title": "Data Visualization Design",
-    "section": "Resources",
-    "text": "Resources\n\n  \n\n\nhttps://www.storytellingwithdata.com/books"
-  },
-  {
-    "objectID": "chapters/chapter3/chapter3.html",
-    "href": "chapters/chapter3/chapter3.html",
-    "title": "Chapter 3: Picking the right type of data visualization",
-    "section": "",
-    "text": "In this chapter we will review some of the most common data visualization types as well as various criteria to help you decide which data visualization to pick for your use case.",
-    "crumbs": [
-      "Chapters",
-      "Chapter 3"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter3/chapter3.html#material",
-    "href": "chapters/chapter3/chapter3.html#material",
-    "title": "Chapter 3: Picking the right type of data visualization",
-    "section": "Material",
-    "text": "Material\n\nSlides\n\nPicking the right type of data visualization\n\n\n\nExercises\n\nDrawing exercises (cybersecurity)\nDrawing exercises (IQ)",
-    "crumbs": [
-      "Chapters",
-      "Chapter 3"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter1/chapter1.html",
-    "href": "chapters/chapter1/chapter1.html",
-    "title": "Chapter 1: Introduction to Data Visualization Design",
-    "section": "",
-    "text": "This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world.\nThe goal of this chapter is to enforce the idea that it is important to not just “show the data” and that instead designing effective data visualization is purposeful and requires particular skills and knowledge.",
-    "crumbs": [
-      "Chapters",
-      "Chapter 1"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter1/chapter1.html#material",
-    "href": "chapters/chapter1/chapter1.html#material",
-    "title": "Chapter 1: Introduction to Data Visualization Design",
-    "section": "Material",
-    "text": "Material\n\nSlides\n\nDesigning Effective Data Visualizations",
-    "crumbs": [
-      "Chapters",
-      "Chapter 1"
-    ]
-  },
-  {
-    "objectID": "about/overview.html",
-    "href": "about/overview.html",
-    "title": "Course Overview",
-    "section": "",
-    "text": "This is the homepage for Data Visualization Design taught by Prof. Pedro Cardoso-Leite and Sophie Doublet at the University of Luxembourg.\nAll course materials will be posted on this site.",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#what",
-    "href": "about/overview.html#what",
-    "title": "Course Overview",
-    "section": "What?",
-    "text": "What?\nThis course is an introduction to data visualization design",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/overview.html#when-and-where",
-    "href": "about/overview.html#when-and-where",
-    "title": "Course Overview",
-    "section": "When and where",
-    "text": "When and where\n\n\n\n\n\n\n\n\n\n\nSession\nDate\nTime\nRoom\nLocation\n\n\n\n\n1\nMonday 03.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n2\nMonday 10.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n3\nMonday 17.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n4\nMonday 24.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n5\nMonday 01.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n6\nMonday 08.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n7\nMonday 15.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir",
-    "crumbs": [
-      "Course Information",
-      "Overview"
-    ]
-  },
-  {
-    "objectID": "about/index.html",
-    "href": "about/index.html",
-    "title": "Data Visualization Design",
-    "section": "",
-    "text": "This is the (work in progress) course website for “Data Visualization Design”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction to Data Visualization Design\nChapter 2: How to assess graphs?\nChapter 3: Picking the right type of data visualization\nChapter 4: The science of data visualization\n\nEach chapter contains links to slides and possibly other resources.",
-    "crumbs": [
-      "Home"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html",
-    "href": "about/syllabus.html",
-    "title": "Syllabus",
-    "section": "",
-    "text": "This course provides a hands-on introduction to designing effective data visualizations.\n\n\n\n\n\nWill cover examples illustrating the importance of designing effective data visualizations.\nStudents will be asked to pick 3 good and 3 bad examples from their fields and comment them (why they like or dislike them; at the end of the course they will redo that and maybe redesign one of them in Figma).\n\n\n\nI will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they’ve done in 1.\n\n\n\nPicking the right type of graph for your data; know your data viz vocabulary\n\n\n\nTools; Testing you data visualization;\n\n\n\nThere are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.\n\n\n\nPresenting some tools/software for making graphs (e.g., ggplot2, D3); Cover other forms of visualization (e.g., dashboards, diagrams, visual explanations, infographics)\n\n\n\nStudents are organized in groups and asked to work on particular data visualization projects.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#course-description",
-    "href": "about/syllabus.html#course-description",
-    "title": "Syllabus",
-    "section": "",
-    "text": "This course provides a hands-on introduction to designing effective data visualizations.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "about/syllabus.html#chapters-wip",
-    "href": "about/syllabus.html#chapters-wip",
-    "title": "Syllabus",
-    "section": "",
-    "text": "Will cover examples illustrating the importance of designing effective data visualizations.\nStudents will be asked to pick 3 good and 3 bad examples from their fields and comment them (why they like or dislike them; at the end of the course they will redo that and maybe redesign one of them in Figma).\n\n\n\nI will present my 10 principles for good data visualization; we will review some graphs and critisize them together; based on work they’ve done in 1.\n\n\n\nPicking the right type of graph for your data; know your data viz vocabulary\n\n\n\nTools; Testing you data visualization;\n\n\n\nThere are many tools for creating data visualization; we will use Figma to learn about how to draft a data visualization.\n\n\n\nPresenting some tools/software for making graphs (e.g., ggplot2, D3); Cover other forms of visualization (e.g., dashboards, diagrams, visual explanations, infographics)\n\n\n\nStudents are organized in groups and asked to work on particular data visualization projects.",
-    "crumbs": [
-      "Course Information",
-      "Syllabus"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter2/chapter2.html",
-    "href": "chapters/chapter2/chapter2.html",
-    "title": "Chapter 2: What makes a visualization good?",
-    "section": "",
-    "text": "This chapter introduces ten key principles for evaluating the quality of a data visualization.",
-    "crumbs": [
-      "Chapters",
-      "Chapter 2"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter2/chapter2.html#material",
-    "href": "chapters/chapter2/chapter2.html#material",
-    "title": "Chapter 2: What makes a visualization good?",
-    "section": "Material",
-    "text": "Material\n\nSlides\n\nHow to assess graphs?",
-    "crumbs": [
-      "Chapters",
-      "Chapter 2"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter4/chapter4.html",
-    "href": "chapters/chapter4/chapter4.html",
-    "title": "Chapter 4: The science of data visualization perception",
-    "section": "",
-    "text": "In this chapter we will review some of the main findings of experimental psychology regarding how humans perceive data visualizations.\nUnderstanding the fundamentals of human perception is critical to avoid critical mistakes and design effective data visualizations.",
-    "crumbs": [
-      "Chapters",
-      "Chapter 4"
-    ]
-  },
-  {
-    "objectID": "chapters/chapter4/chapter4.html#material",
-    "href": "chapters/chapter4/chapter4.html#material",
-    "title": "Chapter 4: The science of data visualization perception",
-    "section": "Material",
-    "text": "Material\n\nSlides\n\nThe science of data visualization",
-    "crumbs": [
-      "Chapters",
-      "Chapter 4"
-    ]
+    "section": "Assignment",
+    "text": "Assignment\n\nReview your 4 images again.\nFor each image:\n\nidentify the mapping of data to visual attributes\ndescribe what you think about those choices\n\n\n\nPost 1 pdf with 1 page per image on Moodle."
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#how-to-assess-if-a-data-visualization-is-good-or-not",
@@ -1084,368 +871,817 @@
     "text": "Questions? Comments?"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section",
+    "objectID": "chapters/chapter5/chapter5.html",
+    "href": "chapters/chapter5/chapter5.html",
+    "title": "Chapter 4: The art of data visualization",
+    "section": "",
+    "text": "In this chapter we will review some of the key principles of visual design and how they related to data visualization.\nUnderstanding the fundamentals of visual design is critical for designing effective data visualizations.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 5"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter5/chapter5.html#material",
+    "href": "chapters/chapter5/chapter5.html#material",
+    "title": "Chapter 4: The art of data visualization",
+    "section": "Material",
+    "text": "Material\n\nSlides\n\nThe art of data visualization",
+    "crumbs": [
+      "Chapters",
+      "Chapter 5"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter3/chapter3.html",
+    "href": "chapters/chapter3/chapter3.html",
+    "title": "Chapter 3: Picking the right type of data visualization",
+    "section": "",
+    "text": "In this chapter we will review some of the most common data visualization types as well as various criteria to help you decide which data visualization to pick for your use case.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 3"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter3/chapter3.html#material",
+    "href": "chapters/chapter3/chapter3.html#material",
+    "title": "Chapter 3: Picking the right type of data visualization",
+    "section": "Material",
+    "text": "Material\n\nSlides\n\nPicking the right type of data visualization\n\n\n\nExercises\n\nDrawing exercises (cybersecurity)\nDrawing exercises (IQ)",
+    "crumbs": [
+      "Chapters",
+      "Chapter 3"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html",
+    "href": "chapters/chapter1/chapter1.html",
+    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "section": "",
+    "text": "This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world.\nThe goal of this chapter is to enforce the idea that it is important to not just “show the data” and that instead designing effective data visualization is purposeful and requires particular skills and knowledge.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/chapter1.html#material",
+    "href": "chapters/chapter1/chapter1.html#material",
+    "title": "Chapter 1: Introduction to Data Visualization Design",
+    "section": "Material",
+    "text": "Material\n\nSlides\n\nDesigning Effective Data Visualizations",
+    "crumbs": [
+      "Chapters",
+      "Chapter 1"
+    ]
+  },
+  {
+    "objectID": "about/overview.html",
+    "href": "about/overview.html",
+    "title": "Course Overview",
+    "section": "",
+    "text": "This is the homepage for Data Visualization Design taught by Prof. Pedro Cardoso-Leite and Sophie Doublet at the University of Luxembourg.\nAll course materials will be posted on this site.",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#what",
+    "href": "about/overview.html#what",
+    "title": "Course Overview",
+    "section": "What?",
+    "text": "What?\nThis course is an introduction to data visualization design",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/overview.html#when-and-where",
+    "href": "about/overview.html#when-and-where",
+    "title": "Course Overview",
+    "section": "When and where",
+    "text": "When and where\n\n\n\n\n\n\n\n\n\n\nSession\nDate\nTime\nRoom\nLocation\n\n\n\n\n1\nMonday 03.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n2\nMonday 10.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n3\nMonday 17.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n4\nMonday 24.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n5\nMonday 01.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n6\nMonday 08.12.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir\n\n\n7\nMonday 15.11.2025\n15:45-17:15\n3.370\nEsch-sur-Alzette, Maison du Savoir",
+    "crumbs": [
+      "Course Information",
+      "Overview"
+    ]
+  },
+  {
+    "objectID": "about/index.html",
+    "href": "about/index.html",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "The Science of Data visualization\n\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nFranconeri et al (2021)"
+    "text": "This is the (work in progress) course website for “Data Visualization Design”.\nIn this course we will cover the following content:\n\nChapter 1: Introduction to Data Visualization Design\nChapter 2: How to assess graphs?\nChapter 3: Picking the right type of data visualization\nChapter 4: The science of data visualization\nChapter 5: The art of data visualization\n\nEach chapter contains links to slides and possibly other resources.",
+    "crumbs": [
+      "Home"
+    ]
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-1",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-1",
+    "objectID": "about/syllabus.html",
+    "href": "about/syllabus.html",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course provides a hands-on introduction to designing effective data visualizations, covering principles, techniques, and best practices for creating clear, accurate, and impactful visual representations of data.\n\n\n\nBy the end of this course, students will be able to:\n\nUnderstand why data visualization design matters and its impact on communication\nApply key principles to evaluate and critique data visualizations\nSelect appropriate visualization types for different data and purposes\nApply perceptual and aesthetic principles to create effective visualizations\nUse design tools (Figma) to prototype and refine visualizations\nCreate and present professional data visualization projects\n\n\n\n\n\n\nExplores the importance of data visualization through concrete examples. Emphasizes that effective visualization requires purposeful design, specific skills, and knowledge—not just “showing the data.”\nActivity: Students identify and analyze 2 good and 2 bad visualization examples from their field.\n\n\n\nIntroduces ten key principles for evaluating data visualization quality. Students learn to systematically assess and critique graphs based on clarity, accuracy, design, and communication effectiveness.\nActivity: Students re-evaluate the 2 good and 2 bad visualization examples they identified in the first session.\n\n\n\nReviews common visualization types and decision criteria for selecting the appropriate chart for a given data type and purpose.\nExercises: Drawing scenarios to practice matching visualization types to data and questions (cybersecurity and IQ datasets).\nActivity: Students re-evaluate the 2 good and 2 bad visualization examples they identified in the first session.\n\n\n\nExamines experimental psychology findings on how humans perceive visual information. Understanding perceptual fundamentals helps avoid critical mistakes and design more effective visualizations.\nActivity: Students re-evaluate the 2 good and 2 bad visualization examples they identified in the first session.\n\n\n\nHands-on introduction to Figma, a collaborative design tool for prototyping data visualizations. Students learn to draft, iterate, and refine visualization designs before implementation.\nActivity: Students create a data visualization using Figma, ideally using as a starting point one of the figures identified earlier.\n\n\n\nExplores aesthetic and perceptual design principles that enhance visualization effectiveness:\n\nGestalt Theory: Proximity, similarity, enclosure, connection, and how viewers naturally group visual elements\nTypography: Font selection and how typeface choices convey meaning and emotion\nColor: Color theory, palette types (sequential, diverging, qualitative), accessibility, and practical tools\n\nKey principle: Differences in meaning should correspond to visual differences; semantic similarity should match visual similarity.\nActivity: Students form groups and select a common data visualization project.\n\n\n\nStudents present their data visualization projects, demonstrating application of course principles and techniques.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#course-description",
+    "href": "about/syllabus.html#course-description",
+    "title": "Syllabus",
+    "section": "",
+    "text": "This course provides a hands-on introduction to designing effective data visualizations, covering principles, techniques, and best practices for creating clear, accurate, and impactful visual representations of data.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#learning-objectives",
+    "href": "about/syllabus.html#learning-objectives",
+    "title": "Syllabus",
+    "section": "",
+    "text": "By the end of this course, students will be able to:\n\nUnderstand why data visualization design matters and its impact on communication\nApply key principles to evaluate and critique data visualizations\nSelect appropriate visualization types for different data and purposes\nApply perceptual and aesthetic principles to create effective visualizations\nUse design tools (Figma) to prototype and refine visualizations\nCreate and present professional data visualization projects",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "about/syllabus.html#chapters",
+    "href": "about/syllabus.html#chapters",
+    "title": "Syllabus",
+    "section": "",
+    "text": "Explores the importance of data visualization through concrete examples. Emphasizes that effective visualization requires purposeful design, specific skills, and knowledge—not just “showing the data.”\nActivity: Students identify and analyze 2 good and 2 bad visualization examples from their field.\n\n\n\nIntroduces ten key principles for evaluating data visualization quality. Students learn to systematically assess and critique graphs based on clarity, accuracy, design, and communication effectiveness.\nActivity: Students re-evaluate the 2 good and 2 bad visualization examples they identified in the first session.\n\n\n\nReviews common visualization types and decision criteria for selecting the appropriate chart for a given data type and purpose.\nExercises: Drawing scenarios to practice matching visualization types to data and questions (cybersecurity and IQ datasets).\nActivity: Students re-evaluate the 2 good and 2 bad visualization examples they identified in the first session.\n\n\n\nExamines experimental psychology findings on how humans perceive visual information. Understanding perceptual fundamentals helps avoid critical mistakes and design more effective visualizations.\nActivity: Students re-evaluate the 2 good and 2 bad visualization examples they identified in the first session.\n\n\n\nHands-on introduction to Figma, a collaborative design tool for prototyping data visualizations. Students learn to draft, iterate, and refine visualization designs before implementation.\nActivity: Students create a data visualization using Figma, ideally using as a starting point one of the figures identified earlier.\n\n\n\nExplores aesthetic and perceptual design principles that enhance visualization effectiveness:\n\nGestalt Theory: Proximity, similarity, enclosure, connection, and how viewers naturally group visual elements\nTypography: Font selection and how typeface choices convey meaning and emotion\nColor: Color theory, palette types (sequential, diverging, qualitative), accessibility, and practical tools\n\nKey principle: Differences in meaning should correspond to visual differences; semantic similarity should match visual similarity.\nActivity: Students form groups and select a common data visualization project.\n\n\n\nStudents present their data visualization projects, demonstrating application of course principles and techniques.",
+    "crumbs": [
+      "Course Information",
+      "Syllabus"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter2/chapter2.html",
+    "href": "chapters/chapter2/chapter2.html",
+    "title": "Chapter 2: What makes a visualization good?",
+    "section": "",
+    "text": "This chapter introduces ten key principles for evaluating the quality of a data visualization.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 2"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter2/chapter2.html#material",
+    "href": "chapters/chapter2/chapter2.html#material",
+    "title": "Chapter 2: What makes a visualization good?",
+    "section": "Material",
+    "text": "Material\n\nSlides\n\nHow to assess graphs?",
+    "crumbs": [
+      "Chapters",
+      "Chapter 2"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter4/chapter4.html",
+    "href": "chapters/chapter4/chapter4.html",
+    "title": "Chapter 4: The science of data visualization perception",
+    "section": "",
+    "text": "In this chapter we will review some of the main findings of experimental psychology regarding how humans perceive data visualizations.\nUnderstanding the fundamentals of human perception is critical to avoid critical mistakes and design effective data visualizations.",
+    "crumbs": [
+      "Chapters",
+      "Chapter 4"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter4/chapter4.html#material",
+    "href": "chapters/chapter4/chapter4.html#material",
+    "title": "Chapter 4: The science of data visualization perception",
+    "section": "Material",
+    "text": "Material\n\nSlides\n\nThe science of data visualization",
+    "crumbs": [
+      "Chapters",
+      "Chapter 4"
+    ]
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Vision: The Retina - MSU OpenBooks"
+    "text": "Designing Effective Data Visualizations\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nThe Global Warming Stripes by Ed Hawkins."
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-2",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-2",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-1",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-1",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Vision: Central Processing - MSU OpenBooks"
+    "text": "The Challenger Space Shuttle January 28, 1986"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-3",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-3",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-2",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-2",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Felleman and Van Essen (1991)"
+    "text": "The night before…"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-4",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-4",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-3",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-3",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Photo, 1D diagram\n2D diagram"
+    "text": "What’s the issue?\n\n\n\n\n\n\n\nO-rings\nmight get damaged\nwhen it’s too cold."
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-5",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-5",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-happened",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#what-happened",
+    "title": "Data Visualization Design",
+    "section": "What happened?",
+    "text": "What happened?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-happened-1",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#what-happened-1",
+    "title": "Data Visualization Design",
+    "section": "What happened?",
+    "text": "What happened?\n\nWhat was the concern?\nWhat data / information should they have shared?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-7",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-7",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "The Unexpected Visitor.  Oil on canvas painting by Ilya Repin, 1884–88.  (Source: Courtesy of www.ilyarepin.org.)"
+    "text": "Of the 13 charts circulated by Thiokol managers and engineers to the scattered teleconferees,\n\n\nsix contained no tabled data about either O-ring temperature, O-ring blow-by, or O-ring anomaly (these were primarily outlines of arguments being made by the Thiokol engineers).\n\n\nOf the seven remaining charts containing data,\n\n\nsix of them included data on either launch temperatures or O-ring anomaly but not both in relation to each other.\n\n\nOnly one chart relating O-ring temperature and O-ring damage was prepared by a Thiokol engineer.\n\n\n\n\n\nLet’s focus on this one document."
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-6",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-6",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-do-you-think-about-this-chart",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#what-do-you-think-about-this-chart",
+    "title": "Data Visualization Design",
+    "section": "What do you think about this chart?",
+    "text": "What do you think about this chart?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-12",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-12",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Tasks\n\nFree examination\nEstimate the material circumstances of the family\nGive the ages of the people\nSurmise what the family had been doing before the arrival of the ‘unexpected visitor’\nRemember the clothes worn by the people\nRemember the position of the people and objects in the room\nEstimate how long the unexpected visitor had been away from the family\n\n\nAdpated from Yarbus (1967)"
+    "text": "Edward Tufte’s redesigned chart from “Visual Explanations”"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-7",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-7",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-13",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-13",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Shi et al. (2025)"
+    "text": "Edward Tufte’s redesigned chart from “Visual Explanations”"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-8",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-8",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-14",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-14",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Wikipedia"
+    "text": "other interesting videos: - https://www.youtube.com/watch?v=VJ86D_DtyWg - https://www.youtube.com/watch?v=Pq32LB8j2K8"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#seeing-stuff-that-isnt-there",
-    "href": "chapters/chapter4/slides/data_viz_science.html#seeing-stuff-that-isnt-there",
-    "title": "Data Visualization Design",
-    "section": "seeing stuff that isn’t there",
-    "text": "seeing stuff that isn’t there\n\n\n\nPareidolia - Wikipedia"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#kanizsa-illusion",
-    "href": "chapters/chapter4/slides/data_viz_science.html#kanizsa-illusion",
-    "title": "Data Visualization Design",
-    "section": "Kanizsa illusion",
-    "text": "Kanizsa illusion\n\n\n\nKanizsa Illusion - YouTube"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#automatic-reading",
-    "href": "chapters/chapter4/slides/data_viz_science.html#automatic-reading",
-    "title": "Data Visualization Design",
-    "section": "Automatic Reading",
-    "text": "Automatic Reading\n\n\n\n\nThe Stroop effect"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#color-perception",
-    "href": "chapters/chapter4/slides/data_viz_science.html#color-perception",
-    "title": "Data Visualization Design",
-    "section": "Color perception",
-    "text": "Color perception\n\n\n\nColor Perception - YouTube"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-9",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-9",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-15",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-15",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Optical illusions–Michael Bach"
+    "text": "There are now more modern version of the John Snow data exploration\n\nhttps://flourish.studio/blog/masters-john-snow/"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-10",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-10",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-16",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-16",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Ebbinghaus Illusion - Michael Bach"
+    "text": "Your browser does not support SVG\n\n\n\nWhat can you tell me about these four datasets?\nAre they the same?"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-11",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-11",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-can-you-say-about-these-four-datasets",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#what-can-you-say-about-these-four-datasets",
+    "title": "Data Visualization Design",
+    "section": "What can you say about these four datasets?",
+    "text": "What can you say about these four datasets?"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#anscombes-quartet",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#anscombes-quartet",
+    "title": "Data Visualization Design",
+    "section": "Anscombe’s Quartet",
+    "text": "Anscombe’s Quartet\n\nConstructed in 1973 by statistician Francis Anscombe\nDemonstrates the importance of graphing data\nShows the effect of outliers on statistical properties\nIntended to counter the impression among statisticians that “numerical calculations are exact, but graphs are rough.”\n\n\n\nWikipedia: Anscombe’s quartet"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-17",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-17",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Shepard’s Terror - Michael Bach"
+    "text": "“The greatest value of a picture is when it forces us to notice what we never expected to see.”\n\nJohn W. Tukey"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-12",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-12",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#the-data-science-workflow",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#the-data-science-workflow",
+    "title": "Data Visualization Design",
+    "section": "The data science workflow",
+    "text": "The data science workflow\n\n\n\n\n\n\n\nSource: R for Data Science"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#the-two-reasons-for-visualizing-data",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#the-two-reasons-for-visualizing-data",
+    "title": "Data Visualization Design",
+    "section": "The two reasons for visualizing data",
+    "text": "The two reasons for visualizing data\n\n\n\n\n\n\n\n\n\n\n\n\n\nSource: R for Data Science"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#the-two-purposes-of-data-visualization",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#the-two-purposes-of-data-visualization",
+    "title": "Data Visualization Design",
+    "section": "The two purposes of data visualization",
+    "text": "The two purposes of data visualization\n\nThe key function of data visualization is to move information from point A to point B.\n\n\n\nIn exploratory visualization,\n\n\n  \n\n\npoint A is the dataset andpoint B is the designer’s own mind.\n\n\n\n\nIn explanatory visualization,\n\n\n  \n\n\npoint A is the mind of the designer, andpoint B is the mind of the reader.”\n\n\n\n\n\nJulie Steele & Noah Iliinsky, Designing Data Visualizations"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#two-types-of-visualizing-data",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#two-types-of-visualizing-data",
+    "title": "Data Visualization Design",
+    "section": "Two “types” of visualizing data",
+    "text": "Two “types” of visualizing data\n\n\n\n\n\n\n\n\n\n\nExploration iterate fast check and recheck\n\n\n\n\n\nExplanation deliberate, purposeful specific, perfect\n\n\n\nSource: R for Data Science"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#beyond-informing",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#beyond-informing",
+    "title": "Data Visualization Design",
+    "section": "Beyond informing…",
+    "text": "Beyond informing…\n\n\n\n\n\n\n\nSource: The Global Warming Stripes by Ed Hawkins"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-19",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-19",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Shepard Tables - Michael Bach"
+    "text": "https://doi.org/10.1175/BAMS-D-24-0212.1"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-13",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-13",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-20",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-20",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Müller-Lyer illusion - Wikipedia"
+    "text": "https://showyourstripes.info/showcase"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-14",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-14",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#make-it-personal.",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#make-it-personal.",
+    "title": "Data Visualization Design",
+    "section": "Make it personal.",
+    "text": "Make it personal.\n\n\n\n\n\n\n\nShow Your Stripes - Luxembourg"
+  },
+  {
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-21",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#section-21",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "T-illusion - Michael Bach"
+    "text": "Effective data visualization matters!\n\n\nIt’s not about programming or using a specific tool.\n\n\nIt’s about Designing Effective Data Visualizations."
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-15",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-15",
+    "objectID": "chapters/chapter1/slides/data_viz_intro.html#resources",
+    "href": "chapters/chapter1/slides/data_viz_intro.html#resources",
+    "title": "Data Visualization Design",
+    "section": "Resources",
+    "text": "Resources\n\n  \n\n\nhttps://www.storytellingwithdata.com/books"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Induced Brightness - Michael Bach"
+    "text": "Picking the right type of data visualization\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nThe Global Warming Stripes by Ed Hawkins."
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-16",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-16",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-1",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-1",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Neon Color Spreading - Michael Bach"
+    "text": "There are many ways to visualize data\n\n\nYou need to know some classics\n\n\nA principled approach leads to better choices"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-17",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-17",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#classification-strategies",
+    "href": "chapters/chapter3/slides/data_viz_types.html#classification-strategies",
+    "title": "Data Visualization Design",
+    "section": "Classification strategies",
+    "text": "Classification strategies\n\nwhat structure in the data do you want to show?\nwhat cognitive operations do you want your users to apply on the visualization?\n\n\n\nwhat kind of data do you have?\n\n\n\nOther considerations\n\n\nOften both approaches are used together"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-2",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-2",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Watercolor Illusion - Michael Bach"
+    "text": "There’s no algorithm to determine the “best” solution\n\n\nYou need to jointly consider many criteria\n\n\nYou need to think for yourself and make choices\n\n\nbut you can often say which of two versions is better"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-18",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-18",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#what-is-analytic-purpose",
+    "href": "chapters/chapter3/slides/data_viz_types.html#what-is-analytic-purpose",
+    "title": "Data Visualization Design",
+    "section": "What is analytic purpose?",
+    "text": "What is analytic purpose?\n\nWhat structure in the data do you want to show?\nWhat cognitive operations do you want users to apply?\n\n\nThere is no single agreed-upon categorization.\nDifferent authors propose different systems, but there is large overlap."
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-3",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-3",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Adelson’s Checkershadow Illusion - Michael Bach"
+    "text": "FT Visual Vocabulary"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-19",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-19",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-4",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-4",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Shape from Shading - Michael Bach"
+    "text": "r-graph-gallery.com"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-20",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-20",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-5",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-5",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Necker Cube - Michael Bach"
+    "text": "https://python-graph-gallery.com"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-21",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-21",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#the-type-of-data-you-have-is-a-major-determinant-of-data-visualization-choice.",
+    "href": "chapters/chapter3/slides/data_viz_types.html#the-type-of-data-you-have-is-a-major-determinant-of-data-visualization-choice.",
+    "title": "Data Visualization Design",
+    "section": "The type of data you haveis a major determinantof data visualization choice.",
+    "text": "The type of data you haveis a major determinantof data visualization choice."
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#common-data-types",
+    "href": "chapters/chapter3/slides/data_viz_types.html#common-data-types",
+    "title": "Data Visualization Design",
+    "section": "Common data types:",
+    "text": "Common data types:\n\nNumeric (integer, float; ratio, interval, ordinal)\nCategorical (ordered, unordered)\nText\nGeospatial data\nNetwork data\nDates and time"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#chart-choosers",
+    "href": "chapters/chapter3/slides/data_viz_types.html#chart-choosers",
+    "title": "Data Visualization Design",
+    "section": "Chart Choosers",
+    "text": "Chart Choosers\ndata-to-viz\nhighcharts (js)\nFT Visual Vocabulary\nR Graph Gallery\nPython Graph Gallery"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-8",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-8",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Gestalt in Isoluminance - Michael Bach"
+    "text": "data-to-viz.com"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-22",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-22",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#multiple-other-factors-to-consider",
+    "href": "chapters/chapter3/slides/data_viz_types.html#multiple-other-factors-to-consider",
+    "title": "Data Visualization Design",
+    "section": "Multiple other factors to consider",
+    "text": "Multiple other factors to consider\n\nHuman perception\nImportance hierarchy\nStyle and preferences\nData complexity\nTarget audience\nMedium (print, web, presentation)"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-9",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-9",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "YouTube"
+    "text": "Google Maps - University of Luxembourg\n\n\n\nZoom in: see small streets, buildings, landmarks (high detail, small area)\nZoom out: see countries, capitals (low detail, large area)"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-23",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-23",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#complexity",
+    "href": "chapters/chapter3/slides/data_viz_types.html#complexity",
+    "title": "Data Visualization Design",
+    "section": "Complexity?",
+    "text": "Complexity?\n\nData\n\nNumber of observations (rows)\nNumber of attributes (columns)\n\n\n\nConceptual\n\nDifficult/abstract concepts\nMultivariate phenomena"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#adjust-the-level-of-complexity-to-your-target-audience",
+    "href": "chapters/chapter3/slides/data_viz_types.html#adjust-the-level-of-complexity-to-your-target-audience",
+    "title": "Data Visualization Design",
+    "section": "Adjust the levelof complexityto your target audience",
+    "text": "Adjust the levelof complexityto your target audience"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#common-strategies-to-handle-complexity",
+    "href": "chapters/chapter3/slides/data_viz_types.html#common-strategies-to-handle-complexity",
+    "title": "Data Visualization Design",
+    "section": "Common strategies to handle complexity",
+    "text": "Common strategies to handle complexity\n\nExplain\n\nannotations\ntutorials\ntext\n\n\n\nSimplify\n\nselect and focus on key aspects\ncompute aggregations\n\n\n\nSpread out\n\nmultiple figures, small multiples\ninteractive visualization / animations"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#example",
+    "href": "chapters/chapter3/slides/data_viz_types.html#example",
+    "title": "Data Visualization Design",
+    "section": "Example",
+    "text": "Example"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-10",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-10",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "YouTube"
+    "text": "Uber’s H3: Hexagonal Hierarchical Geospatial Indexing System"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-24",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-24",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-11",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-11",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "YouTube"
+    "text": "Line Plot - R Graph Gallery\n\n\nspagethi graph"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#neural-recycling",
-    "href": "chapters/chapter4/slides/data_viz_science.html#neural-recycling",
-    "title": "Data Visualization Design",
-    "section": "Neural recycling",
-    "text": "Neural recycling\n\n\n\n\n\n\n\n\n\nCourse by Stanislas Dehaene (Collège de France)"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-25",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-25",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-13",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-13",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "https://journals.sagepub.com/doi/10.1177/15291006211051956"
+    "text": "Mortality Visualization - Holtzy"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#mapping-of-data-to-visual-attributes",
-    "href": "chapters/chapter4/slides/data_viz_science.html#mapping-of-data-to-visual-attributes",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#interactive-examples",
+    "href": "chapters/chapter3/slides/data_viz_types.html#interactive-examples",
     "title": "Data Visualization Design",
-    "section": "Mapping of data to visual attributes",
-    "text": "Mapping of data to visual attributes"
+    "section": "Interactive examples",
+    "text": "Interactive examples"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#how-do-you-decide-which-visual-attributes-to-map-to-your-data",
-    "href": "chapters/chapter4/slides/data_viz_science.html#how-do-you-decide-which-visual-attributes-to-map-to-your-data",
-    "title": "Data Visualization Design",
-    "section": "How do you decidewhich visual attributesto map to your data?",
-    "text": "How do you decidewhich visual attributesto map to your data?"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-26",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-26",
-    "title": "Data Visualization Design",
-    "section": "1",
-    "text": "1"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-27",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-27",
-    "title": "Data Visualization Design",
-    "section": "2",
-    "text": "2"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-28",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-28",
-    "title": "Data Visualization Design",
-    "section": "3",
-    "text": "3"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-29",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-29",
-    "title": "Data Visualization Design",
-    "section": "4",
-    "text": "4"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-30",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-30",
-    "title": "Data Visualization Design",
-    "section": "5",
-    "text": "5"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-31",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-31",
-    "title": "Data Visualization Design",
-    "section": "6",
-    "text": "6"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-32",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-32",
-    "title": "Data Visualization Design",
-    "section": "7",
-    "text": "7"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-33",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-33",
-    "title": "Data Visualization Design",
-    "section": "8",
-    "text": "8"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-34",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-34",
-    "title": "Data Visualization Design",
-    "section": "9",
-    "text": "9"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-35",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-35",
-    "title": "Data Visualization Design",
-    "section": "10",
-    "text": "10"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#solutions",
-    "href": "chapters/chapter4/slides/data_viz_science.html#solutions",
-    "title": "Data Visualization Design",
-    "section": "Solutions",
-    "text": "Solutions"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#stevens-power-law",
-    "href": "chapters/chapter4/slides/data_viz_science.html#stevens-power-law",
-    "title": "Data Visualization Design",
-    "section": "Stevens’ Power law",
-    "text": "Stevens’ Power law\n\n\nhttps://graphworkflow.com/decoding/perceived-magnitude/"
-  },
-  {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-37",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-37",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-14",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-14",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Crameri et al. (2020)"
+    "text": "Earth Wind Patterns - earth.nullschool.net"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-38",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-38",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-15",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-15",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Cleveland & McGill (1984)\nFranconeri, S. L., Padilla, L. M., Shah, P., Zacks, J. M., & Hullman, J. (2021). The Science of Visual Data Communication: What Works. Psychological Science in the Public Interest, 22(3), 110-161.\nCourse by Stanislas Dehaene (Collège de France)\n\n\nhttps://priceonomics.com/how-william-cleveland-turned-data-visualization/\nhttp://vis.stanford.edu/papers/crowdsourcing-graphical-perception\nhttps://idl.uw.edu/\nCrowdsourcing Graphical Perception: Using Mechanical Turk to Assess Visualization Design http://vis.stanford.edu/files/2010-MTurk-CHI.pdf"
+    "text": "Global Ship Traffic - Shipmap.org"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-39",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-39",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-16",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-16",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "https://journals.sagepub.com/doi/10.1177/15291006211051956"
+    "text": "A Day in the Life of Americans - FlowingData"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#text-perception",
-    "href": "chapters/chapter4/slides/data_viz_science.html#text-perception",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#chart-chooser-tools",
+    "href": "chapters/chapter3/slides/data_viz_types.html#chart-chooser-tools",
     "title": "Data Visualization Design",
-    "section": "Text perception",
-    "text": "Text perception\n\n\n\n\n\n\n\nCohen et al. (2008)"
+    "section": "Chart chooser tools",
+    "text": "Chart chooser tools\n\nFT Visual Vocabulary\ndata-to-viz.com - Comprehensive guide with decision tree\nHighcharts Chart Chooser - Interactive selection\nR Graph Gallery\nPython Graph Gallery"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-42",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-42",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-avoid",
+    "href": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-avoid",
     "title": "Data Visualization Design",
-    "section": "",
-    "text": "https://www.gapminder.org"
+    "section": "Inspiration (what to avoid)",
+    "text": "Inspiration (what to avoid)\n\n\n\nWTF Visualizations - viz.wtf"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#section-43",
-    "href": "chapters/chapter4/slides/data_viz_science.html#section-43",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-mimic",
+    "href": "chapters/chapter3/slides/data_viz_types.html#inspiration-what-to-mimic",
+    "title": "Data Visualization Design",
+    "section": "Inspiration (what to mimic)",
+    "text": "Inspiration (what to mimic)\n\n\n\nData Visualization Inspiration"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#mapping-multivariate-data-to-graph-attributes",
+    "href": "chapters/chapter3/slides/data_viz_types.html#mapping-multivariate-data-to-graph-attributes",
+    "title": "Data Visualization Design",
+    "section": "Mapping multivariate data to graph attributes",
+    "text": "Mapping multivariate data to graph attributes\n\n\n\nProf. Hans Rosling, Gapminder"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#section-17",
+    "href": "chapters/chapter3/slides/data_viz_types.html#section-17",
     "title": "Data Visualization Design",
     "section": "",
     "text": "Remixing Rosling - Truth & Beauty"
   },
   {
-    "objectID": "chapters/chapter4/slides/data_viz_science.html#assignment",
-    "href": "chapters/chapter4/slides/data_viz_science.html#assignment",
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#key-takeaways",
+    "href": "chapters/chapter3/slides/data_viz_types.html#key-takeaways",
     "title": "Data Visualization Design",
-    "section": "Assignment",
-    "text": "Assignment\n\nReview your 4 images again.\nFor each image:\n\nidentify the mapping of data to visual attributes\ndescribe what you think about those choices\n\n\n\nPost 1 pdf with 1 page per image on Moodle."
+    "section": "Key takeaways",
+    "text": "Key takeaways\n\nMultiple classification systems exist (purpose, data type)\nNo single “best” visualization - depends on context\nConsider multiple criteria when choosing\nUse tools and galleries for guidance and inspiration\nManage complexity through simplification and interaction\nTest and iterate to find what works"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#questions",
+    "href": "chapters/chapter3/slides/data_viz_types.html#questions",
+    "title": "Data Visualization Design",
+    "section": "Questions?",
+    "text": "Questions?"
+  },
+  {
+    "objectID": "chapters/chapter3/slides/data_viz_types.html#exercise-1",
+    "href": "chapters/chapter3/slides/data_viz_types.html#exercise-1",
+    "title": "Data Visualization Design",
+    "section": "Exercise",
+    "text": "Exercise\n\nReview the 4 images you have selected last time.\n\n\nDo those figures use the appropriate type of data visualization?\nAre there other types that would be equivalent or better?\nJustify your answers\n\n\nPost your work on Moodle as:\n\nPDF file called &lt;your_name&gt;_graph_type.pdf\nOne page per graph (i.e., the image of the graph, the source, and your comments)"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "The Art of Data visualization\n\n\n\n\n\nPedro Cardoso-Leite\n\n\npedro.cardosoleite@uni.lu\n\n\n\n\nPiet Mondrian (1921) Tableau 1"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-1",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-1",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Key Design principles for data visualization\n\n\nGestalt theory (hierarchy, contrast, structure)\n\n\n\n\nTypography\n\n\n\n\nColor"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-2",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-2",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "We don’t perceive individual elements,\n\n\n\n\nwe perceive “Gestalts”: the elements interact to form a perception.\n\n\n\n— Wikipedia: Gestalt Psychology"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-3",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-3",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "No structure"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-4",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-4",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Proximity"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-5",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-5",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Similarity"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-6",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-6",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Enclosure"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-7",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-7",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Connection"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-8",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-8",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Manager\nJohn Doe\nArchitect\nJane Doe\nComputer scientist\nJohn Smith\nEngineer\n\n\n\nManager\n\n\nJohn Doe\n\n\nArchitect\n\n\nJane Doe\n\n\nComputer scientist\n\n\nJohn Smith\n\n\nEngineer\n\n\n\n\nManager\n\n\nJohn Doe\n\n\nArchitect\n\n\nJane Doe\n\n\nComputer scientist\n\n\nJohn Smith\n\n\nEngineer"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-9",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-9",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Manager John Doe Architect Jane Doe Computer scientist John Smith Engineer\n\n\n\nManager\n\n\nJohn Doe\n\n\nArchitect\n\n\nJane Doe\n\n\nComputer scientist\n\n\nJohn Smith\n\n\nEngineer\n\n\n\n\nManager\n\n\nJohn Doe\n\n\nArchitect\n\n\nJane Doe\n\n\nComputer scientist\n\n\nJohn Smith\n\n\nEngineer"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-10",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-10",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Manager John Doe Architect Jane Doe Computer scientist John Smith Engineer\n\n\n\nManager\n\n\nJohn Doe\n\n\nArchitect\n\n\nJane Doe\n\n\nComputer scientist\n\n\nJohn Smith\n\n\nEngineer\n\n\n\n\nManager\n\n\nJohn Doe\n\n\nArchitect\n\n\nJane Doe\n\n\nComputer scientist\n\n\nJohn Smith\n\n\nEngineer"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-11",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-11",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Manager John Doe Architect Jane Doe Computer scientist John Smith Engineer\n\n\n\nManager\n\n\nJohn Doe\n\n\nArchitect\n\n\nJane Doe\n\n\nComputer scientist\n\n\nJohn Smith\n\n\nEngineer\n\n\n\n\nManager\n\n\nJohn Doe\n\n\nArchitect\n\n\nJane Doe\n\n\nComputer scientist\n\n\nJohn Smith\n\n\nEngineer"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-17",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-17",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Typography is the art and technique of arranging type to make written language legible, readable and appealing when displayed.\n\n\n\n\nThe arrangement of type involves selecting typefaces, point sizes, line lengths, line spacing, letter spacing, and spaces between pairs of letters.\n\n\n\n— Wikipedia: Typography"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-18",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-18",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "I’m sorry.\n\n\nI’m sorry.\n\n\nI’m sorry.\n\n\nI’m sorry.\n\n\n\n\nIt’s my 5th birthday!\n\n\nIt’s my 5th birthday!\n\n\nIt’s my 5th birthday!\n\n\nIt’s my 5th birthday!\n\n\n\n\nThe Royal Society\n\n\nThe Royal Society\n\n\nThe Royal Society\n\n\nThe Royal Society\n\n\n\n\nClimate change is real.\n\n\nClimate change is real.\n\n\nClimate change is real.\n\n\nClimate change is real."
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-19",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-19",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Serif\n\n\nLibre Baskerville\n\n\n\n\nSans Serif\n\n\nInter\n\n\n\n\nDisplay\n\n\nMonsieur La Doulaise\n\n\n\n\nMonospace\n\n\nCourier New"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-20",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-20",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Roboto Thin\n\n\nWeight: 100\n\n\n\n\nRoboto Light\n\n\nWeight: 300\n\n\n\n\nRoboto Regular\n\n\nWeight: 400\n\n\n\n\nRoboto Bold\n\n\nWeight: 700\n\n\n\n\nRoboto Black\n\n\nWeight: 900\n\n\n\n\nRoboto Italic\n\n\nItalic style\n\n\n\n\nRoboto Condensed Light\n\n\nCondensed 300\n\n\n\n\nRoboto Condensed Bold\n\n\nCondensed 700\n\n\n\n\nRoboto Condensed Italic\n\n\nCondensed Italic"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-21",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-21",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "fonts.google.com"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#color-theory",
+    "href": "chapters/chapter5/slides/data_viz_art.html#color-theory",
+    "title": "Data Visualization Design",
+    "section": "Color Theory",
+    "text": "Color Theory\n\nColor Space\nColor Theory\nUI Color Palette\nUnderstand Color Symbolism"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-22",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-22",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Gender and Color"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-24",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-24",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Create Good Color Palettes"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-25",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-25",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Color Contrast Check"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-26",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-26",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Viz Palette"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-27",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-27",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Urban Institute Style Guide"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-28",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-28",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "ColorBrewer 2.0"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-29",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-29",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Viz Palette Tool"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-30",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-30",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "R Color Palette Finder"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-31",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-31",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Coolors"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-32",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-32",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "Huemint"
+  },
+  {
+    "objectID": "chapters/chapter5/slides/data_viz_art.html#section-33",
+    "href": "chapters/chapter5/slides/data_viz_art.html#section-33",
+    "title": "Data Visualization Design",
+    "section": "",
+    "text": "differences in meaning ⟺ visual differences\n\n\nsemantic similarity = visual similarity"
   },
   {
     "objectID": "exercises/draw_scenarios/slides/draw_scenarios_cybersecurity.html#section",
