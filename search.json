@@ -919,7 +919,7 @@
     "href": "chapters/chapter1/chapter1.html",
     "title": "Chapter 1: Introduction to Data Visualization Design",
     "section": "",
-    "text": "This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world.\nThe goal of this chapter is to enforce the idea that it is important to not just “show the data” and that instead designing effective data visualization is purposeful and requires particular skills and knowledge.",
+    "text": "This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world.\nThe goal of this chapter is to reinforce the idea that it is important to not just “show the data” and that instead designing effective data visualization is purposeful and requires particular skills and knowledge.",
     "crumbs": [
       "Chapters",
       "Chapter 1"
@@ -1149,14 +1149,14 @@
     "href": "chapters/chapter1/slides/data_viz_intro.html#section-15",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "There are now more modern version of the John Snow data exploration\n\nhttps://flourish.studio/blog/masters-john-snow/"
+    "text": "There are now more modern versions of the John Snow data exploration\n\nhttps://flourish.studio/blog/masters-john-snow/"
   },
   {
     "objectID": "chapters/chapter1/slides/data_viz_intro.html#section-16",
     "href": "chapters/chapter1/slides/data_viz_intro.html#section-16",
     "title": "Data Visualization Design",
     "section": "",
-    "text": "Your browser does not support SVG\n\n\n\nWhat can you tell me about these four datasets?\nAre they the same?"
+    "text": "What can you tell me about these four datasets?\nAre they the same?"
   },
   {
     "objectID": "chapters/chapter1/slides/data_viz_intro.html#what-can-you-say-about-these-four-datasets",
@@ -1198,7 +1198,7 @@
     "href": "chapters/chapter1/slides/data_viz_intro.html#the-two-purposes-of-data-visualization",
     "title": "Data Visualization Design",
     "section": "The two purposes of data visualization",
-    "text": "The two purposes of data visualization\n\nThe key function of data visualization is to move information from point A to point B.\n\n\n\nIn exploratory visualization,\n\n\n  \n\n\npoint A is the dataset andpoint B is the designer’s own mind.\n\n\n\n\nIn explanatory visualization,\n\n\n  \n\n\npoint A is the mind of the designer, andpoint B is the mind of the reader.”\n\n\n\n\n\nJulie Steele & Noah Iliinsky, Designing Data Visualizations"
+    "text": "The two purposes of data visualization\n\nThe key function of data visualization is to move information from point A to point B.\n\n\n\nIn exploratory visualization,\n\n\n  \n\n\npoint A is the dataset andpoint B is the designer’s own mind.\n\n\n\n\nIn explanatory visualization,\n\n\n  \n\n\npoint A is the mind of the designer, andpoint B is the mind of the reader.\n\n\n\n\n\nJulie Steele & Noah Iliinsky, Designing Data Visualizations"
   },
   {
     "objectID": "chapters/chapter1/slides/data_viz_intro.html#two-types-of-visualizing-data",
