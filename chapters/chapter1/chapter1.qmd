@@ -5,7 +5,7 @@ title: "Chapter 1: Introduction to Data Visualization Design"
 
 This first chapter emphasizes with concrete examples the importance of data visualization for understanding the world, communicating with other people and having impact in the world. 
 
-The goal of this chapter is to enforce the idea that it is important to not just "show the data" and that instead designing effective data visualization is purposeful and requires particular skills and knowledge. 
+The goal of this chapter is to reinforce the idea that it is important to not just "show the data" and that instead designing effective data visualization is purposeful and requires particular skills and knowledge. 
 
 
 

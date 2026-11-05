@@ -13,7 +13,7 @@ format:
       pointerSize: 24
     revealjs-plugins:
       - pointer
-editor: visual
+editor: source
 ---
 
 ## {data-background-image="images/climate-stripes.jpg" data-background-size="cover"}
@@ -318,7 +318,7 @@ other interesting videos:
 
 ##
 
-[There are now more modern version of the John Snow data exploration](https://flourish.studio/blog/masters-john-snow/)
+[There are now more modern versions of the John Snow data exploration](https://flourish.studio/blog/masters-john-snow/)
 
 ::: footer
 https://flourish.studio/blog/masters-john-snow/
@@ -338,9 +338,7 @@ https://flourish.studio/blog/masters-john-snow/
 ## 
 
 <div style="text-align: center;">
-<object type="image/svg+xml" data="images/anscome_slide_gs.svg" style="width: 80%; max-width: 1400px;">
-  Your browser does not support SVG
-</object>
+<img src="images/anscome_slide_gs.svg" alt="Anscombe's quartet: summary statistics for four datasets" style="width: 80%; max-width: 1400px;">
 </div>
 
 ::: {.fragment style="position: absolute; bottom: 30px; left: 50%; transform: translateX(-50%); text-align: center; line-height: 1.6;"}
@@ -434,7 +432,7 @@ Source: [R for Data Science](https://r4ds.hadley.nz/)
 
 
 
-# What have learned?
+# What have we learned?
 
 
 ## The two purposes of data visualization
@@ -462,7 +460,7 @@ Source: [R for Data Science](https://r4ds.hadley.nz/)
 <i class="fas fa-arrow-right" style="font-size: 2em; color: var(--color-orange);"></i>
 <i class="fas fa-user" style="font-size: 3em; color: var(--color-gray-dark);"></i>
 </div>
-<div style="font-style: italic; margin-top: 30px; font-size: 0.85em;">point A is the mind of the designer, and<br/>point B is the mind of the reader."</div>
+<div style="font-style: italic; margin-top: 30px; font-size: 0.85em;">point A is the mind of the designer, and<br/>point B is the mind of the reader.</div>
 </div>
 </div>
 
