@@ -476,392 +476,399 @@
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#how-to-assess-if-a-data-visualization-is-good-or-not",
     "title": "How to assess data visualizations",
     "section": "How to assess if a data visualization is good or not?",
-    "text": "How to assess if a data visualization is good or not?\nDifferent people have different criteria\n\nThe truthful art\nTen simple rules for better figures (Plos Computational Biology)\nMy own 10 rules (WIP)\nCreate your own\n\n\nMaking data visualizations is part objective part subjective, part science part art. There are things that are clearly wrong (for a given purpose); but there are also preferences."
+    "text": "How to assess if a data visualization is good or not?\nDifferent people have different criteria\n\nThe Truthful Art (Alberto Cairo, 2016)\nTen simple rules for better figures (PLOS Computational Biology)\nMy own 10 rules\nCreate your own\n\n\nMaking data visualizations is part objective part subjective, part science part art. There are things that are clearly wrong (for a given purpose); but there are also preferences."
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#my-checklist",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#my-checklist",
     "title": "How to assess data visualizations",
     "section": "My checklist",
-    "text": "My checklist\n\n\n\nGood data\nHonest representation\nCompleteness\nPurposeful (message)\nMeaning and Context\n\n\n\nAccessible\nIntuitive\nEffective\nEfficient\nErgonomic"
+    "text": "My checklist\n\n\n\nGood data\nHonest representation\nCompleteness\nPurpose / Message\nMeaning / Context\n\n\n\nAccessible\nIntuitive / Conventional\nEffective\nEfficient\nErgonomic"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#good-data-1",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#good-data-1",
     "title": "How to assess data visualizations",
-    "section": "#1 Good data",
-    "text": "#1 Good data\n\n“Garbage in, garbage out”\nOnly use data from trustworthy sources, collected using valid methods\nKnow your data:\n\nprovenance\nlimitations\nmeasurement details\nlicence\n\n\n\n#1 Good data"
+    "section": "#1 — Good data",
+    "text": "#1 — Good data\n\n“Garbage in, garbage out”\nOnly use data from trustworthy sources, collected using valid methods\nKnow your data:\n\nprovenance\nlimitations\nmeasurement details\nlicence\n\n\n\n#1 — Good data"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://rarehistoricalphotos.com\n\nreputation, moral and professional responsibility\n\n\n#1 Good data"
+    "text": "Source: https://rarehistoricalphotos.com\n\nreputation, moral and professional responsibility\n\n\n#1 — Good data"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#honest-representation-1",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#honest-representation-1",
     "title": "How to assess data visualizations",
-    "section": "#2: Honest representation",
-    "text": "#2: Honest representation\n\nAvoid mistakes when mapping data to graph attributes\nDo not cherry-pick data and ignore relevant data\nUse common scales across figures/panels\nUse appropriate scaling\nIndicate missing values and uncertainty\nAvoid creating false patterns (e.g., using non-linear mappings).\n(some “mistakes” are intentional)\n\n\n#2 Honest representation"
+    "section": "#2 — Honest representation",
+    "text": "#2 — Honest representation\n\nAvoid mistakes when mapping data to graph attributes\nDo not cherry-pick data and ignore relevant data\nUse common scales across figures/panels\nUse appropriate scaling\nIndicate missing values and uncertainty\nAvoid creating false patterns (e.g., using non-linear mappings).\n(some “mistakes” are intentional)\n\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-1",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-1",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+    "text": "Source: https://viz.wtf\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-2",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-2",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+    "text": "Source: https://viz.wtf\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-3",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-3",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+    "text": "Source: https://viz.wtf\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-4",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-4",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+    "text": "Source: https://viz.wtf\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-5",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-5",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://viz.wtf\n\n#2 Honest representation"
+    "text": "Source: https://viz.wtf\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#avoid-distortions",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#avoid-distortions",
     "title": "How to assess data visualizations",
     "section": "Avoid distortions",
-    "text": "Avoid distortions\nThis is a complex topic…"
+    "text": "Avoid distortions\nThis is a complex topic…\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-6",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-6",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "\\[\\text{Lie Factor} = \\frac{\\text{size of effect in the visual}}{\\text{size of the effect in the data}}\\]"
+    "text": "\\[\\text{Lie Factor} = \\frac{\\text{size of effect in the visual}}{\\text{size of the effect in the data}}\\]\n\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#the-lie-factor",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#the-lie-factor",
     "title": "How to assess data visualizations",
     "section": "The Lie factor",
-    "text": "The Lie factor\n\nSource: https://statsthinking21.github.io/"
+    "text": "The Lie factor\n\nSource: https://statsthinking21.github.io/\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#but",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#but",
     "title": "How to assess data visualizations",
     "section": "But…",
-    "text": "But…\n\n\n\n\n\n\nSource: https://www.powerlineblog.com/"
+    "text": "But…\n\n\n\n\n\n\nSource: https://www.powerlineblog.com/\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-7",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-7",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: Xiu-Yun et al. (2016)\n\n#2 Honest representation"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#completeness-1",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#completeness-1",
-    "title": "How to assess data visualizations",
-    "section": "#3 — Completeness",
-    "text": "#3 — Completeness\nGraphs must be self-contained (i.e., show everything that is necessary for the viewer to “get” the message).\nThis means, show the viewer:\n\nwhat x and y labels, legend, units, colors mean\nsome indication of the uncertainty in the data\nwhat data sources were used (when applicable)\nwhat the message / point of that graph is (titles, annotations)\nwhat “to do” with the graph to get the message\n\n\n#3 Completeness"
+    "text": "Source: Xiu-Yun et al. (2016)\n\n#2 — Honest representation"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-8",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-8",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: Collins & Koechlin (2012)\n\n#3 Completeness"
+    "text": "Source: https://www.researchgate.net\n\n#2 — Honest representation"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#completeness-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#completeness-1",
+    "title": "How to assess data visualizations",
+    "section": "#3 — Completeness",
+    "text": "#3 — Completeness\nGraphs must be self-contained (i.e., show everything that is necessary for the viewer to “get” the message).\nThis means, show the viewer:\n\nwhat x and y labels, legend, units, colors mean\nsome indication of the uncertainty in the data\nwhat data sources were used (when applicable)\nwhat the message / point of that graph is (titles, annotations)\nwhat “to do” with the graph to get the message\n\n\n#3 — Completeness"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-9",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-9",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: Miller et al. (2012)\n\n#3 Completeness\n\n\n\n#3 Completeness"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#purpose-message-1",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#purpose-message-1",
-    "title": "How to assess data visualizations",
-    "section": "#4 — Purpose / Message",
-    "text": "#4 — Purpose / Message\n\nEach figure should have a clear message;\nIdeally, that message is interesting and relevant;\nThis message should be the title of the figure.\n\n\n#4 Purpose / Message"
+    "text": "Source: Collins & Koechlin (2012)\n\n#3 — Completeness"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-10",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-10",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Fig 1. Mean percentage of correct answers (panel a) and mean reaction times in correct trials (panel b) as a function of training session (S1, S2, S3, S4, S5) and group (younger adults, older adults). Bars indicate the standard error of the mean.\n\nSource: https://journals.plos.org\n\n#4 Purpose / Message"
+    "text": "Source: Miller et al. (2012)\n\n#3 — Completeness"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#purpose-message-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#purpose-message-1",
+    "title": "How to assess data visualizations",
+    "section": "#4 — Purpose / Message",
+    "text": "#4 — Purpose / Message\n\nEach figure should have a clear message;\nIdeally, that message is interesting and relevant;\nThis message should be the title of the figure.\n\n\n#4 — Purpose / Message"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-11",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-11",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://www.statista.com\n\n#4 Purpose / Message"
+    "text": "Fig 1. Mean percentage of correct answers (panel a) and mean reaction times in correct trials (panel b) as a function of training session (S1, S2, S3, S4, S5) and group (younger adults, older adults). Bars indicate the standard error of the mean.\n\nSource: https://journals.plos.org\n\n#4 — Purpose / Message"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-12",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-12",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://www.statisticshowto.com\n\n#4 Purpose / Message"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#rule-5-meaning-context-1",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#rule-5-meaning-context-1",
-    "title": "How to assess data visualizations",
-    "section": "Rule 5 — Meaning / Context",
-    "text": "Rule 5 — Meaning / Context\n\nProvide additional information (i.e., not directly included in the data) for people to understand the figure (meaning) and get a sense of the relevance or importance of the message (context).\nThis can be done by:\n\nreference points or curves\nlabelled regions or boundaries\nannotations\nillustrations, diagrams\n\n\n\n#5 Meaning / Context"
+    "text": "Source: https://www.statista.com\n\n#4 — Purpose / Message"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-13",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-13",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "#5 Meaning / Context"
+    "text": "Source: https://www.statisticshowto.com\n\n#4 — Purpose / Message"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#meaning-context-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#meaning-context-1",
+    "title": "How to assess data visualizations",
+    "section": "#5 — Meaning / Context",
+    "text": "#5 — Meaning / Context\n\nProvide additional information (i.e., not directly included in the data) for people to understand the figure (meaning) and get a sense of the relevance or importance of the message (context).\nThis can be done by:\n\nreference points or curves\nlabelled regions or boundaries\nannotations\nillustrations, diagrams\n\n\n\n#5 — Meaning / Context"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-14",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-14",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://www.anychart.com\n\nhttps://graphics.wsj.com/infectious-diseases-and-vaccines/\n\n\n#5 Meaning / Context"
+    "text": "Source: Tufte (1997) Visual Explanations\n\n#5 — Meaning / Context"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-15",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-15",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://www.bbc.com\n\n#5 Meaning / Context"
+    "text": "Source: https://www.anychart.com\n\nhttps://graphics.wsj.com/infectious-diseases-and-vaccines/\n\n\n#5 — Meaning / Context"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-16",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-16",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Figure 2. Learning was facilitated and predicted by previous learning of a similar task and very-long delay (VLD) conditioning was easier to learn than trace conditioning.\n\nSource: Nokia et al. (2012)\n\n#5 Meaning / Context"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#accessible-1",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#accessible-1",
-    "title": "How to assess data visualizations",
-    "section": "#6 — Accessible",
-    "text": "#6 — Accessible\nMake figures that are adequate for most humans\n\nEnsure size, form, and contrast are adequate for human viewers.\nConsider color blindness and the medium;\nAvoid overplotting.\n\n\n#6 Accessible"
+    "text": "Source: https://www.bbc.com\n\n#5 — Meaning / Context"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-17",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-17",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Fig 3. Training Performance of DQN Agent with 1000 Episodes and Episode Steps. Cyber security Enhancements with reinforcement learning: A zero-day vulnerability identification perspective. Naeem et al. (2025) — Source: https://journals.plos.org\n\n#6 Accessible"
+    "text": "Figure 2. Learning was facilitated and predicted by previous learning of a similar task and very-long delay (VLD) conditioning was easier to learn than trace conditioning.\n\nSource: Nokia et al. (2012)\n\n#5 — Meaning / Context"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#accessible-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#accessible-1",
+    "title": "How to assess data visualizations",
+    "section": "#6 — Accessible",
+    "text": "#6 — Accessible\nMake figures that are adequate for most humans\n\nEnsure size, form, and contrast are adequate for human viewers.\nConsider color blindness and the medium;\nAvoid overplotting.\n\n\n#6 — Accessible"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-18",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-18",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: Portal da Transparência / https://viz.wtf\n\n#6 Accessible"
+    "text": "Fig 3. Training Performance of DQN Agent with 1000 Episodes and Episode Steps. Cyber security Enhancements with reinforcement learning: A zero-day vulnerability identification perspective. Naeem et al. (2025) — Source: https://journals.plos.org\n\n#6 — Accessible"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-19",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-19",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Fig 6. Offline computation cost Vs. Performance (accurate case). Castronovo et al. (2016) — Source: https://journals.plos.org\n\n#6 Accessible"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#intuitive-conventional-1",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#intuitive-conventional-1",
-    "title": "How to assess data visualizations",
-    "section": "#7 — Intuitive / Conventional",
-    "text": "#7 — Intuitive / Conventional\nPeople have expectations and make assumptions. Violating those assumptions can mislead people. Show images to clarify topic\nExample of common conventions:\n\nincreases go up\ngreen is positive\nreading top-down, left-right\n\n\n#7 Intuitive / Conventional"
+    "text": "Source: Portal da Transparência / https://viz.wtf\n\n#6 — Accessible"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-20",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-20",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://visualisingdata.com\n\n#7 Intuitive / Conventional"
+    "text": "Fig 6. Offline computation cost Vs. Performance (accurate case). Castronovo et al. (2016) — Source: https://journals.plos.org\n\n#6 — Accessible"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#intuitive-conventional-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#intuitive-conventional-1",
+    "title": "How to assess data visualizations",
+    "section": "#7 — Intuitive / Conventional",
+    "text": "#7 — Intuitive / Conventional\nPeople have expectations and make assumptions. Violating those assumptions can mislead people. Images that show what the data is about (e.g., icons or illustrations) also make a figure more intuitive.\nExample of common conventions:\n\nincreases go up\ngreen is positive\nreading top-down, left-right\n\n\n#7 — Intuitive / Conventional"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-21",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-21",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://github.com/z3tt/TidyTuesday\n\n#7 Intuitive / Conventional"
+    "text": "Source: https://viz.wtf\n\n#7 — Intuitive / Conventional"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-22",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-22",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "#7 Intuitive / Conventional"
+    "text": "Source: https://github.com/z3tt/TidyTuesday\n\n#7 — Intuitive / Conventional"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-23",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-23",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: Tufte (1991)\n\n#7 Intuitive / Conventional"
+    "text": "Source: The Wall Street Journal (data: SimpleTherapy)\n\n#7 — Intuitive / Conventional"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-24",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-24",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "also discussed here: https://mdsr-book.github.io/mdsr3e/08-ethics.html\n\n\n#7 Intuitive / Conventional"
+    "text": "Source: Tufte (1983) The Visual Display of Quantitative Information\n\n#7 — Intuitive / Conventional"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-25",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-25",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://viz.wtf\n\n#7 Intuitive / Conventional"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#conventions-may-be-audience-specific",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#conventions-may-be-audience-specific",
-    "title": "How to assess data visualizations",
-    "section": "Conventions may be audience specific!",
-    "text": "Conventions may be audience specific!\n\nSource: Wager and Lindquist (2015) Principles of fMRI"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#effective-1",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#effective-1",
-    "title": "How to assess data visualizations",
-    "section": "#8 — Effective",
-    "text": "#8 — Effective\nBy effective I mean visual representation that are optimized for human perception and structurally adequate to support its message.\n\nuse the correct type of visualization\nmap the data to aesthetics following the laws of human perception\n\n\nsome representations are perceived more accurately than others some types of relationships are better conveyed by some types of representations;\n\n\n#8 Effective"
+    "text": "Source: Christine Chan, Reuters (2014)\n\nalso discussed here: https://mdsr-book.github.io/mdsr3e/08-ethics.html\n\n\n#7 — Intuitive / Conventional"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-26",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-26",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: Cleveland and McGill (1984)\n\n\n#8 Effective\n\n\nI will cover this more in a future session."
+    "text": "Source: https://viz.wtf\n\n#7 — Intuitive / Conventional"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#conventions-may-be-audience-specific",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#conventions-may-be-audience-specific",
+    "title": "How to assess data visualizations",
+    "section": "Conventions may be audience specific!",
+    "text": "Conventions may be audience specific!\n\nSource: Wager and Lindquist (2015) Principles of fMRI\n\n#7 — Intuitive / Conventional"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#effective-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#effective-1",
+    "title": "How to assess data visualizations",
+    "section": "#8 — Effective",
+    "text": "#8 — Effective\nBy effective I mean visual representations that are optimized for human perception and structurally adequate to support its message.\n\nuse the correct type of visualization\nmap the data to aesthetics following the laws of human perception\n\n\nsome representations are perceived more accurately than others some types of relationships are better conveyed by some types of representations;\n\n\n#8 — Effective"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-27",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-27",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "3D pie chart example\n\n#8 Effective"
+    "text": "Source: Cleveland and McGill (1984)\n\n\n#8 — Effective\n\n\nI will cover this more in a future session."
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-28",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-28",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "#8 Effective"
+    "text": "3D pie chart example\n\n#8 — Effective"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-29",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-29",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "#8 Effective"
+    "text": "#8 — Effective"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-30",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-30",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Source: https://viz.wtf\n\n#8 Effective"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#efficient-1",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#efficient-1",
-    "title": "How to assess data visualizations",
-    "section": "#9 — Efficient",
-    "text": "#9 — Efficient\n\nEvery element should serve a purpose.\nRemove clutter and unnecessary decoration.\nAim for simplicity while remaining truthful to the data.\n\n\n#9 Efficient"
+    "text": "#8 — Effective"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-31",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-31",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "#9 Efficient"
+    "text": "Source: https://viz.wtf\n\n#8 — Effective"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#efficient-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#efficient-1",
+    "title": "How to assess data visualizations",
+    "section": "#9 — Efficient",
+    "text": "#9 — Efficient\n\nEvery element should serve a purpose.\nRemove clutter and unnecessary decoration.\nAim for simplicity while remaining truthful to the data.\n\n\n#9 — Efficient"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-32",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-32",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "#9 Efficient"
-  },
-  {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#dataink-ratio-chart-junk",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#dataink-ratio-chart-junk",
-    "title": "How to assess data visualizations",
-    "section": "Data/Ink ratio (chart junk)",
-    "text": "Data/Ink ratio (chart junk)\n\n\\[\\text{Data-ink ratio} = \\frac{\\text{ink used to display data}}{\\text{total ink used in visualization}}\\]\n\n\n#9 Efficient"
+    "text": "Source: Morton Thiokol chart (1986), Rogers Commission report\n\n#9 — Efficient"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-33",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-33",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "#9 Efficient"
+    "text": "Source: Tufte (1997) Visual Explanations\n\n#9 — Efficient"
   },
   {
-    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#ergonomic-1",
-    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#ergonomic-1",
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#dataink-ratio-chart-junk",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#dataink-ratio-chart-junk",
     "title": "How to assess data visualizations",
-    "section": "#10 — Ergonomic",
-    "text": "#10 — Ergonomic\nMinimize effort: the elements in the figure should be organized to minimize effort (e.g., eye movements, searching, memorizing):\n\nput elements where they are needed\nadd lines/references to facilitate reading and comparing\nput things that are to be compared close to each other\nbe consistent (e.g., colors always mean the same thing)\n\nGuide attention trajectory: The elements in the figure are organized in a way that make it clear to the reader in what order they should be processed.\n\n#10 Ergonomic"
+    "section": "Data/Ink ratio (chart junk)",
+    "text": "Data/Ink ratio (chart junk)\n\n\\[\\text{Data-ink ratio} = \\frac{\\text{ink used to display data}}{\\text{total ink used in visualization}}\\]\n\n\n#9 — Efficient"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-34",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-34",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Figure 4. Weight variation (panel A) and Skin color variation (panel B) in Experiment 2. Means ± standard errors (alpha = 0.05) are plotted. Muzio et al. (2011) — Source: https://journals.plos.org\n\n#10 Ergonomic"
+    "text": "Source: Darkhorse Analytics, “Data Looks Better Naked”\n\n\n#9 — Efficient"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#ergonomic-1",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#ergonomic-1",
+    "title": "How to assess data visualizations",
+    "section": "#10 — Ergonomic",
+    "text": "#10 — Ergonomic\nMinimize effort: the elements in the figure should be organized to minimize effort (e.g., eye movements, searching, memorizing):\n\nput elements where they are needed\nadd lines/references to facilitate reading and comparing\nput things that are to be compared close to each other\nbe consistent (e.g., colors always mean the same thing)\n\nGuide attention trajectory: The elements in the figure are organized in a way that makes it clear to the reader in what order they should be processed.\n\n#10 — Ergonomic"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-35",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-35",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Ezaki & Masuda (2017) — Source: https://journals.plos.org\n\n#10 Ergonomic"
+    "text": "Figure 4. Weight variation (panel A) and Skin color variation (panel B) in Experiment 2. Means ± standard errors (alpha = 0.05) are plotted. Muzio et al. (2011) — Source: https://journals.plos.org\n\n#10 — Ergonomic"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-36",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-36",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Gasque (2016) — Source: https://journals.plos.org\n\n#10 Ergonomic"
+    "text": "Ezaki & Masuda (2017) — Source: https://journals.plos.org\n\n#10 — Ergonomic"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-37",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-37",
     "title": "How to assess data visualizations",
     "section": "",
-    "text": "Figure 3. fMRI Results. Hujibers et al. (2009) — Source: https://journals.plos.org\n\n#10 Ergonomic"
+    "text": "Gasque (2016) — Source: https://journals.plos.org\n\n#10 — Ergonomic"
+  },
+  {
+    "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#section-38",
+    "href": "chapters/chapter2/slides/how_to_assess_graphs.html#section-38",
+    "title": "How to assess data visualizations",
+    "section": "",
+    "text": "Figure 3. fMRI Results. Huijbers et al. (2009) — Source: https://journals.plos.org\n\n#10 — Ergonomic"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#recap",
     "href": "chapters/chapter2/slides/how_to_assess_graphs.html#recap",
     "title": "How to assess data visualizations",
     "section": "Recap",
-    "text": "Recap\n\n\n\nGood data\nHonest representation\nCompleteness\nPurposeful (message)\nMeaning and Context\n\n\n\nAccessible\nIntuitive\nEffective\nEfficient\nErgonomic"
+    "text": "Recap\n\n\n\nGood data\nHonest representation\nCompleteness\nPurpose / Message\nMeaning / Context\n\n\n\nAccessible\nIntuitive / Conventional\nEffective\nEfficient\nErgonomic"
   },
   {
     "objectID": "chapters/chapter2/slides/how_to_assess_graphs.html#questions-comments",
@@ -1026,7 +1033,7 @@
   {
     "objectID": "chapters/chapter2/chapter2.html",
     "href": "chapters/chapter2/chapter2.html",
-    "title": "Chapter 2: What makes a visualization good?",
+    "title": "Chapter 2: How to assess data visualizations",
     "section": "",
     "text": "This chapter introduces ten key principles for evaluating the quality of a data visualization.",
     "crumbs": [
@@ -1037,9 +1044,9 @@
   {
     "objectID": "chapters/chapter2/chapter2.html#material",
     "href": "chapters/chapter2/chapter2.html#material",
-    "title": "Chapter 2: What makes a visualization good?",
+    "title": "Chapter 2: How to assess data visualizations",
     "section": "Material",
-    "text": "Material\n\nSlides\n\nHow to assess graphs?",
+    "text": "Material\n\nSlides\n\nHow to assess data visualizations",
     "crumbs": [
       "Chapters",
       "Chapter 2"
